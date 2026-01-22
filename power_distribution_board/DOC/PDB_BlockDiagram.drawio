@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.3.4">
+  <diagram id="pdb_block" name="PDB + INA260 Block Diagram">
+    <mxGraphModel dx="1678" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;" value="PDB (4S) Racer - External ESC + INA" vertex="1">
+          <mxGeometry height="40" width="820" x="140" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bat" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Battery 4S&lt;br&gt;12-16.8V&lt;br&gt;XT60 input&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="170" x="60" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="prot" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Input protection + filtering&lt;br&gt;TVS (4S class)&lt;br&gt;Bulk cap 25V (low-ESR)&lt;br&gt;10uF + 1uF ceramics&lt;br&gt;Reverse polarity MOSFET&lt;/font&gt;" vertex="1">
+          <mxGeometry height="140" width="210" x="300" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ina" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;" value="INA&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;(in-line)&lt;/span&gt;&lt;div&gt;Current + voltage monitor&lt;br&gt;I2C output&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="590" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bus" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;" value="VBAT power bus (PDB)&#xa;High current path" vertex="1">
+          <mxGeometry height="90" width="170" x="880" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="esc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;" value="ESC (external)&#xa;Up to 60A" vertex="1">
+          <mxGeometry height="70" width="190" x="1130" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="buck5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;" value="Buck 5V&#xa;5V / 5A&#xa;(for 4A load)" vertex="1">
+          <mxGeometry height="80" width="260" x="835" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="buck33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;" value="Buck 3.3V&#xa;3.3V / 2A&#xa;(target ~1A)" vertex="1">
+          <mxGeometry height="80" width="260" x="840" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="out5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;" value="5V outputs&#xa;FC / RX / servo / accessories&#xa;Up to 4A total" vertex="1">
+          <mxGeometry height="90" width="170" x="1170" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="out33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;" value="3.3V outputs&#xa;MCU / sensors / logic&#xa;Up to 1A" vertex="1">
+          <mxGeometry height="90" width="170" x="1170" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="host" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;" value="FC or MCU (external)&#xa;I2C master" vertex="1">
+          <mxGeometry height="90" width="230" x="580" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="tp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Test points&lt;br&gt;&lt;/b&gt;VBAT, 5V, 3.3V, GND&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="250" x="260" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="bat" style="endArrow=block;html=1;strokeWidth=2;" target="prot">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="prot" style="endArrow=block;html=1;strokeWidth=2;" target="ina">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="ina" style="endArrow=block;html=1;strokeWidth=2;" target="bus">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="bus" style="endArrow=block;html=1;strokeWidth=2;" target="esc" value="VBAT">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="bus" style="endArrow=block;html=1;strokeWidth=2;" target="buck5" value="VBAT">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="buck5" style="endArrow=block;html=1;strokeWidth=2;entryX=0;entryY=0.444;entryDx=0;entryDy=0;entryPerimeter=0;" target="out5" value="5V">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="buck5" style="endArrow=block;html=1;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.482;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" target="buck33" value="5V">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="buck33" style="endArrow=block;html=1;strokeWidth=2;" target="out33" value="3.3V">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="ina" style="dashed=1;endArrow=block;html=1;strokeWidth=2;" target="host" value="I2C (SCL/SDA)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
