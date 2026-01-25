@@ -5,22 +5,20 @@
 	(uuid "1d4ccfca-dd5f-41ee-9829-27104ebb2538")
 	(paper "A2")
 	(lib_symbols
-		(symbol "easyeda2kicad:0402WGF1002TCE"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "0603WAF1002T5E (10kohm , 0603)_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0 4.064 0)
+				(at 0 2.032 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "0402WGF1002TCE"
+			(property "Value" "603WAF1002T5E (10kohm , 0603)"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -29,7 +27,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:R0402"
+			(property "Footprint" "easyeda2kicad:R0603"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -38,7 +36,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25744.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -47,24 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "10K"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C25744"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "RES 0402"
+			(property "Description" "10kΩ ±1% 100mW 0603 Thick Film Resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -73,7 +54,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "0402WGF1002TCE_0_1"
+			(property "LCSC Part" "C25804"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603WAF1002T5E (10kohm , 0603)_1_0_1"
 				(rectangle
 					(start -2.54 1.02)
 					(end 2.54 -1.02)
@@ -88,7 +78,7 @@
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -106,7 +96,7 @@
 				(pin input line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "2"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -118,6 +108,216 @@
 							(font
 								(size 1.27 1.27)
 							)
+						)
+					)
+				)
+			)
+			(symbol "0603WAF1002T5E (10kohm , 0603)_1_1_1"
+				(text "0603"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "10kΩ"
+					(at 0 -2.286 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CL10B105KA8NNNC (1uf ,0603 ,25v ,X7R)_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.048 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CL10B105KA8NNNC (1uf ,0603 ,25v ,X7R)"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:C0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10B105KA8NNNC_1uF-105-10-25V-X7R_C29936.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1uF ±10% 25V Ceramic Capacitor X7R 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C29936"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL10B105KA8NNNC (1uf ,0603 ,25v ,X7R)_1_0_1"
+				(polyline
+					(pts
+						(xy -0.51 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 -2.03) (xy -0.51 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CL10B105KA8NNNC (1uf ,0603 ,25v ,X7R)_1_1_1"
+				(text "X7R"
+					(at -2.286 0.762 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(color 154 28 255 1)
+						)
+					)
+				)
+				(text "±10%"
+					(at -2.286 -0.762 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(color 154 28 255 1)
+						)
+					)
+				)
+				(text "0603"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(color 154 28 255 1)
+						)
+					)
+				)
+				(text "25v"
+					(at 2.032 0.762 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+							(color 154 28 255 1)
+						)
+					)
+				)
+				(text "1uF"
+					(at 2.794 -1.016 0)
+					(effects
+						(font
+							(size 0.889 0.889)
 						)
 					)
 				)
@@ -261,153 +461,6 @@
 				)
 				(pin input line
 					(at 3.81 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "easyeda2kicad:CC0603KRX7R9BB104"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CC0603KRX7R9BB104"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0603"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C14663"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CC0603KRX7R9BB104_0_1"
-				(polyline
-					(pts
-						(xy -0.51 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 -2.03) (xy -0.51 2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -2512,22 +2565,20 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lampelKicadLIB:0603WAF2200T5E"
-			(pin_names
-				(hide yes)
-			)
+		(symbol "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
 				(at 0 2.032 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "0603WAF2200T5E"
+			(property "Value" "0603WAF2200T5E (220ohm  , 0603)"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -2554,8 +2605,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "220Ω ±1% 100mW 0603 Thick Film Resistor"
+				(at -1.27 -14.732 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2572,7 +2623,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "0603WAF2200T5E_0_1"
+			(symbol "0603WAF2200T5E (220ohm  , 0603)_0_1"
 				(rectangle
 					(start -2.54 1.02)
 					(end 2.54 -1.02)
@@ -2587,7 +2638,7 @@
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2605,7 +2656,7 @@
 				(pin input line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "2"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2621,14 +2672,32 @@
 					)
 				)
 			)
+			(symbol "0603WAF2200T5E (220ohm  , 0603)_1_1"
+				(text "0603"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "220Ω"
+					(at 0 -2.286 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
-		(symbol "lampelKicadLIB:CL10B105KA8NNNC (1uf ,0603 ,25v ,X7R)"
+		(symbol "lampelKicadLIB:CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0 3.048 0)
+				(at 0 2.794 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -2636,7 +2705,7 @@
 					)
 				)
 			)
-			(property "Value" "CL10B105KA8NNNC (1uf ,0603 ,25v ,X7R)"
+			(property "Value" "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -2654,7 +2723,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10B105KA8NNNC_1uF-105-10-25V-X7R_C29936.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -2663,7 +2732,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2672,7 +2741,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C29936"
+			(property "LCSC Part" "C14663"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -2681,7 +2750,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "CL10B105KA8NNNC (1uf ,0603 ,25v ,X7R)_0_1"
+			(symbol "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)_0_1"
 				(polyline
 					(pts
 						(xy -0.51 0) (xy -2.54 0)
@@ -2767,7 +2836,7 @@
 					)
 				)
 			)
-			(symbol "CL10B105KA8NNNC (1uf ,0603 ,25v ,X7R)_1_1"
+			(symbol "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)_1_1"
 				(text "X7R"
 					(at -2.286 0.762 0)
 					(effects
@@ -2795,7 +2864,7 @@
 						)
 					)
 				)
-				(text "25v"
+				(text "50v"
 					(at 2.032 0.762 0)
 					(effects
 						(font
@@ -2804,7 +2873,7 @@
 						)
 					)
 				)
-				(text "1uF"
+				(text "100nF"
 					(at 2.794 -1.016 0)
 					(effects
 						(font
@@ -3072,15 +3141,23 @@
 		)
 		(uuid "a8e5c3d0-bb53-4a35-908e-a1b62e7e1e05")
 	)
-	(text "220ohm"
-		(exclude_from_sim no)
-		(at 274.32 157.734 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "adada4ef-701b-4f80-801d-9756be912589")
+	(junction
+		(at 347.98 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03ef6462-defc-42b0-83dc-c540329938e1")
+	)
+	(junction
+		(at 341.63 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ec310ac-2bb1-4c0d-b034-3c00655ca8af")
+	)
+	(junction
+		(at 354.33 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "135738f7-33c9-4a5c-9596-b0479dcb34b8")
 	)
 	(junction
 		(at 69.85 349.25)
@@ -3101,10 +3178,10 @@
 		(uuid "1cc1b9ea-54da-477d-b0e5-b539fc0e41bf")
 	)
 	(junction
-		(at 349.25 99.06)
+		(at 360.68 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "34864085-7db3-426e-b040-0e0888aeb47b")
+		(uuid "324a6dbd-29a3-4891-b6dd-fc9e0c91851c")
 	)
 	(junction
 		(at 78.74 314.96)
@@ -3113,28 +3190,22 @@
 		(uuid "3b56d490-94d3-4afa-9a19-03b9bdf538a5")
 	)
 	(junction
+		(at 347.98 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42134329-c20d-444a-be7f-466922929782")
+	)
+	(junction
 		(at 74.93 345.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4368e0ff-7fe0-4850-8dda-21fa181dc761")
 	)
 	(junction
-		(at 384.81 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "442c775a-582c-4395-bf8e-3e4ff0ab3fea")
-	)
-	(junction
 		(at 271.78 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cb8d8a0-d343-4168-aeb4-2e2765866323")
-	)
-	(junction
-		(at 375.92 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5373e546-66e0-4e9f-94cc-7e2e0c710576")
 	)
 	(junction
 		(at 85.09 278.13)
@@ -3149,28 +3220,28 @@
 		(uuid "58e457e5-1b77-4cee-af77-26fa8fde6c2d")
 	)
 	(junction
+		(at 354.33 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fded920-a97f-44bc-8f03-6372fb3c31c6")
+	)
+	(junction
 		(at 257.81 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73f2586b-c916-4a29-a0b7-3078cd6a805b")
 	)
 	(junction
-		(at 384.81 88.9)
+		(at 367.03 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7c84dff7-6fe0-4bcc-bbe7-3c1d17fdd943")
+		(uuid "901aeb5b-323f-4bf8-98f4-8ded95b86fc4")
 	)
 	(junction
 		(at 69.85 289.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91b1127e-1e8d-4dcb-bf25-af6b6995f5ee")
-	)
-	(junction
-		(at 367.03 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96e31b60-b4c8-4607-82ff-55a32aaaabf4")
 	)
 	(junction
 		(at 152.4 328.93)
@@ -3185,6 +3256,18 @@
 		(uuid "9878d604-edc7-42fd-8fa3-1d2c0d80392d")
 	)
 	(junction
+		(at 341.63 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9af783e7-3d0a-4abf-aae3-3e03311b9e5f")
+	)
+	(junction
+		(at 367.03 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ebc8bb6-cb44-4ee5-b003-934cb80c090a")
+	)
+	(junction
 		(at 288.29 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3197,16 +3280,10 @@
 		(uuid "a3306cf3-2fd8-44b9-b99b-6d9848b29262")
 	)
 	(junction
-		(at 358.14 88.9)
+		(at 360.68 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "af8acfec-2fa1-4b7d-9f68-54c861314107")
-	)
-	(junction
-		(at 358.14 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b54fa590-a106-4648-bc21-e9b4a72f11e6")
+		(uuid "a71f7665-5185-42c8-9f51-b79323f8277a")
 	)
 	(junction
 		(at 80.01 281.94)
@@ -3221,28 +3298,10 @@
 		(uuid "daf65047-c517-4d66-9c0e-497eea9298fa")
 	)
 	(junction
-		(at 367.03 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dde93aba-d982-4da7-8452-308f1105ec52")
-	)
-	(junction
-		(at 375.92 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f36c2d3d-eb7f-4ee0-940f-e9a2df11fa51")
-	)
-	(junction
 		(at 152.4 331.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "faa6277d-8bfd-4a53-97c5-63c11274cc1e")
-	)
-	(junction
-		(at 349.25 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb1d38cb-8263-4acd-8bff-2a4049c9557e")
 	)
 	(wire
 		(pts
@@ -3306,16 +3365,6 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 88.9) (xy 394.97 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f87fba3-bd95-4e62-871b-fa768cf93b8b")
-	)
-	(wire
-		(pts
 			(xy 375.92 172.72) (xy 411.48 172.72)
 		)
 		(stroke
@@ -3337,6 +3386,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 90.17) (xy 360.68 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c38e01-220b-4530-bbf7-18dc88d30ec6")
+	)
+	(wire
+		(pts
 			(xy 124.46 285.75) (xy 124.46 308.61)
 		)
 		(stroke
@@ -3344,16 +3403,6 @@
 			(type default)
 		)
 		(uuid "12307f35-2462-4afb-a195-f394edf3152b")
-	)
-	(wire
-		(pts
-			(xy 375.92 88.9) (xy 384.81 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12344f9d-e5b0-4341-a100-c51f3d4cc5d2")
 	)
 	(wire
 		(pts
@@ -3367,7 +3416,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 88.9) (xy 344.17 85.09)
+			(xy 335.28 90.17) (xy 335.28 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3407,7 +3456,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 88.9) (xy 375.92 88.9)
+			(xy 335.28 90.17) (xy 341.63 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3424,6 +3473,16 @@
 			(type default)
 		)
 		(uuid "19eb5f18-fa4a-4558-a59d-153c02c0d1aa")
+	)
+	(wire
+		(pts
+			(xy 280.67 152.4) (xy 280.67 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f90526-ed2b-4499-a602-d1ac9b9cceee")
 	)
 	(wire
 		(pts
@@ -3529,16 +3588,6 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 88.9) (xy 349.25 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2636cef2-c4da-429e-8b40-28c3e0a69810")
-	)
-	(wire
-		(pts
 			(xy 80.01 341.63) (xy 124.46 341.63)
 		)
 		(stroke
@@ -3597,16 +3646,6 @@
 			(type default)
 		)
 		(uuid "2b7bbd07-3819-4fc6-a90c-23514a2ac8e1")
-	)
-	(wire
-		(pts
-			(xy 344.17 99.06) (xy 349.25 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bdc2da1-c62b-4026-bcba-a2f29b8bb630")
 	)
 	(wire
 		(pts
@@ -3700,16 +3739,6 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 88.9) (xy 358.14 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38056b64-42ea-4f32-b7d8-6392e05083f6")
-	)
-	(wire
-		(pts
 			(xy 41.91 345.44) (xy 74.93 345.44)
 		)
 		(stroke
@@ -3727,6 +3756,16 @@
 			(type default)
 		)
 		(uuid "39a7495b-ba59-4375-9dc1-40fb68d7d158")
+	)
+	(wire
+		(pts
+			(xy 233.68 149.86) (xy 269.24 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a33e809-3c8e-4b0c-9ba7-e693b7aaa0f0")
 	)
 	(wire
 		(pts
@@ -3780,7 +3819,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 152.4) (xy 269.24 152.4)
+			(xy 267.97 156.21) (xy 269.24 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3818,16 +3857,6 @@
 			(type default)
 		)
 		(uuid "45eab68f-ad3b-4ca3-8979-06c72fa6c64f")
-	)
-	(wire
-		(pts
-			(xy 358.14 88.9) (xy 367.03 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aab8ad9-13d7-475d-81ef-710d1bd94baa")
 	)
 	(wire
 		(pts
@@ -3933,7 +3962,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 152.4) (xy 332.74 152.4)
+			(xy 280.67 152.4) (xy 332.74 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4013,6 +4042,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 90.17) (xy 354.33 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68bc11bc-b045-45fa-9d5c-7dad4af83923")
+	)
+	(wire
+		(pts
 			(xy 375.92 132.08) (xy 427.99 132.08)
 		)
 		(stroke
@@ -4050,6 +4089,16 @@
 			(type default)
 		)
 		(uuid "6daf764b-2ada-4706-9cd0-8a8e1d4135e5")
+	)
+	(wire
+		(pts
+			(xy 360.68 100.33) (xy 367.03 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7ba4ec-12f1-4784-8bd6-f3ca3f9f1cb3")
 	)
 	(wire
 		(pts
@@ -4093,16 +4142,6 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 99.06) (xy 394.97 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "775b348f-168c-4568-bbd1-c512c48720cb")
-	)
-	(wire
-		(pts
 			(xy 306.07 167.64) (xy 332.74 167.64)
 		)
 		(stroke
@@ -4123,16 +4162,6 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 99.06) (xy 367.03 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b7e3ae1-10a6-4ca4-ba3d-753e13aeec32")
-	)
-	(wire
-		(pts
 			(xy 41.91 341.63) (xy 80.01 341.63)
 		)
 		(stroke
@@ -4143,7 +4172,17 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 99.06) (xy 375.92 99.06)
+			(xy 280.67 156.21) (xy 279.4 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb289e7-40b6-42ea-8216-8e71b4bfcf6a")
+	)
+	(wire
+		(pts
+			(xy 335.28 100.33) (xy 341.63 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4270,16 +4309,6 @@
 			(type default)
 		)
 		(uuid "90344ff2-9b2e-44e5-931a-b413c2bbed02")
-	)
-	(wire
-		(pts
-			(xy 375.92 99.06) (xy 384.81 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90cbf1b9-3746-4c57-9932-7038f1fa093b")
 	)
 	(wire
 		(pts
@@ -4453,6 +4482,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 90.17) (xy 367.03 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f9ad34-cb16-41be-a757-139477ace1a2")
+	)
+	(wire
+		(pts
 			(xy 134.62 303.53) (xy 156.21 303.53)
 		)
 		(stroke
@@ -4460,6 +4499,26 @@
 			(type default)
 		)
 		(uuid "aa67077a-7e4a-4f80-a3a2-ab2e416add8b")
+	)
+	(wire
+		(pts
+			(xy 267.97 156.21) (xy 267.97 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab6db215-875d-4e36-9cc7-fa51994674e6")
+	)
+	(wire
+		(pts
+			(xy 341.63 90.17) (xy 347.98 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac803e8b-095c-4cc2-8e29-075abcc0cd9b")
 	)
 	(wire
 		(pts
@@ -4473,7 +4532,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 99.06) (xy 344.17 102.87)
+			(xy 335.28 100.33) (xy 335.28 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4513,6 +4572,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 100.33) (xy 347.98 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b259b17c-1445-428d-9508-be5259d5f526")
+	)
+	(wire
+		(pts
 			(xy 375.92 152.4) (xy 440.69 152.4)
 		)
 		(stroke
@@ -4533,13 +4602,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 149.86) (xy 269.24 149.86)
+			(xy 347.98 100.33) (xy 354.33 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb37a38e-9e71-4607-be9a-c0aefac817a2")
+		(uuid "bcc36a5a-070a-4f8a-abed-ba4ac50d0adb")
 	)
 	(wire
 		(pts
@@ -4550,6 +4619,16 @@
 			(type default)
 		)
 		(uuid "c3716a0c-6bf8-4363-8eb6-8a64ef160e63")
+	)
+	(wire
+		(pts
+			(xy 354.33 100.33) (xy 360.68 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3a8fedc-0f6c-4984-a954-e9a9aa9628a8")
 	)
 	(wire
 		(pts
@@ -4580,6 +4659,16 @@
 			(type default)
 		)
 		(uuid "c83d9707-c7aa-4769-87ed-be17d2e3d4d8")
+	)
+	(wire
+		(pts
+			(xy 367.03 90.17) (xy 373.38 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c95d40bb-5471-41f0-b235-2c79e4c97a26")
 	)
 	(wire
 		(pts
@@ -4773,6 +4862,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 152.4) (xy 233.68 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a87635-a714-4ba6-8924-f09cc5e30316")
+	)
+	(wire
+		(pts
 			(xy 279.4 170.18) (xy 332.74 170.18)
 		)
 		(stroke
@@ -4863,6 +4962,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 100.33) (xy 373.38 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0be1584-3aea-4f23-8817-43ea158bb386")
+	)
+	(wire
+		(pts
 			(xy 381 121.92) (xy 375.92 121.92)
 		)
 		(stroke
@@ -4900,16 +5009,6 @@
 			(type default)
 		)
 		(uuid "f550600a-28a0-43e4-9337-8c2d74f387ff")
-	)
-	(wire
-		(pts
-			(xy 349.25 99.06) (xy 358.14 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f56fc274-9206-4c6d-b52e-a7469ad45afb")
 	)
 	(wire
 		(pts
@@ -5734,168 +5833,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:CC0603KRX7R9BB104")
-		(at 384.81 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "07f894b1-de48-4a96-a6cc-2d8f35e493f4")
-		(property "Reference" "C66"
-			(at 385.064 92.456 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CC0603KRX7R9BB104"
-			(at 388.62 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0603"
-			(at 392.43 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 394.97 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 388.112 96.012 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C14663"
-			(at 397.51 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "0603"
-			(at 384.81 93.98 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "021cce9b-d310-4f53-bcaf-39a6b013875a")
-		)
-		(pin "2"
-			(uuid "983ec009-4e97-413b-97dc-de06fda96add")
-		)
-		(instances
-			(project "FP_BOARD"
-				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
-					(reference "C66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:0402WGF1002TCE")
-		(at 342.9 247.65 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1884bd33-2c1c-496e-aa5f-3b0b1ac8347f")
-		(property "Reference" "R5"
-			(at 346.075 248.793 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0402WGF1002TCE"
-			(at 337.82 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0402"
-			(at 335.28 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25744.html"
-			(at 332.74 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10K"
-			(at 346.075 246.761 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 330.2 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3e092fe6-fa78-4fd0-9296-58f4a6533b95")
-		)
-		(pin "1"
-			(uuid "e6c89976-bf2c-4248-ac2a-7c1f71738bdc")
-		)
-		(instances
-			(project "FP_BOARD"
-				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 78.74 316.23 0)
 		(unit 1)
@@ -5955,6 +5892,85 @@
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)")
+		(at 367.03 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ec7e56c-6fd6-4463-a5da-45e5b61851c9")
+		(property "Reference" "C34"
+			(at 364.236 95.25 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)"
+			(at 372.11 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 374.65 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+			(at 377.19 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0603"
+			(at 367.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 379.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e6ca5a3-6738-4d36-975d-9c4fe7bb39dc")
+		)
+		(pin "2"
+			(uuid "b8cdc42a-3115-46f7-a0ac-ead8d1f9e724")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -6091,16 +6107,17 @@
 		)
 	)
 	(symbol
-		(lib_id "lampelKicadLIB:CL10B105KA8NNNC (1uf ,0603 ,25v ,X7R)")
-		(at 394.97 93.98 90)
+		(lib_id "lampelKicadLIB:CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)")
+		(at 354.33 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "414571ac-5208-4bc5-b8dd-fcec109c52ea")
-		(property "Reference" "C17"
-			(at 399.542 94.234 90)
+		(fields_autoplaced yes)
+		(uuid "43076a57-d3df-4803-83fe-da31bbd58a60")
+		(property "Reference" "C36"
+			(at 351.536 95.25 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -6108,8 +6125,8 @@
 				)
 			)
 		)
-		(property "Value" "CL10B105KA8NNNC (1uf ,0603 ,25v ,X7R)"
-			(at 400.05 93.98 0)
+		(property "Value" "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)"
+			(at 359.41 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6118,7 +6135,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0603"
-			(at 402.59 93.98 0)
+			(at 361.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6126,8 +6143,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10B105KA8NNNC_1uF-105-10-25V-X7R_C29936.html"
-			(at 405.13 93.98 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+			(at 364.49 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6135,8 +6152,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 394.97 93.98 0)
+		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0603"
+			(at 354.33 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,8 +6161,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C29936"
-			(at 407.67 93.98 0)
+		(property "LCSC Part" "C14663"
+			(at 367.03 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6154,15 +6171,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b13c2caf-26a3-4d16-aab8-7c20e51e752b")
+			(uuid "d115d880-b35c-4f5c-aa3c-aadd80842f48")
 		)
 		(pin "2"
-			(uuid "4247f071-b6a0-4910-a974-acee5dd889c5")
+			(uuid "5d100363-c0ce-408b-8382-1e4d8d7ca73f")
 		)
 		(instances
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
-					(reference "C17")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -6228,169 +6245,6 @@
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lampelKicadLIB:0603WAF2200T5E")
-		(at 274.32 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45449198-fe1d-4ff6-a15d-d2aa2ff7f546")
-		(property "Reference" "R38"
-			(at 274.32 147.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0603WAF2200T5E"
-			(at 274.32 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 274.32 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
-			(at 274.32 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 274.32 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C22962"
-			(at 274.32 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a84f4ffb-e960-4898-a23b-b17f628355d6")
-		)
-		(pin "1"
-			(uuid "199999fd-fc54-441f-9751-8c21503d4f54")
-		)
-		(instances
-			(project "FP_BOARD"
-				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:CC0603KRX7R9BB104")
-		(at 367.03 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a4d3f20-7f36-4099-84d9-ddc2b4178dbc")
-		(property "Reference" "C68"
-			(at 367.284 92.456 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CC0603KRX7R9BB104"
-			(at 370.84 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0603"
-			(at 374.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 377.19 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 370.332 96.012 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C14663"
-			(at 379.73 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "0603"
-			(at 367.03 93.98 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "94ca7ea3-841f-4f8c-9ad7-c37a992070a9")
-		)
-		(pin "2"
-			(uuid "842a3713-b765-4b64-968a-f1b005002412")
-		)
-		(instances
-			(project "FP_BOARD"
-				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
-					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -6532,6 +6386,85 @@
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)")
+		(at 341.63 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "577dea0d-98c0-434f-b443-ff6a9ddf068e")
+		(property "Reference" "C38"
+			(at 338.836 95.25 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)"
+			(at 346.71 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 349.25 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+			(at 351.79 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0603"
+			(at 341.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 354.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80f43e16-2ed6-4c79-b2de-d1d3fc5312f0")
+		)
+		(pin "2"
+			(uuid "e9d03824-2237-4aa5-b730-5756b998a676")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -6927,6 +6860,85 @@
 		)
 	)
 	(symbol
+		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
+		(at 274.32 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76224ca2-f6cf-40fe-be29-36fce772b9b3")
+		(property "Reference" "R3"
+			(at 274.32 147.828 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603WAF2200T5E (220ohm  , 0603)"
+			(at 274.32 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 274.32 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
+			(at 274.32 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 273.05 164.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
+			(at 274.32 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58abdcc3-5ca7-4f6e-868b-7386bff86e37")
+		)
+		(pin "2"
+			(uuid "e2417da6-13c1-42ff-8413-dbeb4a600ad0")
+		)
+		(instances
+			(project ""
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 266.7 172.72 0)
 		(unit 1)
@@ -6993,7 +7005,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 344.17 85.09 0)
+		(at 335.28 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7001,7 +7013,7 @@
 		(dnp no)
 		(uuid "78dfa245-6185-43e6-9bd3-e7d026e18bcb")
 		(property "Reference" "#PWR08"
-			(at 344.17 88.9 0)
+			(at 335.28 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7010,7 +7022,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 344.17 81.534 0)
+			(at 335.28 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7018,7 +7030,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 344.17 85.09 0)
+			(at 335.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7027,7 +7039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 85.09 0)
+			(at 335.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7036,7 +7048,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 344.17 85.09 0)
+			(at 335.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7225,35 +7237,35 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:CC0603KRX7R9BB104")
-		(at 358.14 93.98 90)
+		(lib_id "lampelKicadLIB:CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)")
+		(at 360.68 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "822dc18b-6d9c-4496-8fb2-2fe642361f93")
-		(property "Reference" "C69"
-			(at 358.394 92.456 90)
+		(fields_autoplaced yes)
+		(uuid "880be02b-ccd8-471f-8808-b22cbbbb474b")
+		(property "Reference" "C35"
+			(at 357.886 95.25 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "CC0603KRX7R9BB104"
-			(at 361.95 95.2499 90)
+		(property "Value" "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)"
+			(at 365.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0603"
-			(at 365.76 93.98 0)
+			(at 368.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7262,7 +7274,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 368.3 93.98 0)
+			(at 370.84 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7270,16 +7282,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF"
-			(at 361.442 96.012 90)
+		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0603"
+			(at 360.68 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part" "C14663"
-			(at 370.84 93.98 0)
+			(at 373.38 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7287,24 +7300,16 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "0603"
-			(at 358.14 93.98 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
 		(pin "1"
-			(uuid "7bb55937-e223-4022-be51-0779cf9eac3c")
+			(uuid "b2abaaea-7d20-41ac-9458-e7a2e247d27e")
 		)
 		(pin "2"
-			(uuid "98f681a3-9f99-41b4-b7de-23e4a4197f05")
+			(uuid "0c96edf9-384d-48f4-b95b-56cec3eb6870")
 		)
 		(instances
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
-					(reference "C69")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -7370,255 +7375,6 @@
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
 					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lampelKicadLIB:0603WAF2200T5E")
-		(at 274.32 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8de5ab6a-f56c-4b45-9378-185c8a828f60")
-		(property "Reference" "R39"
-			(at 274.32 154.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0603WAF2200T5E"
-			(at 274.32 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 274.32 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
-			(at 274.32 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 274.32 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C22962"
-			(at 274.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3853831b-ec7b-465d-a1cf-76d90b362843")
-		)
-		(pin "1"
-			(uuid "4b61fb61-02ed-4b4f-b3a6-084a39a820aa")
-		)
-		(instances
-			(project "FP_BOARD"
-				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:CC0603KRX7R9BB104")
-		(at 349.25 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96664f1f-2148-4d8b-8caf-0f882418a99c")
-		(property "Reference" "C70"
-			(at 349.504 92.456 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CC0603KRX7R9BB104"
-			(at 353.06 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0603"
-			(at 356.87 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 359.41 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 352.552 96.012 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C14663"
-			(at 361.95 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "0603"
-			(at 349.25 93.98 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "41d402c1-c04e-46a3-8357-80039edd43ed")
-		)
-		(pin "2"
-			(uuid "91def154-b9d7-4e98-ae45-eca0a665b53b")
-		)
-		(instances
-			(project "FP_BOARD"
-				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
-					(reference "C70")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:CC0603KRX7R9BB104")
-		(at 375.92 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a145e188-eed2-489e-a263-73eaa66b77d3")
-		(property "Reference" "C67"
-			(at 376.174 92.456 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CC0603KRX7R9BB104"
-			(at 379.73 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0603"
-			(at 383.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 386.08 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100nF"
-			(at 379.222 96.012 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C14663"
-			(at 388.62 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "0603"
-			(at 375.92 93.98 90)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "80ff4151-782e-4303-b38c-0d559b2c17b0")
-		)
-		(pin "2"
-			(uuid "bfc151d7-87d2-4272-93e2-87ad9e2a5c9f")
-		)
-		(instances
-			(project "FP_BOARD"
-				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
-					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -7899,6 +7655,85 @@
 		)
 	)
 	(symbol
+		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
+		(at 274.32 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb5a1f72-620e-470d-a4ac-735faf79925a")
+		(property "Reference" "R4"
+			(at 274.32 154.178 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603WAF2200T5E (220ohm  , 0603)"
+			(at 274.32 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 274.32 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
+			(at 274.32 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 273.05 170.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
+			(at 274.32 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e7d4c09-0e55-4656-8952-c1290efad244")
+		)
+		(pin "2"
+			(uuid "3011510e-e8b2-420b-bbb3-89fd7212c30b")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 328.93 116.84 0)
 		(unit 1)
@@ -8125,7 +7960,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 344.17 102.87 0)
+		(at 335.28 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8134,7 +7969,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7a3050f-2268-493e-86ac-97491bdbc798")
 		(property "Reference" "#PWR09"
-			(at 344.17 109.22 0)
+			(at 335.28 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,7 +7978,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 344.17 107.95 0)
+			(at 335.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8151,7 +7986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 344.17 102.87 0)
+			(at 335.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8160,7 +7995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 102.87 0)
+			(at 335.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,7 +8004,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 344.17 102.87 0)
+			(at 335.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8488,6 +8323,86 @@
 		)
 	)
 	(symbol
+		(lib_name "0603WAF1002T5E (10kohm , 0603)_1")
+		(lib_id "lampelKicadLIB:0603WAF1002T5E (10kohm , 0603)")
+		(at 342.9 247.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebbfda0f-c69c-47c8-af93-92599d46ce6f")
+		(property "Reference" "R1"
+			(at 340.868 247.65 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "603WAF1002T5E (10kohm , 0603)"
+			(at 347.98 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 350.52 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
+			(at 353.06 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10kΩ ±1% 100mW 0603 Thick Film Resistor"
+			(at 342.9 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25804"
+			(at 355.6 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd780a05-635d-4da6-800d-adaa8c1c25d3")
+		)
+		(pin "2"
+			(uuid "e1a6e49e-683b-4448-ab18-39eff26f1bd3")
+		)
+		(instances
+			(project ""
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 271.78 127 0)
 		(unit 1)
@@ -8547,6 +8462,165 @@
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)")
+		(at 347.98 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1881ce3-5137-4437-b799-f47834b90f68")
+		(property "Reference" "C37"
+			(at 345.186 95.25 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)"
+			(at 353.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 355.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+			(at 358.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0603"
+			(at 347.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 360.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c73f026-d465-4de5-bae9-3723d8c66c2f")
+		)
+		(pin "2"
+			(uuid "1e6caca7-5660-4e06-b799-3ee119f031e6")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CL10B105KA8NNNC (1uf ,0603 ,25v ,X7R)_1")
+		(lib_id "lampelKicadLIB:CL10B105KA8NNNC (1uf ,0603 ,25v ,X7R)")
+		(at 373.38 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2ce2dc8-6fb4-4e54-b8b9-b7f02a6f1f02")
+		(property "Reference" "C33"
+			(at 370.332 95.25 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CL10B105KA8NNNC (1uf ,0603 ,25v ,X7R)"
+			(at 378.46 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 381 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10B105KA8NNNC_1uF-105-10-25V-X7R_C29936.html"
+			(at 383.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1uF ±10% 25V Ceramic Capacitor X7R 0603"
+			(at 373.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C29936"
+			(at 386.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f3781e1-7922-4dfa-bc11-ad95c610f416")
+		)
+		(pin "2"
+			(uuid "716f0348-46ca-4d73-b4c2-fec83402719d")
+		)
+		(instances
+			(project ""
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
+					(reference "C33")
 					(unit 1)
 				)
 			)
