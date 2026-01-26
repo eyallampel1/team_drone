@@ -1840,6 +1840,12 @@
 		(uuid "1a9c4c7c-c6b5-4983-8650-218617e88aa9")
 	)
 	(junction
+		(at 67.31 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09fb1883-2eec-4821-acb8-f9cfe8d7298b")
+	)
+	(junction
 		(at 129.54 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2045,6 +2051,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 87.63) (xy 87.63 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "375bf19f-9c0b-4953-9915-e20d03b61d41")
+	)
+	(wire
+		(pts
 			(xy 129.54 59.69) (xy 129.54 72.39)
 		)
 		(stroke
@@ -2052,6 +2068,26 @@
 			(type default)
 		)
 		(uuid "3b576893-8f03-4c04-ae96-4e024dd3cc8d")
+	)
+	(wire
+		(pts
+			(xy 59.69 54.61) (xy 67.31 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b59cf43-9349-46c4-bbb5-469b0f141217")
+	)
+	(wire
+		(pts
+			(xy 59.69 68.58) (xy 59.69 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45680d00-7f8b-4aaa-b77d-97eb493db932")
 	)
 	(wire
 		(pts
@@ -2255,6 +2291,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 77.47) (xy 87.63 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f5e234-b4c9-4a66-a4b6-1483f510089f")
+	)
+	(wire
+		(pts
 			(xy 129.54 43.18) (xy 129.54 48.26)
 		)
 		(stroke
@@ -2305,6 +2351,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 58.42) (xy 59.69 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f06f71de-4bf0-4bf5-a4ef-f82ec4492a9d")
+	)
+	(wire
+		(pts
 			(xy 67.31 68.58) (xy 67.31 82.55)
 		)
 		(stroke
@@ -2332,6 +2388,26 @@
 			(type default)
 		)
 		(uuid "f87a36c6-983b-4996-97c6-386b9fe5d006")
+	)
+	(wire
+		(pts
+			(xy 87.63 77.47) (xy 87.63 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fabe7301-8064-45e4-9711-a40ba7d9b1d5")
+	)
+	(label "ALERT"
+		(at 76.2 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "131c2978-07f5-4726-8a87-9212c8a31b50")
 	)
 	(label "SCL"
 		(at 76.2 82.55 0)
@@ -3240,6 +3316,85 @@
 			(project "PDB"
 				(path "/68b39743-cd9b-46b9-87c8-2ec94164be63"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:FRC0603F4701TS (4.7kohm , 0603)")
+		(at 59.69 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88555e1d-9882-4ebe-8bf4-004b3cc94897")
+		(property "Reference" "R7"
+			(at 57.404 63.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FRC0603F4701TS (4.7kohm , 0603)"
+			(at 64.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 67.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7kΩ ±1% 100mW 0603 Thick Film Resistor"
+			(at 59.69 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2907034"
+			(at 69.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "796cb5f4-8703-4337-bffe-911c9dbb0023")
+		)
+		(pin "1"
+			(uuid "bada5ce1-dc0b-431c-ad48-439b1d64c487")
+		)
+		(instances
+			(project "PDB"
+				(path "/68b39743-cd9b-46b9-87c8-2ec94164be63"
+					(reference "R7")
 					(unit 1)
 				)
 			)
