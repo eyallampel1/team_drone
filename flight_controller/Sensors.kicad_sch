@@ -3118,7 +3118,7 @@
 		)
 		(uuid "903d1b2b-7789-4e6b-af6d-0cb5e50c4f5b")
 	)
-	(text "EEPROM\nI2C4\n0x50"
+	(text "EEPROM\nI2C3\n0x??"
 		(exclude_from_sim no)
 		(at 108.458 180.848 0)
 		(effects
