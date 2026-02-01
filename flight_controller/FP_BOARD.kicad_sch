@@ -7,13 +7,73 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 304.8 157.48) (xy 392.43 157.48)
+			(xy 304.8 124.46) (xy 407.67 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f33a07-af58-45c7-8c70-f6199f2993c2")
+	)
+	(wire
+		(pts
+			(xy 304.8 165.1) (xy 407.67 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "066436d0-6eef-41a4-b947-f2a289fea4be")
+	)
+	(wire
+		(pts
+			(xy 304.8 58.42) (xy 407.67 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09c51332-6352-4e5d-b317-2b115616173d")
+	)
+	(wire
+		(pts
+			(xy 304.8 157.48) (xy 407.67 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ee585a0-f973-44ce-b70e-a6f8bdcfa242")
+	)
+	(wire
+		(pts
+			(xy 304.8 115.57) (xy 407.67 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1113de77-252d-4874-bce5-7caa88cee301")
+	)
+	(wire
+		(pts
+			(xy 304.8 130.81) (xy 407.67 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a8c098-9b3a-4090-95e8-7bf3d2d165ad")
+	)
+	(wire
+		(pts
+			(xy 304.8 144.78) (xy 407.67 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1604c719-5889-43cf-8997-dc05189b7d6c")
 	)
 	(wire
 		(pts
@@ -44,6 +104,36 @@
 			(type default)
 		)
 		(uuid "1d2d764d-3c85-4705-aff4-1167ec72f02f")
+	)
+	(wire
+		(pts
+			(xy 59.055 39.37) (xy 97.155 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e7dd28a-097e-439a-a0db-fc0d2bb3ae31")
+	)
+	(wire
+		(pts
+			(xy 59.055 35.56) (xy 97.155 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ea04fcb-52ea-4e4b-a6c5-94062bba0450")
+	)
+	(wire
+		(pts
+			(xy 304.8 121.92) (xy 407.67 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7a3c04-789b-4066-9e2f-4f8813e8b660")
 	)
 	(wire
 		(pts
@@ -108,6 +198,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 110.49) (xy 407.67 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa0bcbc-2d1d-48e1-8db8-ff0d418984fc")
+	)
+	(wire
+		(pts
 			(xy 185.42 116.84) (xy 229.87 116.84)
 		)
 		(stroke
@@ -128,16 +228,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 68.58) (xy 407.67 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42584c28-cc0a-488e-8d39-d6192a358b69")
-	)
-	(wire
-		(pts
 			(xy 308.61 335.28) (xy 525.78 335.28)
 		)
 		(stroke
@@ -145,6 +235,16 @@
 			(type default)
 		)
 		(uuid "440a5f5b-3eea-45a6-8c41-5bf004570cb9")
+	)
+	(wire
+		(pts
+			(xy 304.8 66.04) (xy 407.67 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481fa554-ca4e-461d-bcae-7148921c1292")
 	)
 	(wire
 		(pts
@@ -158,26 +258,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 60.96) (xy 407.67 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a1d8e99-1d02-45fc-b7e0-079d4befc9f7")
-	)
-	(wire
-		(pts
-			(xy 358.14 167.64) (xy 392.43 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "510e953f-4613-4a3e-8a99-ac6efd730831")
-	)
-	(wire
-		(pts
 			(xy 308.61 257.81) (xy 342.9 257.81)
 		)
 		(stroke
@@ -188,13 +268,13 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 66.04) (xy 407.67 66.04)
+			(xy 304.8 119.38) (xy 407.67 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5650bb2c-15a7-4a03-985e-499360a97577")
+		(uuid "56db73e6-ca2e-4d00-ad22-5308bf1c85ba")
 	)
 	(wire
 		(pts
@@ -208,13 +288,13 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 147.32) (xy 392.43 147.32)
+			(xy 304.8 60.96) (xy 407.67 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ae27b87-3e9d-4f03-972d-8e3ba7f5b3d0")
+		(uuid "5b6c6ab3-7b44-4159-a000-d4b39b5cce4d")
 	)
 	(wire
 		(pts
@@ -255,6 +335,36 @@
 			(type default)
 		)
 		(uuid "652cd78b-735e-42bf-b285-dae397d4ea01")
+	)
+	(wire
+		(pts
+			(xy 372.11 167.64) (xy 407.67 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6678281f-2559-4756-8b57-f7ce88005d6f")
+	)
+	(wire
+		(pts
+			(xy 304.8 113.03) (xy 407.67 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "670f8492-6d96-41bd-811a-4a32c011579f")
+	)
+	(wire
+		(pts
+			(xy 304.8 154.94) (xy 407.67 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "688931cc-9be5-4795-956b-51f1a5a69db1")
 	)
 	(wire
 		(pts
@@ -328,6 +438,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 68.58) (xy 407.67 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b10f91-d8b1-42d1-a2e7-fc2f556c37d4")
+	)
+	(wire
+		(pts
 			(xy 185.42 132.08) (xy 229.87 132.08)
 		)
 		(stroke
@@ -365,26 +485,6 @@
 			(type default)
 		)
 		(uuid "85ce0537-0ae4-4cda-9664-78938790086e")
-	)
-	(wire
-		(pts
-			(xy 304.8 144.78) (xy 392.43 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8da8156e-e478-4ea5-8ea8-735de172ca12")
-	)
-	(wire
-		(pts
-			(xy 304.8 58.42) (xy 407.67 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "923d64d0-9c9b-4732-99fb-8a1dd3eb2ad6")
 	)
 	(wire
 		(pts
@@ -428,13 +528,33 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 140.97) (xy 392.43 140.97)
+			(xy 304.8 107.95) (xy 407.67 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0414cbb-e4c9-4818-a04a-3c9f1f6825cc")
+	)
+	(wire
+		(pts
+			(xy 304.8 152.4) (xy 407.67 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a0ab2c9b-60a2-4b21-8bfd-8af239435760")
+	)
+	(wire
+		(pts
+			(xy 304.8 127) (xy 407.67 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a311db30-89e5-4891-9638-4b65370c5138")
 	)
 	(wire
 		(pts
@@ -468,6 +588,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 142.24) (xy 407.67 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0f6b6c-56a8-447a-ad29-90f2249b0c26")
+	)
+	(wire
+		(pts
 			(xy 308.61 337.82) (xy 525.78 337.82)
 		)
 		(stroke
@@ -488,7 +618,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 151.13) (xy 392.43 151.13)
+			(xy 304.8 160.02) (xy 407.67 160.02)
 		)
 		(stroke
 			(width 0)
@@ -515,16 +645,6 @@
 			(type default)
 		)
 		(uuid "c091390b-78bb-4d29-bbbf-1b8b65f5e5e4")
-	)
-	(wire
-		(pts
-			(xy 358.14 165.1) (xy 392.43 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c646333a-2b3e-4e13-9b04-75cde5f07233")
 	)
 	(wire
 		(pts
@@ -598,7 +718,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 138.43) (xy 392.43 138.43)
+			(xy 304.8 149.86) (xy 407.67 149.86)
 		)
 		(stroke
 			(width 0)
@@ -618,7 +738,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 153.67) (xy 392.43 153.67)
+			(xy 304.8 162.56) (xy 407.67 162.56)
 		)
 		(stroke
 			(width 0)
@@ -658,6 +778,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 138.43) (xy 407.67 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec767da0-bd6f-436c-a838-c1617201e8be")
+	)
+	(wire
+		(pts
 			(xy 304.8 189.23) (xy 326.39 189.23)
 		)
 		(stroke
@@ -685,6 +815,36 @@
 			(type default)
 		)
 		(uuid "f55d30f5-396f-4c00-b0f0-e94a3b25ff27")
+	)
+	(wire
+		(pts
+			(xy 372.11 170.18) (xy 407.67 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7007448-787e-4921-abc7-79b210d3cc9d")
+	)
+	(wire
+		(pts
+			(xy 304.8 133.35) (xy 407.67 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f796d4ab-d719-4471-b81d-96d2647ba38e")
+	)
+	(wire
+		(pts
+			(xy 304.8 135.89) (xy 407.67 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa810fd3-8eea-4c03-9db5-b14eaaada784")
 	)
 	(label "SPI1_DRDY1"
 		(at 201.93 102.87 0)
@@ -715,6 +875,16 @@
 			(justify left bottom)
 		)
 		(uuid "0d7e234a-b8be-4507-916d-062eeb072f44")
+	)
+	(label "UART7_CTS_TELEM1"
+		(at 345.44 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14e00c65-b970-4583-a9e5-acce38348272")
 	)
 	(label "FMU_CH3"
 		(at 518.16 317.5 180)
@@ -756,6 +926,16 @@
 		)
 		(uuid "1f4c8c35-7d15-42d1-a4c9-f8c0a3508742")
 	)
+	(label "UART7_TX_TELEM1"
+		(at 361.95 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f56f442-9f49-43c8-8438-d0497d88c4cc")
+	)
 	(label "FMU_CH4"
 		(at 518.16 320.04 180)
 		(effects
@@ -765,6 +945,46 @@
 			(justify right bottom)
 		)
 		(uuid "2318823b-1860-41c6-98b0-93d12354551e")
+	)
+	(label "I2C1_SDA"
+		(at 356.87 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28aadac7-18e4-49ed-bd99-93595f506ba1")
+	)
+	(label "FMU_SAFETY_SWITCH_IN"
+		(at 367.03 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29241418-3ca2-43bb-a825-076930c8799f")
+	)
+	(label "UART5_RX_TELEM2"
+		(at 344.17 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33c0274e-e412-4358-97d7-06cc229bd654")
+	)
+	(label "UART5_RTS_TELEM2"
+		(at 344.17 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33e4b128-9c2c-4f99-9f5d-fc848167b6d8")
 	)
 	(label "SPI5_MOSI"
 		(at 201.93 125.73 0)
@@ -786,6 +1006,16 @@
 		)
 		(uuid "37a02f8a-10c9-4d52-baff-795df839e18e")
 	)
+	(label "I2C1_SCL"
+		(at 80.645 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a943917-2385-4ffc-bcc8-4f3a41adce1f")
+	)
 	(label "I2C2_SCL"
 		(at 201.93 132.08 0)
 		(effects
@@ -805,6 +1035,16 @@
 			(justify left bottom)
 		)
 		(uuid "3ba0ca24-ddf6-45a4-b6b0-2c76f0cc10d0")
+	)
+	(label "BUZZER_1"
+		(at 359.41 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f3297d2-ff1c-4ab4-b579-15689e8e37f7")
 	)
 	(label "FMU_CH7"
 		(at 318.77 186.69 180)
@@ -936,6 +1176,16 @@
 		)
 		(uuid "70fb8af0-0162-494b-9b0e-7b691779b1f5")
 	)
+	(label "UART5_TX_TELEM2"
+		(at 344.17 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71083b1d-8b22-43cb-8a8e-4a8bbc9bb59b")
+	)
 	(label "SDMMC2_D2"
 		(at 201.93 151.13 0)
 		(effects
@@ -977,7 +1227,7 @@
 		(uuid "83e9aad6-5bca-4aac-ad7d-77ead663b294")
 	)
 	(label "IO_SAFETY_SWITCH_IN"
-		(at 363.22 167.64 0)
+		(at 377.19 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -985,6 +1235,16 @@
 			(justify left bottom)
 		)
 		(uuid "89115e68-c1b1-4bf6-9e97-b789deb4ce4a")
+	)
+	(label "FMU_nSAFETY_SWITCH_LED_OUT"
+		(at 374.65 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a1cefa8-1899-4142-9e99-a1067dc6f90f")
 	)
 	(label "SDMMC2_D3"
 		(at 201.93 153.67 0)
@@ -1046,6 +1306,16 @@
 		)
 		(uuid "99be2967-a0a0-420b-81f3-fb75241e125a")
 	)
+	(label "I2C1_SDA"
+		(at 80.645 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ff150aa-c7d9-4f45-bc63-f9e0e9f3ab80")
+	)
 	(label "SPI5_MISO"
 		(at 201.93 123.19 0)
 		(effects
@@ -1066,6 +1336,26 @@
 		)
 		(uuid "ad18c30f-7b8e-4ed9-9f1e-4c3af3b97b7a")
 	)
+	(label "I2C1_SCL"
+		(at 356.87 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad85a346-9f92-4893-b90b-bc1908a5d73e")
+	)
+	(label "UART7_RX_TELEM1"
+		(at 345.44 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b07f3666-bb2c-43bb-81c3-45e1ddae0e23")
+	)
 	(label "FMU_CH8"
 		(at 518.16 330.2 180)
 		(effects
@@ -1085,6 +1375,16 @@
 			(justify left bottom)
 		)
 		(uuid "b9e6d707-5855-480d-9c74-e3729bb0a308")
+	)
+	(label "UART5_CTS_TELEM2"
+		(at 344.17 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd87f8db-46e0-4aac-9b41-428e7a0fbf7a")
 	)
 	(label "SPI5_SCK"
 		(at 201.93 120.65 0)
@@ -1177,7 +1477,7 @@
 		(uuid "f54da9d9-35e6-4456-8344-fc61a309b27e")
 	)
 	(label "IO_NSAFETY_SWITCH_LED_OUT"
-		(at 363.22 165.1 0)
+		(at 377.19 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1196,9 +1496,19 @@
 		)
 		(uuid "fd1f8915-dcfd-4259-813c-99986a33adf9")
 	)
+	(label "UART7_RTS_TELEM1"
+		(at 345.44 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdb674be-67d9-49be-a175-e0565a791607")
+	)
 	(sheet
-		(at 24.765 26.67)
-		(size 74.295 59.69)
+		(at 34.29 27.94)
+		(size 24.765 17.145)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1213,7 +1523,7 @@
 		)
 		(uuid "04e8a37e-c803-4b03-9bae-b305438bfc27")
 		(property "Sheetname" "POWER"
-			(at 24.765 25.9584 0)
+			(at 34.29 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1222,12 +1532,32 @@
 			)
 		)
 		(property "Sheetfile" "POWER.kicad_sch"
-			(at 24.765 86.9446 0)
+			(at 34.29 45.6696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "I2C1_SCL_INA226" input
+			(at 59.055 35.56 0)
+			(uuid "69441895-0412-4820-ae0e-1969f9e64e32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1_SDA_INA226" bidirectional
+			(at 59.055 39.37 0)
+			(uuid "d9eb2026-b924-41a4-8030-a9fe4d722d38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1373,7 +1703,7 @@
 			)
 		)
 		(pin "FMU_nSAFETY_SWITCH_LED_OUT" output
-			(at 304.8 153.67 0)
+			(at 304.8 162.56 0)
 			(uuid "99c209cc-5286-4559-8852-60bd48691585")
 			(effects
 				(font
@@ -1383,7 +1713,7 @@
 			)
 		)
 		(pin "FMU_SAFETY_SWITCH_IN" output
-			(at 304.8 151.13 0)
+			(at 304.8 160.02 0)
 			(uuid "fd484bbc-ccf6-4e22-8777-885066577753")
 			(effects
 				(font
@@ -1433,7 +1763,7 @@
 			)
 		)
 		(pin "VDD_5V_HIPOWER_nEN" output
-			(at 229.87 66.04 180)
+			(at 229.87 63.5 180)
 			(uuid "773e6e9c-23ba-44bf-a494-1c34decec2ba")
 			(effects
 				(font
@@ -1463,7 +1793,7 @@
 			)
 		)
 		(pin "VDD_5V_HIPOWER_nOC" input
-			(at 229.87 68.58 180)
+			(at 229.87 66.04 180)
 			(uuid "8dd06553-94f3-44cf-b748-b14514e89b5e")
 			(effects
 				(font
@@ -1473,7 +1803,7 @@
 			)
 		)
 		(pin "VDD_3V3_SPEKTRUM_POWER_EN" output
-			(at 229.87 73.66 180)
+			(at 229.87 68.58 180)
 			(uuid "603eb55f-02e2-4a2f-8b73-ca7fe2848f39")
 			(effects
 				(font
@@ -1483,7 +1813,7 @@
 			)
 		)
 		(pin "nPOWER_IN_B" input
-			(at 229.87 82.55 180)
+			(at 229.87 73.66 180)
 			(uuid "0532867e-7654-4bf3-aa4c-3ace4c353dda")
 			(effects
 				(font
@@ -1493,7 +1823,7 @@
 			)
 		)
 		(pin "nPOWER_IN_C" input
-			(at 229.87 85.09 180)
+			(at 229.87 76.2 180)
 			(uuid "8588694d-d5d3-4b7e-bffa-d2645241ec47")
 			(effects
 				(font
@@ -1503,7 +1833,7 @@
 			)
 		)
 		(pin "nPOWER_IN_A" input
-			(at 229.87 80.01 180)
+			(at 229.87 71.12 180)
 			(uuid "c4dd615d-3889-48ea-b032-911b8bd4feb3")
 			(effects
 				(font
@@ -1513,7 +1843,7 @@
 			)
 		)
 		(pin "USART1_TX" output
-			(at 304.8 138.43 0)
+			(at 304.8 149.86 0)
 			(uuid "5ef29156-23ea-4b86-b2e7-fc3813258880")
 			(effects
 				(font
@@ -1523,7 +1853,7 @@
 			)
 		)
 		(pin "USART1_RX" input
-			(at 304.8 140.97 0)
+			(at 304.8 152.4 0)
 			(uuid "2b2e1c40-862b-4eba-ad9f-6dcc122e0df0")
 			(effects
 				(font
@@ -1533,7 +1863,7 @@
 			)
 		)
 		(pin "I2C1_SCL" output
-			(at 304.8 144.78 0)
+			(at 304.8 154.94 0)
 			(uuid "ffdb7b96-c205-4b30-8b1d-04c21288ca53")
 			(effects
 				(font
@@ -1543,7 +1873,7 @@
 			)
 		)
 		(pin "I2C1_SDA" bidirectional
-			(at 304.8 147.32 0)
+			(at 304.8 157.48 0)
 			(uuid "920f1174-34bc-4313-817e-30874c2ae82f")
 			(effects
 				(font
@@ -1553,7 +1883,7 @@
 			)
 		)
 		(pin "BUZZER_1" output
-			(at 304.8 157.48 0)
+			(at 304.8 165.1 0)
 			(uuid "baa012a2-c822-46a7-bc07-6b4867f7d591")
 			(effects
 				(font
@@ -1793,7 +2123,7 @@
 			)
 		)
 		(pin "UART7_CTS_TELEM1" input
-			(at 304.8 86.36 0)
+			(at 304.8 113.03 0)
 			(uuid "970fcc98-fef3-47eb-950f-274d4fb678fc")
 			(effects
 				(font
@@ -1803,7 +2133,7 @@
 			)
 		)
 		(pin "UART7_RTS_TELEM1" output
-			(at 304.8 88.9 0)
+			(at 304.8 115.57 0)
 			(uuid "f9d22699-865c-4f49-a492-89513e2e9b44")
 			(effects
 				(font
@@ -1813,7 +2143,7 @@
 			)
 		)
 		(pin "UART7_RX_TELEM1" input
-			(at 304.8 83.82 0)
+			(at 304.8 110.49 0)
 			(uuid "e1af4e83-625d-4cee-81b3-b2485fc28f81")
 			(effects
 				(font
@@ -1823,8 +2153,108 @@
 			)
 		)
 		(pin "UART7_TX_TELEM1" output
-			(at 304.8 81.28 0)
+			(at 304.8 107.95 0)
 			(uuid "19821e85-7cb0-429a-beb2-a04d3a262037")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART5_CTS_TELEM2" input
+			(at 304.8 124.46 0)
+			(uuid "84122f0f-da6e-4df1-9934-fac6f29b66c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART5_RTS_TELEM2" output
+			(at 304.8 127 0)
+			(uuid "0f7a1a4a-c4b8-4286-b175-fab7349fd7a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART5_RX_TELEM2" input
+			(at 304.8 121.92 0)
+			(uuid "c1e79926-3e42-4466-b48f-dfeb7886e0c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART5_TX_TELEM2" output
+			(at 304.8 119.38 0)
+			(uuid "f47370c5-2e8b-4c61-be36-cf13b7322855")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART8_RX" input
+			(at 304.8 144.78 0)
+			(uuid "ffb16552-653c-49d7-a32b-d8d33d7b7da3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART8_TX" output
+			(at 304.8 142.24 0)
+			(uuid "7d6a3080-b0e8-402d-b551-c6c22dbc65a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USART2_CTS_TELEM3" input
+			(at 304.8 135.89 0)
+			(uuid "82f937d5-4923-4be4-945f-7270377a39b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USART2_RTS_TELEM3" output
+			(at 304.8 138.43 0)
+			(uuid "c4a1ee6c-161c-4fbf-8791-e50d38b2fa68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USART2_RX_TELEM3" input
+			(at 304.8 133.35 0)
+			(uuid "eba59587-c7f2-422a-81e4-dd66ac34e255")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USART2_TX_TELEM3" output
+			(at 304.8 130.81 0)
+			(uuid "7d5ccf0c-f443-4b0b-b998-7cd1e5ae5684")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2315,8 +2745,8 @@
 		)
 	)
 	(sheet
-		(at 407.67 52.07)
-		(size 40.64 52.07)
+		(at 407.67 55.88)
+		(size 40.64 40.64)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2331,7 +2761,7 @@
 		)
 		(uuid "bc534bd1-f491-4966-ba4f-9fc6d85cb066")
 		(property "Sheetname" "CAN and SPI bus"
-			(at 407.67 51.3584 0)
+			(at 407.67 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +2770,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN_SPI.kicad_sch"
-			(at 407.67 104.7246 0)
+			(at 407.67 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,8 +3059,8 @@
 		)
 	)
 	(sheet
-		(at 474.98 121.285)
-		(size 41.91 57.785)
+		(at 407.67 104.775)
+		(size 41.91 68.58)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2645,7 +3075,7 @@
 		)
 		(uuid "ee742a7d-8184-434b-840f-4020f45cd711")
 		(property "Sheetname" "UART and GPS"
-			(at 474.98 120.5734 0)
+			(at 407.67 104.0634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2654,12 +3084,242 @@
 			)
 		)
 		(property "Sheetfile" "UART and GPS.kicad_sch"
-			(at 474.98 179.6546 0)
+			(at 407.67 173.9396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "UART2_CTS_TELEM3" output
+			(at 407.67 135.89 180)
+			(uuid "b1fa7c5c-ee83-4d4a-9bd8-8b5ff14dccab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART2_RTS_TELEM3" input
+			(at 407.67 138.43 180)
+			(uuid "54e78852-5187-41e6-90d9-6c9147bed0d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART2_RX_TELEM3" output
+			(at 407.67 133.35 180)
+			(uuid "7d634615-d98a-476b-bb4c-0be1b76734b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART2_TX_TELEM3" input
+			(at 407.67 130.81 180)
+			(uuid "2c648321-bcb4-4b8f-93f3-47d9632e4112")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART5_CTS_TELEM2" output
+			(at 407.67 124.46 180)
+			(uuid "7d0c24a5-ab13-47ad-b389-015fd49823a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART5_RTS_TELEM2" input
+			(at 407.67 127 180)
+			(uuid "1ef5eaa6-3512-4865-9576-4a5f6c03c7d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART5_RX_TELEM2" output
+			(at 407.67 121.92 180)
+			(uuid "11f4ddfa-c47e-4f5b-bb38-72a19cd14d65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART5_TX_TELEM2" input
+			(at 407.67 119.38 180)
+			(uuid "93f8e7b6-9820-49e9-a5c5-4f720106d3d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART7_CTS_TELEM1" output
+			(at 407.67 113.03 180)
+			(uuid "b4f784ca-b931-4c58-a8f6-624044679a2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART7_RTS_TELEM1" input
+			(at 407.67 115.57 180)
+			(uuid "b4234e5f-0ac1-4197-b922-82e86b2857f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART7_RX_TELEM1" output
+			(at 407.67 110.49 180)
+			(uuid "d2312e74-d453-4958-95e5-60e63a64f42c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART7_TX_TELEM1" input
+			(at 407.67 107.95 180)
+			(uuid "44cf8fe4-46ea-4643-ac88-f09791101909")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART8_RX_GPS2" output
+			(at 407.67 144.78 180)
+			(uuid "db520780-b1ba-40c0-9912-34e9d33c0dee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART8_TX_GPS2" input
+			(at 407.67 142.24 180)
+			(uuid "1d9ca25d-5572-4d03-b57a-8217654634a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART1_RX_GPS1" output
+			(at 407.67 152.4 180)
+			(uuid "5eecb87f-649b-4ff5-b410-f05bb6418563")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART1_TX_GPS1" input
+			(at 407.67 149.86 180)
+			(uuid "6cb54823-8348-4acb-bd77-e2f49ad1becb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUZZER_1" input
+			(at 407.67 165.1 180)
+			(uuid "3959dc99-d248-479d-a173-1ec7a44399cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FMU_nSAFETY_SWITCH_LED_OUT" input
+			(at 407.67 162.56 180)
+			(uuid "d3c5a532-6481-4562-94f3-ea036fac9aae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FMU_SAFETY_SWITCH_IN" output
+			(at 407.67 160.02 180)
+			(uuid "4d10eb9c-716f-4ece-a101-dc8f3cfab845")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO_NSAFETY_SWITCH_LED_OUT" input
+			(at 407.67 170.18 180)
+			(uuid "7485f3ad-32dd-4a39-a8f0-5ac0900312f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO_SAFETY_SWITCH_IN" output
+			(at 407.67 167.64 180)
+			(uuid "3d931b22-6960-4c25-a40a-1d8a8cdc776b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SCL_GPS1" input
+			(at 407.67 154.94 180)
+			(uuid "fd3d294b-45d3-4011-adef-99665990e1f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C1_SDA_GPS1" bidirectional
+			(at 407.67 157.48 180)
+			(uuid "26d4d2f5-34e3-4f27-ab18-df321cca8fde")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

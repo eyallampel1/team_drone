@@ -1100,162 +1100,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:CC0603JRNPO9BN100"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CC0603JRNPO9BN100"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C0603"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_10pF-100-5-50V_C106245.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "10pF"
-				(at -0.254 3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C106245"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "CAP 0603 50V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CC0603JRNPO9BN100_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:HB-PH9-12727PB2GOB"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3088,6 +2932,198 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lampelKicadLIB:CC0603JRNPO9BN100 (10pF , 0603 ,50V ,X7R)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.048 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CC0603JRNPO9BN100 (10pF , 0603 ,50V ,X7R)"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:C0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/product-detail/C106245.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10pF ±5% 50V Ceramic Capacitor NP0 0603"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C106245"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CC0603JRNPO9BN100 (10pF , 0603 ,50V ,X7R)_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.03) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CC0603JRNPO9BN100 (10pF , 0603 ,50V ,X7R)_1_1"
+				(text "X7R"
+					(at -2.286 0.762 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(color 154 28 255 1)
+						)
+					)
+				)
+				(text "±5%"
+					(at -2.286 -0.762 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(color 154 28 255 1)
+						)
+					)
+				)
+				(text "0603"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(color 154 28 255 1)
+						)
+					)
+				)
+				(text "50V"
+					(at 2.032 0.762 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+							(color 255 0 2 1)
+						)
+					)
+				)
+				(text "10pF"
+					(at 2.794 -1.016 0)
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lampelKicadLIB:CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3571,16 +3607,6 @@
 		)
 		(uuid "a8e5c3d0-bb53-4a35-908e-a1b62e7e1e05")
 	)
-	(text "update"
-		(exclude_from_sim no)
-		(at 252.984 130.048 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "b42610ac-c4ba-4162-a648-6220ac0484ec")
-	)
 	(text "Original part number for the stm32 v3 set is :\nFTSH-107-01-L-DV-K-A\n"
 		(exclude_from_sim no)
 		(at 230.378 232.41 0)
@@ -3592,16 +3618,6 @@
 			)
 		)
 		(uuid "b7a47d96-cf95-47d3-8541-25c52c684ef3")
-	)
-	(text "update"
-		(exclude_from_sim no)
-		(at 280.924 130.048 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "cfe1d5f5-f887-472c-81a4-2039a76552e4")
 	)
 	(junction
 		(at 347.98 100.33)
@@ -3700,12 +3716,6 @@
 		(uuid "9ebc8bb6-cb44-4ee5-b003-934cb80c090a")
 	)
 	(junction
-		(at 288.29 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ec78a5b-af5b-49af-b9e2-01d4c03c0be1")
-	)
-	(junction
 		(at 360.68 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3716,6 +3726,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d98172b6-ea94-427f-8078-e84e6a9ecd6e")
+	)
+	(junction
+		(at 288.29 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9c0bfe4-0673-4d72-8cad-2cff3d2232ce")
 	)
 	(no_connect
 		(at 223.52 255.27)
@@ -3995,6 +4011,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 123.19) (xy 257.81 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b7edc5-91a7-4d04-8d22-197cc854c3b8")
+	)
+	(wire
+		(pts
 			(xy 320.04 127) (xy 332.74 127)
 		)
 		(stroke
@@ -4248,6 +4274,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 123.19) (xy 288.29 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd75d7b-bdfb-42dd-9bda-9cff6cae2bbf")
+	)
+	(wire
+		(pts
 			(xy 426.72 240.03) (xy 430.53 240.03)
 		)
 		(stroke
@@ -4396,6 +4432,16 @@
 			(type default)
 		)
 		(uuid "6cab239b-8413-425a-8d2c-8c8e61e5d8d5")
+	)
+	(wire
+		(pts
+			(xy 285.75 123.19) (xy 288.29 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e162641-7024-42f7-9d0e-e71150c8f967")
 	)
 	(wire
 		(pts
@@ -4549,6 +4595,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 123.19) (xy 245.11 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b0ab47-ddb4-42bc-91eb-b627d8ea21ac")
+	)
+	(wire
+		(pts
 			(xy 255.27 255.27) (xy 255.27 261.62)
 		)
 		(stroke
@@ -4596,16 +4652,6 @@
 			(type default)
 		)
 		(uuid "99685936-0191-406c-bdae-9f6f92ea906c")
-	)
-	(wire
-		(pts
-			(xy 288.29 123.19) (xy 288.29 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ab5c1a5-801c-4eb4-8dc0-aeda4e8e026b")
 	)
 	(wire
 		(pts
@@ -4909,16 +4955,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 123.19) (xy 257.81 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5ac47fe-ab92-4ead-803e-138ca187e9ae")
-	)
-	(wire
-		(pts
 			(xy 209.55 247.65) (xy 223.52 247.65)
 		)
 		(stroke
@@ -5029,16 +5065,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 123.19) (xy 247.65 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef16320e-233e-425a-a33c-be75d3beff68")
-	)
-	(wire
-		(pts
 			(xy 367.03 100.33) (xy 373.38 100.33)
 		)
 		(stroke
@@ -5066,16 +5092,6 @@
 			(type default)
 		)
 		(uuid "f483e9a5-25c0-41db-8c76-930f6b667912")
-	)
-	(wire
-		(pts
-			(xy 283.21 123.19) (xy 288.29 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4bb3f36-0dc1-4015-a0f2-ca2aba4292bb")
 	)
 	(wire
 		(pts
@@ -5690,82 +5706,6 @@
 		(uuid "ec54f8c4-87b1-4f33-b9ef-272f4cd40cb4")
 	)
 	(symbol
-		(lib_id "easyeda2kicad:CC0603JRNPO9BN100")
-		(at 279.4 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "06a940c8-93d6-47cb-bb84-6a0436330c9a")
-		(property "Reference" "C2"
-			(at 279.146 119.888 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CC0603JRNPO9BN100"
-			(at 279.4 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0603"
-			(at 279.4 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_10pF-100-5-50V_C106245.html"
-			(at 279.4 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10pF"
-			(at 279.654 126.746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C106245"
-			(at 279.4 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a255db15-b77a-4dbd-a431-2e7dd5541ac4")
-		)
-		(pin "1"
-			(uuid "f6a3f9ce-8359-4b6a-ae1d-6ce7c0cc2555")
-		)
-		(instances
-			(project "FP_BOARD"
-				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 245.11 127 0)
 		(unit 1)
@@ -5825,6 +5765,85 @@
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:CC0603JRNPO9BN100 (10pF , 0603 ,50V ,X7R)")
+		(at 280.67 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15dd95b8-38bc-424e-8246-745b7f99b869")
+		(property "Reference" "C2"
+			(at 280.67 120.142 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CC0603JRNPO9BN100 (10pF , 0603 ,50V ,X7R)"
+			(at 280.67 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 280.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C106245.html"
+			(at 280.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10pF ±5% 50V Ceramic Capacitor NP0 0603"
+			(at 280.67 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C106245"
+			(at 280.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "31e073b3-5c78-47f2-b196-303d5afe71d3")
+		)
+		(pin "1"
+			(uuid "63a60fe8-d4ec-43a0-b714-d175d064dc99")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6386,82 +6405,6 @@
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
 					(reference "R51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:CC0603JRNPO9BN100")
-		(at 251.46 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "546ba9d0-acdd-49be-b0f9-61dd614a11b8")
-		(property "Reference" "C1"
-			(at 251.46 120.142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CC0603JRNPO9BN100"
-			(at 251.46 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0603"
-			(at 251.46 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_10pF-100-5-50V_C106245.html"
-			(at 251.46 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10pF"
-			(at 251.46 126.746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C106245"
-			(at 251.46 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5afdfca0-d843-46e3-9d6c-fd683d86ca47")
-		)
-		(pin "1"
-			(uuid "bd83859b-14b9-4962-8d3b-790d404f435f")
-		)
-		(instances
-			(project "FP_BOARD"
-				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7322,6 +7265,85 @@
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
 					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:CC0603JRNPO9BN100 (10pF , 0603 ,50V ,X7R)")
+		(at 251.46 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bb220bd-5f80-4fab-8fc0-0a0af4d9a914")
+		(property "Reference" "C1"
+			(at 251.46 120.142 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CC0603JRNPO9BN100 (10pF , 0603 ,50V ,X7R)"
+			(at 251.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 251.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C106245.html"
+			(at 251.46 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10pF ±5% 50V Ceramic Capacitor NP0 0603"
+			(at 251.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C106245"
+			(at 251.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a82699e1-34e4-456d-8bf0-e89b9af6e93b")
+		)
+		(pin "1"
+			(uuid "febcceaa-2b77-4fd7-949d-7e3b8032eb37")
+		)
+		(instances
+			(project ""
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/e4f0bf63-f781-4c4e-9f6b-c9f89551cbca"
+					(reference "C1")
 					(unit 1)
 				)
 			)

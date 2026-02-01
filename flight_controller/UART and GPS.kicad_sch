@@ -5,6 +5,260 @@
 	(uuid "240586d2-bc03-4e6e-ba39-54cddc7ff5e9")
 	(paper "A4")
 	(lib_symbols
+		(symbol "lampelKicadLIB:0603WAF1000T5E (100ohm , 0603)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.032 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "603WAF1000T5E (100ohm , 0603)"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_100R-1000-1_C22775.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100Ω ±1% 100mW 0603 Thick Film Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C22775"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603WAF1000T5E (100ohm , 0603)_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "0603WAF1000T5E (100ohm , 0603)_1_1"
+				(text "0603"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "100Ω"
+					(at 0 -2.286 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lampelKicadLIB:0603WAF1200T5E (120ohm,0603)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.286 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "603WAF1200T5E"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_120R-1200-1_C22787.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "120Ω ±1% 100mW 0603 Thick Film Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C22787"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603WAF1200T5E (120ohm,0603)_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "0603WAF1200T5E (120ohm,0603)_1_1"
+				(text "0603"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "120Ω"
+					(at 0 -2.032 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -122,6 +376,133 @@
 					)
 				)
 				(text "220Ω"
+					(at 0 -2.286 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lampelKicadLIB:0603WAF220JT5E (22ohm , 0603)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.032 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "603WAF220JT5E (22ohm , 0603)"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_22R-22R0-1_C23345.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "22Ω ±1% 100mW 0603 Thick Film Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C23345"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603WAF220JT5E (22ohm , 0603)_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "0603WAF220JT5E (22ohm , 0603)_1_1"
+				(text "0603"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "22Ω"
 					(at 0 -2.286 0)
 					(effects
 						(font
@@ -821,6 +1202,26 @@
 		)
 		(uuid "3ace7fe3-94a5-4fa4-93ed-5e97beadc912")
 	)
+	(text "???"
+		(exclude_from_sim no)
+		(at 224.282 101.854 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "7716e31f-db62-4567-bf21-9031ade4c419")
+	)
+	(text "???"
+		(exclude_from_sim no)
+		(at 264.16 66.802 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "8854c661-4c9d-4f45-8910-2ade8c1509f0")
+	)
 	(text "TELEM3"
 		(exclude_from_sim no)
 		(at 124.206 145.034 0)
@@ -842,6 +1243,17 @@
 			)
 		)
 		(uuid "cadbc372-4069-4e66-bf4e-5c83888a8217")
+	)
+	(text "GPS1"
+		(exclude_from_sim no)
+		(at 257.048 22.098 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "f41e04c6-5b1f-49a4-bdec-a12c7768418a")
 	)
 	(junction
 		(at 243.84 156.21)
@@ -915,6 +1327,12 @@
 		(color 0 0 0 0)
 		(uuid "fc6e5ccb-4837-4535-a7fb-41e2bba19780")
 	)
+	(junction
+		(at 237.49 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fde473c8-278c-4dc5-b4cf-efb83c6cf302")
+	)
 	(wire
 		(pts
 			(xy 229.87 148.59) (xy 233.68 148.59)
@@ -924,6 +1342,16 @@
 			(type default)
 		)
 		(uuid "04317bb0-10ac-44bd-b9c2-28ee33e8837b")
+	)
+	(wire
+		(pts
+			(xy 241.3 40.64) (xy 250.19 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0474fe12-23f3-45c9-8883-21e7ccacc368")
 	)
 	(wire
 		(pts
@@ -1007,6 +1435,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 22.86) (xy 237.49 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14397a8a-bfb8-4224-979e-1168f5b02228")
+	)
+	(wire
+		(pts
 			(xy 86.36 21.59) (xy 86.36 22.86)
 		)
 		(stroke
@@ -1024,6 +1462,26 @@
 			(type default)
 		)
 		(uuid "151afedd-586e-43c4-be6d-2bfe8ba334cd")
+	)
+	(wire
+		(pts
+			(xy 229.87 78.74) (xy 250.19 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "154a0cdf-d3d6-4962-889e-24d8cfd451f6")
+	)
+	(wire
+		(pts
+			(xy 184.15 72.39) (xy 219.71 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176f2542-bcd0-401d-aeb8-3b7170d52363")
 	)
 	(wire
 		(pts
@@ -1064,6 +1522,26 @@
 			(type default)
 		)
 		(uuid "2330606b-2851-44d3-93d3-fc1bc91ea403")
+	)
+	(wire
+		(pts
+			(xy 184.15 46.99) (xy 219.71 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2380467d-fc03-451e-930f-dcfbf836ac71")
+	)
+	(wire
+		(pts
+			(xy 184.15 101.6) (xy 219.71 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2878dcef-2b6e-444d-84ab-52fe60afac24")
 	)
 	(wire
 		(pts
@@ -1167,6 +1645,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 53.34) (xy 250.19 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "410933fb-6099-488a-ae68-86ff25e68ea3")
+	)
+	(wire
+		(pts
 			(xy 80.01 44.45) (xy 99.06 44.45)
 		)
 		(stroke
@@ -1174,6 +1662,16 @@
 			(type default)
 		)
 		(uuid "42646c28-4770-43a3-8318-cd34792e07ae")
+	)
+	(wire
+		(pts
+			(xy 234.95 22.86) (xy 237.49 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42de8247-7198-4f0e-bd75-7a14b6401691")
 	)
 	(wire
 		(pts
@@ -1204,6 +1702,16 @@
 			(type default)
 		)
 		(uuid "49cc6247-2fc7-4a97-8b80-f5965f95290e")
+	)
+	(wire
+		(pts
+			(xy 184.15 91.44) (xy 219.71 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a24c788-ffb8-480f-ad73-de58d5773ec3")
 	)
 	(wire
 		(pts
@@ -1257,6 +1765,26 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 85.09) (xy 219.71 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f21184-6010-485a-a39f-40087eb6cde0")
+	)
+	(wire
+		(pts
+			(xy 251.46 105.41) (xy 251.46 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5779c501-e63f-47e8-a5dc-ced347a5a989")
+	)
+	(wire
+		(pts
 			(xy 86.36 33.02) (xy 86.36 34.29)
 		)
 		(stroke
@@ -1274,6 +1802,16 @@
 			(type default)
 		)
 		(uuid "5d2ade14-b08e-40c4-ad6c-6cc57ef0d622")
+	)
+	(wire
+		(pts
+			(xy 241.3 22.86) (xy 241.3 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "601a7792-c03b-45c4-bc48-9d29016d1bd8")
 	)
 	(wire
 		(pts
@@ -1344,6 +1882,16 @@
 			(type default)
 		)
 		(uuid "6e97c44d-71a2-4074-b51c-e2ae293d83ab")
+	)
+	(wire
+		(pts
+			(xy 184.15 78.74) (xy 219.71 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70760f62-3595-4b94-a002-685dc9aced9f")
 	)
 	(wire
 		(pts
@@ -1427,6 +1975,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 46.99) (xy 250.19 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88234a72-cc10-4b75-939e-d813584a96a0")
+	)
+	(wire
+		(pts
 			(xy 78.74 41.91) (xy 99.06 41.91)
 		)
 		(stroke
@@ -1487,6 +2045,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 34.29) (xy 237.49 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff529a0-7bc7-429a-abf2-25a083159d11")
+	)
+	(wire
+		(pts
 			(xy 77.47 170.18) (xy 81.28 170.18)
 		)
 		(stroke
@@ -1524,6 +2092,16 @@
 			(type default)
 		)
 		(uuid "9511258a-7780-49c3-a7b8-7bf016cc14d6")
+	)
+	(wire
+		(pts
+			(xy 229.87 72.39) (xy 250.19 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c14c61-0af2-4ab1-bd57-f3c68ff213e3")
 	)
 	(wire
 		(pts
@@ -1667,6 +2245,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 53.34) (xy 219.71 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e3e903-2620-4e25-aba4-8634e919ea86")
+	)
+	(wire
+		(pts
 			(xy 229.87 156.21) (xy 243.84 156.21)
 		)
 		(stroke
@@ -1684,6 +2272,16 @@
 			(type default)
 		)
 		(uuid "b2e58d4c-b327-4424-abb0-3393bd35acc2")
+	)
+	(wire
+		(pts
+			(xy 184.15 59.69) (xy 219.71 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30251e0-8a16-44a9-9f24-49659aa1e8cc")
 	)
 	(wire
 		(pts
@@ -1724,6 +2322,16 @@
 			(type default)
 		)
 		(uuid "b8a4fa12-a517-4d06-b82b-edf2dccc776c")
+	)
+	(wire
+		(pts
+			(xy 237.49 22.86) (xy 241.3 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b974a2f0-53a4-4578-93f2-7a95cce802ad")
 	)
 	(wire
 		(pts
@@ -1847,6 +2455,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 21.59) (xy 234.95 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2992ac5-f11f-46df-b170-dec2b9d3073b")
+	)
+	(wire
+		(pts
 			(xy 214.63 140.97) (xy 233.68 140.97)
 		)
 		(stroke
@@ -1854,6 +2472,16 @@
 			(type default)
 		)
 		(uuid "d7594c7a-0c4d-4009-b1f6-e5ba47e0c259")
+	)
+	(wire
+		(pts
+			(xy 229.87 59.69) (xy 250.19 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ba4e2b-0b2d-4081-925b-49148ec1d631")
 	)
 	(wire
 		(pts
@@ -1897,6 +2525,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 91.44) (xy 250.19 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8f102c-8ff7-4d83-b2c3-9fd49b8620fb")
+	)
+	(wire
+		(pts
 			(xy 106.68 111.76) (xy 106.68 114.3)
 		)
 		(stroke
@@ -1914,6 +2552,16 @@
 			(type default)
 		)
 		(uuid "e33a7c36-9529-405d-aff5-4af1d1f8a2ec")
+	)
+	(wire
+		(pts
+			(xy 251.46 102.87) (xy 252.73 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e597e566-6f20-4b6d-b4c7-71ebb7867e23")
 	)
 	(wire
 		(pts
@@ -2027,6 +2675,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 85.09) (xy 250.19 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad9c9db-0243-4174-b706-3dfce8e64ec1")
+	)
+	(wire
+		(pts
 			(xy 78.74 157.48) (xy 77.47 157.48)
 		)
 		(stroke
@@ -2055,6 +2713,26 @@
 		)
 		(uuid "feb20c40-fba5-46d0-9c91-16e610abd170")
 	)
+	(wire
+		(pts
+			(xy 184.15 66.04) (xy 219.71 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb920da-550b-4b61-9fc2-fb9f16b6c75b")
+	)
+	(wire
+		(pts
+			(xy 229.87 66.04) (xy 250.19 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff03be0d-492f-400a-9bf9-26f4f4939cf4")
+	)
 	(label "UART5_TX_TELEM2"
 		(at 38.1 96.52 0)
 		(effects
@@ -2074,6 +2752,16 @@
 			(justify left bottom)
 		)
 		(uuid "0c4b16ca-e296-4873-bee3-cfe20a42f2e5")
+	)
+	(label "UART1_RX_GPS1"
+		(at 199.39 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c71f645-7c1f-4719-981f-6ea2e44c8bb2")
 	)
 	(label "UART7_CTS_TELEM1"
 		(at 40.64 54.61 0)
@@ -2095,6 +2783,26 @@
 		)
 		(uuid "15b0b718-93b8-470b-95ae-f724a8d4744c")
 	)
+	(label "I2C1_SCL_GPS1"
+		(at 212.09 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "198b2917-311c-43ac-9070-d3603677d092")
+	)
+	(label "FMU_nSAFETY_SWITCH_LED_OUT"
+		(at 218.44 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2155232a-84a1-43ba-b58c-6396b18c595b")
+	)
 	(label "UART7_RTS_TELEM1"
 		(at 40.64 60.96 0)
 		(effects
@@ -2104,6 +2812,16 @@
 			(justify left bottom)
 		)
 		(uuid "2520c51d-c3eb-40f4-961b-1cf25105ecdf")
+	)
+	(label "UART1_TX_GPS1"
+		(at 199.39 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "263cb67f-5e6a-433f-a097-90df6b800e82")
 	)
 	(label "UART8_TX_GPS2"
 		(at 175.26 138.43 0)
@@ -2135,6 +2853,26 @@
 		)
 		(uuid "4ef0b796-bf4c-4b8b-ad55-7abd34596f0e")
 	)
+	(label "BUZZER_1"
+		(at 215.9 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5cc3a5c0-6d79-4bca-b75b-c5c47ac49ce3")
+	)
+	(label "IO_SAFETY_SWITCH_IN"
+		(at 195.58 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60038a14-7fb8-4d8c-ac83-298fe012b5f0")
+	)
 	(label "UART2_RX_TELEM3"
 		(at 39.37 157.48 0)
 		(effects
@@ -2165,6 +2903,16 @@
 		)
 		(uuid "7f09fc03-dbdb-49cc-bbcc-4e40f52a067e")
 	)
+	(label "FMU_SAFETY_SWITCH_IN"
+		(at 218.44 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89736c15-f6b0-4805-876a-94e27b1afeb5")
+	)
 	(label "UART8_RX_GPS2"
 		(at 175.26 144.78 0)
 		(effects
@@ -2185,6 +2933,16 @@
 		)
 		(uuid "af2619db-7ed3-4bee-98e4-ecb70aa242e0")
 	)
+	(label "IO_NSAFETY_SWITCH_LED_OUT"
+		(at 190.5 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d98cb992-689a-445a-81b6-6d09b49fde70")
+	)
 	(label "UART5_RTS_TELEM2"
 		(at 38.1 115.57 0)
 		(effects
@@ -2194,6 +2952,269 @@
 			(justify left bottom)
 		)
 		(uuid "e76b2180-89f1-463d-8fb3-9259d4c19692")
+	)
+	(label "I2C1_SDA_GPS1"
+		(at 212.09 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f9343bc7-b1aa-4757-8b8c-03c5df45d348")
+	)
+	(hierarchical_label "UART2_RTS_TELEM3"
+		(shape input)
+		(at 35.56 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e580687-0122-462e-a5cc-b82e20fbd732")
+	)
+	(hierarchical_label "UART7_RX_TELEM1"
+		(shape output)
+		(at 36.83 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14585ada-dba6-4021-b500-135f7b21f273")
+	)
+	(hierarchical_label "FMU_SAFETY_SWITCH_IN"
+		(shape output)
+		(at 184.15 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2220d210-d3ae-4893-ac1c-f81d36fe71a9")
+	)
+	(hierarchical_label "IO_SAFETY_SWITCH_IN"
+		(shape output)
+		(at 184.15 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24751c13-3c45-49c9-9f13-b111e070c7b4")
+	)
+	(hierarchical_label "UART5_TX_TELEM2"
+		(shape input)
+		(at 34.29 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37391523-12ce-43ba-b614-ee43df0b0e71")
+	)
+	(hierarchical_label "UART1_RX_GPS1"
+		(shape output)
+		(at 184.15 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42ed4b28-c865-4955-b287-b2733ba9e9d4")
+	)
+	(hierarchical_label "UART8_RX_GPS2"
+		(shape output)
+		(at 171.45 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "510c994e-dd20-4c2f-b863-33ea6cf63223")
+	)
+	(hierarchical_label "IO_NSAFETY_SWITCH_LED_OUT"
+		(shape input)
+		(at 184.15 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6641a18f-698b-442d-a25c-b11b2c65fec6")
+	)
+	(hierarchical_label "UART5_RX_TELEM2"
+		(shape output)
+		(at 34.29 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68872932-9c17-4b15-be9c-2ed6cf331363")
+	)
+	(hierarchical_label "UART2_TX_TELEM3"
+		(shape input)
+		(at 35.56 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e975e5d-0ada-454c-a682-c4039979986b")
+	)
+	(hierarchical_label "BUZZER_1"
+		(shape input)
+		(at 184.15 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a59a03a-761c-4db6-b371-27f4be1070ef")
+	)
+	(hierarchical_label "UART2_CTS_TELEM3"
+		(shape output)
+		(at 35.56 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ace540f3-6002-4c89-89f7-0062320d8fc4")
+	)
+	(hierarchical_label "UART5_CTS_TELEM2"
+		(shape output)
+		(at 34.29 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ade762ac-a72f-4cfa-8ada-890c621ffa6f")
+	)
+	(hierarchical_label "I2C1_SCL_GPS1"
+		(shape input)
+		(at 184.15 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4c6efd6-002b-49c0-bb37-9855b09790c6")
+	)
+	(hierarchical_label "UART7_TX_TELEM1"
+		(shape input)
+		(at 36.83 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6be4fca-0441-4324-ac94-f6b311368845")
+	)
+	(hierarchical_label "I2C1_SDA_GPS1"
+		(shape bidirectional)
+		(at 184.15 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de2b0b0e-1dee-45bc-88d1-e5461bac99b7")
+	)
+	(hierarchical_label "UART7_CTS_TELEM1"
+		(shape output)
+		(at 36.83 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e39e4b75-2880-4435-b817-7e528dad288c")
+	)
+	(hierarchical_label "UART7_RTS_TELEM1"
+		(shape input)
+		(at 36.83 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e491a994-f332-4ab1-a557-3a329e7f2fb8")
+	)
+	(hierarchical_label "FMU_nSAFETY_SWITCH_LED_OUT"
+		(shape input)
+		(at 184.15 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebde8705-2249-4137-9b4c-f32a279d62c3")
+	)
+	(hierarchical_label "UART1_TX_GPS1"
+		(shape input)
+		(at 184.15 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebf9587a-e337-4eae-a053-ee0750f8843d")
+	)
+	(hierarchical_label "UART2_RX_TELEM3"
+		(shape output)
+		(at 35.56 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee3a37b6-e807-4b8a-a816-02050f381060")
+	)
+	(hierarchical_label "UART8_TX_GPS2"
+		(shape input)
+		(at 171.45 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f070185c-c558-46f7-9a0c-de73fe23b1a1")
+	)
+	(hierarchical_label "UART5_RTS_TELEM2"
+		(shape input)
+		(at 34.29 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffce7bd9-9453-4197-a76e-ac31a4bae0df")
 	)
 	(symbol
 		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
@@ -2499,6 +3520,85 @@
 		)
 	)
 	(symbol
+		(lib_id "lampelKicadLIB:0603WAF1200T5E (120ohm,0603)")
+		(at 224.79 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0df20057-fb17-476a-b61f-ad14015e0147")
+		(property "Reference" "R56"
+			(at 224.79 57.404 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "603WAF1200T5E"
+			(at 224.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 224.79 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_120R-1200-1_C22787.html"
+			(at 224.79 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 224.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22787"
+			(at 224.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "640439fc-c73f-4441-ac1c-73f0e2274d7b")
+		)
+		(pin "1"
+			(uuid "864d3214-1bc3-4a96-a006-bf237899495b")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/ee742a7d-8184-434b-840f-4020f45cd711"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lampelKicadLIB:CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)")
 		(at 220.98 124.46 90)
 		(unit 1)
@@ -2737,6 +3837,85 @@
 	)
 	(symbol
 		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
+		(at 224.79 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fc30c7b-bc7c-4a60-90de-217878f7b89e")
+		(property "Reference" "R54"
+			(at 224.79 44.958 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603WAF2200T5E (220ohm  , 0603)"
+			(at 224.79 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 224.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
+			(at 224.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 223.52 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
+			(at 224.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5a52e3e-55b7-46f4-807f-d3069e23e1e4")
+		)
+		(pin "2"
+			(uuid "00fee4f4-0cc0-4fd0-88fe-93c208268064")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/ee742a7d-8184-434b-840f-4020f45cd711"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
 		(at 72.39 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2912,6 +4091,85 @@
 		)
 	)
 	(symbol
+		(lib_id "lampelKicadLIB:0603WAF1000T5E (100ohm , 0603)")
+		(at 224.79 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45a0c0d4-8962-4c8c-86d7-ea40c4011ddc")
+		(property "Reference" "R61"
+			(at 224.79 89.408 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "603WAF1000T5E (100ohm , 0603)"
+			(at 224.79 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 224.79 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_100R-1000-1_C22775.html"
+			(at 224.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 224.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22775"
+			(at 224.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "132d6833-69bb-4217-8bcf-f5f96eecb1e9")
+		)
+		(pin "2"
+			(uuid "435d96ae-0b2b-46c6-a107-32ca95f5cb2b")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/ee742a7d-8184-434b-840f-4020f45cd711"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lampelKicadLIB:A1257WV-S-6P-LCP")
 		(at 105.41 45.72 0)
 		(unit 1)
@@ -3003,6 +4261,85 @@
 			(project ""
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/ee742a7d-8184-434b-840f-4020f45cd711"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:0603WAF220JT5E (22ohm , 0603)")
+		(at 224.79 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50eda025-a60c-4860-9ffd-8625b54d2581")
+		(property "Reference" "R58"
+			(at 224.79 70.358 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "603WAF220JT5E (22ohm , 0603)"
+			(at 224.79 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 224.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_22R-22R0-1_C23345.html"
+			(at 224.79 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 224.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23345"
+			(at 224.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db2e0410-9a7a-40c2-b2a9-861095b27dfe")
+		)
+		(pin "2"
+			(uuid "46f94201-6988-4141-b7b5-8840beb19a37")
+		)
+		(instances
+			(project ""
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/ee742a7d-8184-434b-840f-4020f45cd711"
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -3148,6 +4485,85 @@
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/ee742a7d-8184-434b-840f-4020f45cd711"
 					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)")
+		(at 237.49 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d69ac3f-633d-4160-a5b3-86807f12c334")
+		(property "Reference" "C54"
+			(at 234.696 29.21 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)"
+			(at 242.57 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 245.11 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+			(at 247.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0603"
+			(at 237.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 250.19 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc1289f9-1bfb-458d-b463-ecb8a72a82c0")
+		)
+		(pin "2"
+			(uuid "f284063a-7d7d-439c-8023-47630a65d1eb")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/ee742a7d-8184-434b-840f-4020f45cd711"
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -3546,6 +4962,151 @@
 		)
 	)
 	(symbol
+		(lib_id "lampelKicadLIB:0603WAF1200T5E (120ohm,0603)")
+		(at 224.79 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7af83031-f9d4-4702-be38-8dddffc5f6b9")
+		(property "Reference" "R57"
+			(at 224.79 63.754 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "603WAF1200T5E"
+			(at 224.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 224.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_120R-1200-1_C22787.html"
+			(at 224.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "120Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 224.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22787"
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2367850f-e6e9-479e-80da-deb5f7d65f64")
+		)
+		(pin "1"
+			(uuid "edf4bd7d-f637-4408-92f6-2912698cec37")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/ee742a7d-8184-434b-840f-4020f45cd711"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c13a7c0-450f-40c5-8e61-07deb68cc2b5")
+		(property "Reference" "#PWR0131"
+			(at 251.46 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.206 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b139f20a-e20b-4602-9bf5-ba62e6b2c331")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/ee742a7d-8184-434b-840f-4020f45cd711"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
 		(at 208.28 144.78 0)
 		(unit 1)
@@ -3619,6 +5180,85 @@
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/ee742a7d-8184-434b-840f-4020f45cd711"
 					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:0603WAF220JT5E (22ohm , 0603)")
+		(at 224.79 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8238b50e-5100-43da-ad94-7153b016d7f4")
+		(property "Reference" "R59"
+			(at 224.79 76.708 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "603WAF220JT5E (22ohm , 0603)"
+			(at 224.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_22R-22R0-1_C23345.html"
+			(at 224.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 224.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23345"
+			(at 224.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4364a924-0e92-4ce3-8cc8-683424f69325")
+		)
+		(pin "2"
+			(uuid "8dc086bc-2512-4548-9f36-6b0ed5a3db1f")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/ee742a7d-8184-434b-840f-4020f45cd711"
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -4087,6 +5727,151 @@
 	)
 	(symbol
 		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
+		(at 224.79 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b74c0c7a-44b2-4330-9d9e-35efcd9cc4e5")
+		(property "Reference" "R55"
+			(at 224.79 51.308 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603WAF2200T5E (220ohm  , 0603)"
+			(at 224.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 224.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
+			(at 224.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 223.52 68.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
+			(at 224.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87e4e914-88c9-4094-b5c6-2607054a00bb")
+		)
+		(pin "2"
+			(uuid "e3b68522-a435-456b-b9a3-74f25be926ac")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/ee742a7d-8184-434b-840f-4020f45cd711"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 234.95 21.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9846827-2cdc-4f28-a4b8-32821afd4696")
+		(property "Reference" "#PWR0129"
+			(at 234.95 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 234.95 18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 234.95 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48f2dcd3-c926-4e21-96e8-a78a4f3f2966")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/ee742a7d-8184-434b-840f-4020f45cd711"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
 		(at 71.12 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4455,6 +6240,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 237.49 35.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edf2096e-e98c-42b2-a086-fc919f3f3662")
+		(property "Reference" "#PWR0130"
+			(at 237.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.236 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05255d03-1ef8-4107-93e6-b23cc5955cb4")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/ee742a7d-8184-434b-840f-4020f45cd711"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lampelKicadLIB:CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)")
 		(at 83.82 82.55 90)
 		(unit 1)
@@ -4528,6 +6379,85 @@
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/ee742a7d-8184-434b-840f-4020f45cd711"
 					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:0603WAF1000T5E (100ohm , 0603)")
+		(at 224.79 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f096f65d-af53-4715-89b0-1c0bd9d095e5")
+		(property "Reference" "R60"
+			(at 224.79 83.058 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "603WAF1000T5E (100ohm , 0603)"
+			(at 224.79 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 224.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_100R-1000-1_C22775.html"
+			(at 224.79 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 224.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22775"
+			(at 224.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e55ef6a-d92a-4f12-838b-61091c046905")
+		)
+		(pin "2"
+			(uuid "330ecf1b-1179-431b-bf7c-a5ecb4d4280c")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/ee742a7d-8184-434b-840f-4020f45cd711"
+					(reference "R60")
 					(unit 1)
 				)
 			)

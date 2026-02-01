@@ -8868,6 +8868,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 0 0 1)
 		)
 		(uuid "b93a95a8-a71f-4f9e-96b9-c1033f75aadc")
 	)
@@ -9359,6 +9360,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 0 0 1)
 		)
 		(uuid "e0545021-85a0-411c-9f09-2e956c2dadf1")
 	)
@@ -9823,7 +9825,7 @@
 		)
 		(uuid "12ce7ebc-073a-451a-b123-2d521ba4c72b")
 	)
-	(label "USART2_RTS"
+	(label "USART2_RTS_TELEM3"
 		(at 422.91 101.6 90)
 		(effects
 			(font
@@ -10733,7 +10735,7 @@
 		)
 		(uuid "b75ac46e-8a3b-47ea-a716-00514deb42c4")
 	)
-	(label "USART2_TX"
+	(label "USART2_TX_TELEM3"
 		(at 420.37 101.6 90)
 		(effects
 			(font
@@ -11103,7 +11105,7 @@
 		)
 		(uuid "e9671e1f-2951-4ce1-b7dc-e43b2966319f")
 	)
-	(label "USART2_RX"
+	(label "USART2_RX_TELEM3"
 		(at 351.79 266.7 90)
 		(effects
 			(font
@@ -11133,7 +11135,7 @@
 		)
 		(uuid "eb991fb9-18e3-41db-b1d4-6fac6e38929f")
 	)
-	(label "USART2_CTS"
+	(label "USART2_CTS_TELEM3"
 		(at 425.45 101.6 90)
 		(effects
 			(font
@@ -11286,6 +11288,17 @@
 		)
 		(uuid "09b16963-f005-4aca-a3cb-a4f748ac012f")
 	)
+	(hierarchical_label "USART2_RX_TELEM3"
+		(shape input)
+		(at 351.79 270.51 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a2b3ebb-1864-4f76-8d87-60f68ecb51ac")
+	)
 	(hierarchical_label "I2C2_SDA"
 		(shape bidirectional)
 		(at 290.83 158.75 180)
@@ -11351,6 +11364,28 @@
 			(justify right)
 		)
 		(uuid "250a2b6a-f638-447a-b8f5-20a8b46ff5e8")
+	)
+	(hierarchical_label "USART2_CTS_TELEM3"
+		(shape input)
+		(at 425.45 80.01 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25123ad7-b671-407f-9bff-6017489fb7ab")
+	)
+	(hierarchical_label "UART8_TX"
+		(shape output)
+		(at 361.95 80.01 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "267f1024-294c-4c39-8262-b0292a160242")
 	)
 	(hierarchical_label "SPI1_nCS1"
 		(shape output)
@@ -11506,6 +11541,17 @@
 		)
 		(uuid "6899d2b4-28df-4e8c-b7f6-623b55a54e8e")
 	)
+	(hierarchical_label "USART2_RTS_TELEM3"
+		(shape output)
+		(at 422.91 80.01 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f407992-b72f-46f7-b9a5-e00840a96915")
+	)
 	(hierarchical_label "SPI5_SCK"
 		(shape output)
 		(at 290.83 181.61 180)
@@ -11549,6 +11595,28 @@
 			(justify right)
 		)
 		(uuid "77f78574-627c-43ab-8407-fa40df44a118")
+	)
+	(hierarchical_label "UART5_TX_TELEM2"
+		(shape output)
+		(at 435.61 80.01 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "795785a8-b7fb-4923-abe6-56a1f2d70691")
+	)
+	(hierarchical_label "UART5_CTS_TELEM2"
+		(shape input)
+		(at 511.81 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8183f7f0-43d1-4db4-b812-cd8967dc46a9")
 	)
 	(hierarchical_label "I2C2_DRDY1"
 		(shape input)
@@ -11671,6 +11739,17 @@
 		)
 		(uuid "b5dd13b6-30c1-405a-a9f5-d2c8dc4a3bd0")
 	)
+	(hierarchical_label "USART2_TX_TELEM3"
+		(shape output)
+		(at 420.37 80.01 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcd6308c-cf6c-4fc3-9db0-2b9204925af8")
+	)
 	(hierarchical_label "VDD_5V_PERIPH_nEN"
 		(shape output)
 		(at 511.81 181.61 0)
@@ -11781,6 +11860,17 @@
 		)
 		(uuid "dd33c7c6-0147-4682-8d95-f31fe36458ef")
 	)
+	(hierarchical_label "UART5_RTS_TELEM2"
+		(shape output)
+		(at 511.81 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df4f2a3e-1f5e-4b44-846f-0d402f9106c2")
+	)
 	(hierarchical_label "FMU_CH1"
 		(shape output)
 		(at 511.81 123.19 0)
@@ -11802,6 +11892,17 @@
 			(justify left)
 		)
 		(uuid "f1f69923-0314-409f-9d6f-a9d5076a0b35")
+	)
+	(hierarchical_label "UART5_RX_TELEM2"
+		(shape input)
+		(at 427.99 80.01 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f26f080b-3992-47ac-a2a8-d3b821ddf5fa")
 	)
 	(hierarchical_label "VDD_5V_HIPOWER_nOC"
 		(shape input)
@@ -11846,6 +11947,17 @@
 			(justify right)
 		)
 		(uuid "fbed98b3-ac54-40af-8abf-3a043d649818")
+	)
+	(hierarchical_label "UART8_RX"
+		(shape input)
+		(at 364.49 80.01 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe658c94-7748-4725-88fe-8e5d0e20e913")
 	)
 	(hierarchical_label "nPOWER_IN_B"
 		(shape input)
