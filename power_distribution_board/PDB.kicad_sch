@@ -1280,6 +1280,252 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:AO3400A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AO3400A"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/product-detail/C20917.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-Channel 30V Surface Mount SOT-23-3L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C20917"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3400A_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.29) (xy -0.51 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.29) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.78) (xy 2.54 1.78) (xy 2.54 2.54) (xy 5.08 2.54) (xy 5.08 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.52 -0.51) (xy 1.52 0.51) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 0) (xy 2.54 -2.54) (xy 5.08 -2.54) (xy 5.08 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.51) (xy 0 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.29) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.78) (xy 0 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0.51) (xy 4.32 -0.76) (xy 5.84 -0.76) (xy 5.08 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.1 0.51) (xy 5.59 0.51) (xy 4.57 0.51) (xy 4.06 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:B560C-13-F"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2736,252 +2982,6 @@
 					(effects
 						(font
 							(size 0.889 0.889)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "easyeda2kicad:DMG2301L-7"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DMG2301L-7"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_DIODES_DMG2301L-7_DMG2301L-7_C102619.html"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-Channel 20V 3A 1.5W Surface Mount SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C102619"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DMG2301L-7_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.29) (xy -0.51 -2.29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.29) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.78) (xy 2.54 1.78) (xy 2.54 2.54) (xy 5.08 2.54) (xy 5.08 0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 2.54 0) (xy 2.54 -2.54) (xy 5.08 -2.54) (xy 5.08 -0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.51) (xy 0 0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.29) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.02 0.51) (xy 1.02 -0.51) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.78) (xy 0 -1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.06 -0.76) (xy 4.57 -0.76) (xy 5.59 -0.76) (xy 6.1 -0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -0.76) (xy 5.84 0.51) (xy 4.32 0.51) (xy 5.08 -0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
 						)
 					)
 				)
@@ -5490,6 +5490,12 @@
 		(uuid "3ff1a7f5-9a9e-4c0d-97cb-f493178f0fa8")
 	)
 	(junction
+		(at 284.48 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40e381d6-5f45-4618-ad73-e5a38cc6f30e")
+	)
+	(junction
 		(at 345.44 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5604,6 +5610,12 @@
 		(uuid "79f4f432-6c69-417a-9d82-f8c2a186e133")
 	)
 	(junction
+		(at 267.97 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e111eb5-5ca4-42dd-9eff-a5210899673b")
+	)
+	(junction
 		(at 176.53 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5646,6 +5658,18 @@
 		(uuid "96a02902-fb45-4f19-93cc-1bd50c7143a5")
 	)
 	(junction
+		(at 267.97 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fcc39de-1584-4789-bb04-c735a27e3790")
+	)
+	(junction
+		(at 104.14 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4041b44-b9f1-4078-a772-ab42b3ea2a4c")
+	)
+	(junction
 		(at 20.32 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5656,12 +5680,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad78e3e2-4f29-4e87-854b-38110f62ef4d")
-	)
-	(junction
-		(at 104.14 184.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae35e00c-a68f-48ad-ae67-ba621b689e80")
 	)
 	(junction
 		(at 349.25 185.42)
@@ -5975,6 +5993,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 184.15) (xy 109.22 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13fd81e1-233a-45e2-af3b-3ff47fac8b4b")
+	)
+	(wire
+		(pts
 			(xy 436.88 59.69) (xy 436.88 67.31)
 		)
 		(stroke
@@ -6135,6 +6163,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 31.75) (xy 254 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c2baf7-2424-4878-ad5c-d742c3a29e50")
+	)
+	(wire
+		(pts
 			(xy 473.71 224.79) (xy 473.71 220.98)
 		)
 		(stroke
@@ -6212,6 +6250,16 @@
 			(type default)
 		)
 		(uuid "2b61e899-22b6-4589-aaf6-9d40952388ba")
+	)
+	(wire
+		(pts
+			(xy 245.11 110.49) (xy 233.68 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d89c395-1905-47d7-870f-c15de749e698")
 	)
 	(wire
 		(pts
@@ -6515,6 +6563,26 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 184.15) (xy 109.22 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45c3e649-720e-4e70-a41c-ef42c95023f0")
+	)
+	(wire
+		(pts
+			(xy 267.97 41.91) (xy 267.97 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ac104d-8761-4a43-8fd5-39acc7d4b999")
+	)
+	(wire
+		(pts
 			(xy 444.5 67.31) (xy 452.12 67.31)
 		)
 		(stroke
@@ -6705,6 +6773,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 31.75) (xy 264.16 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5741047b-8c8d-4966-a724-07a54652bd63")
+	)
+	(wire
+		(pts
 			(xy 345.44 67.31) (xy 351.79 67.31)
 		)
 		(stroke
@@ -6782,6 +6860,16 @@
 			(type default)
 		)
 		(uuid "624f2084-4fdf-4123-a99d-beea4b9064a6")
+	)
+	(wire
+		(pts
+			(xy 234.95 58.42) (xy 234.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62fdbd14-f9a2-4434-8ed5-51711ed70696")
 	)
 	(wire
 		(pts
@@ -6972,6 +7060,16 @@
 			(type default)
 		)
 		(uuid "77fa7e7a-4240-4346-b780-cebe9476e480")
+	)
+	(wire
+		(pts
+			(xy 284.48 59.69) (xy 284.48 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783ca088-e33a-47a3-a34d-3ee6c694e2bb")
 	)
 	(wire
 		(pts
@@ -7255,6 +7353,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 93.98) (xy 267.97 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e9ccda-96a4-4c1c-9097-93155f32530f")
+	)
+	(wire
+		(pts
 			(xy 22.86 87.63) (xy 20.32 87.63)
 		)
 		(stroke
@@ -7412,6 +7520,16 @@
 			(type default)
 		)
 		(uuid "9c9474b0-1e3a-4d27-99dc-3f16ff8555c9")
+	)
+	(wire
+		(pts
+			(xy 233.68 110.49) (xy 233.68 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f04a167-9715-4fd8-aedc-6bad3677c197")
 	)
 	(wire
 		(pts
@@ -7625,6 +7743,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 39.37) (xy 259.08 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b139d90b-febf-4ec3-bfc5-bf4ac1331da9")
+	)
+	(wire
+		(pts
 			(xy 80.01 236.22) (xy 72.39 236.22)
 		)
 		(stroke
@@ -7642,6 +7770,16 @@
 			(type default)
 		)
 		(uuid "b1eef76a-bce8-4847-b1b9-711a59aa23cd")
+	)
+	(wire
+		(pts
+			(xy 267.97 85.09) (xy 264.16 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b284a9c3-ee96-430a-8c1a-a6649248222d")
 	)
 	(wire
 		(pts
@@ -7705,6 +7843,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 92.71) (xy 259.08 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82359a6-2dfc-4d21-9957-9ff98dc728fc")
+	)
+	(wire
+		(pts
 			(xy 435.61 69.85) (xy 422.91 69.85)
 		)
 		(stroke
@@ -7742,6 +7890,16 @@
 			(type default)
 		)
 		(uuid "bc5b6275-1df5-44d5-be1e-f57c8fa296a8")
+	)
+	(wire
+		(pts
+			(xy 245.11 58.42) (xy 234.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6bcac8-3025-4797-8888-c1549b6492cc")
 	)
 	(wire
 		(pts
@@ -7792,6 +7950,16 @@
 			(type default)
 		)
 		(uuid "c313235d-d574-4100-9d08-1cca9615146a")
+	)
+	(wire
+		(pts
+			(xy 267.97 31.75) (xy 284.48 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c335209f-dac8-499a-ac5c-668d59ffc1a2")
 	)
 	(wire
 		(pts
@@ -7905,16 +8073,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 184.15) (xy 110.49 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3d829c0-5e86-4125-ad0d-e8d657d4cca8")
-	)
-	(wire
-		(pts
 			(xy 381 64.77) (xy 377.19 64.77)
 		)
 		(stroke
@@ -7932,6 +8090,16 @@
 			(type default)
 		)
 		(uuid "d6428a98-597b-4516-82e9-6b04b4acb892")
+	)
+	(wire
+		(pts
+			(xy 222.25 29.21) (xy 222.25 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c5f322-fc49-4d54-b13d-ca0881084fb8")
 	)
 	(wire
 		(pts
@@ -8145,6 +8313,26 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 59.69) (xy 293.37 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1ddb86-e8e3-4bd1-8fd2-811c7c35a3f6")
+	)
+	(wire
+		(pts
+			(xy 293.37 59.69) (xy 293.37 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5cd4f5-9160-47fb-bc63-f541a3f2bca8")
+	)
+	(wire
+		(pts
 			(xy 54.61 48.26) (xy 44.45 48.26)
 		)
 		(stroke
@@ -8295,6 +8483,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 85.09) (xy 267.97 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb887700-39f4-4069-af38-1721f1cbe1e2")
+	)
+	(wire
+		(pts
 			(xy 473.71 162.56) (xy 473.71 195.58)
 		)
 		(stroke
@@ -8332,6 +8530,16 @@
 			(type default)
 		)
 		(uuid "ff2cd8c5-00a0-406b-b077-6a448cfaedf7")
+	)
+	(wire
+		(pts
+			(xy 284.48 31.75) (xy 284.48 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5b4528-2bc1-45f9-9a7c-20e5ebca1898")
 	)
 	(label "ALERT"
 		(at 116.84 91.44 0)
@@ -8487,6 +8695,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+10V")
+		(at 109.22 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0704bfed-53bd-46fb-b5d8-20ae7daf550f")
+		(property "Reference" "#PWR033"
+			(at 109.22 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V_USB"
+			(at 108.966 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80e3d1ca-b6a9-4f43-9c70-8f80391c0af6")
+		)
+		(instances
+			(project "PDB"
+				(path "/68b39743-cd9b-46b9-87c8-2ec94164be63"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 455.93 69.85 0)
 		(unit 1)
@@ -8619,6 +8892,85 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)")
+		(at 226.06 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0df4bcdc-5fa0-4336-a193-1243a47b395d")
+		(property "Reference" "C31"
+			(at 223.266 59.69 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)"
+			(at 231.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 233.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+			(at 236.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0603"
+			(at 217.424 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 238.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "165abc2b-dfd5-45ed-aa94-1a9d9533eec2")
+		)
+		(pin "1"
+			(uuid "e4fa4b21-6a66-4401-872e-fa91b97be0ac")
+		)
+		(instances
+			(project "PDB"
+				(path "/68b39743-cd9b-46b9-87c8-2ec94164be63"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:CL10A225KA8NNNC (2.2uf , 0603 ,25v ,X5R)")
 		(at 349.25 191.77 90)
 		(unit 1)
@@ -8691,88 +9043,6 @@
 			(project "PDB"
 				(path "/68b39743-cd9b-46b9-87c8-2ec94164be63"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:DMG2301L-7")
-		(at 264.16 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b953f8e-1ed9-4be3-8aa3-1a4e650fdb38")
-		(property "Reference" "Q1"
-			(at 271.78 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMG2301L-7"
-			(at 271.78 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 264.16 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_DIODES_DMG2301L-7_DMG2301L-7_C102619.html"
-			(at 264.16 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-Channel 20V 3A 1.5W Surface Mount SOT-23"
-			(at 264.16 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C102619"
-			(at 264.16 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1c7b8f60-aaba-49a3-83a9-ee4278bfce80")
-		)
-		(pin "1"
-			(uuid "6459149c-9b3d-40b9-b350-808158984660")
-		)
-		(pin "3"
-			(uuid "2ede855a-957e-4457-a064-ee20e30c39ff")
-		)
-		(instances
-			(project ""
-				(path "/68b39743-cd9b-46b9-87c8-2ec94164be63"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -9739,7 +10009,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:LM74700QDBVRQ1")
-		(at 259.08 91.44 0)
+		(at 259.08 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9748,7 +10018,7 @@
 		(fields_autoplaced yes)
 		(uuid "34db3518-db97-4fb3-9e1b-f8c327fe17db")
 		(property "Reference" "U5"
-			(at 250.698 85.09 0)
+			(at 250.698 95.25 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9757,7 +10027,7 @@
 			)
 		)
 		(property "Value" "LM74700QDBVRQ1"
-			(at 259.08 104.394 0)
+			(at 259.08 114.554 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9766,7 +10036,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
-			(at 260.35 111.506 0)
+			(at 260.35 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9775,7 +10045,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/C2941042.html"
-			(at 259.08 106.68 0)
+			(at 259.08 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9784,7 +10054,7 @@
 			)
 		)
 		(property "Description" "20mV 11mA 65V 2.37A SOT-23-6 OR Controllers, Ideal Diodes RoHS"
-			(at 259.08 109.22 0)
+			(at 259.08 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9793,7 +10063,7 @@
 			)
 		)
 		(property "LCSC Part" "C2941042"
-			(at 259.588 114.3 0)
+			(at 259.588 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10756,6 +11026,86 @@
 			(project "PDB"
 				(path "/68b39743-cd9b-46b9-87c8-2ec94164be63"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:AO3400A")
+		(at 259.08 34.29 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "611ca221-fd88-436a-a6c7-0872e25ba592")
+		(property "Reference" "Q2"
+			(at 259.08 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 259.08 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 246.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C20917.html"
+			(at 248.92 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 30V Surface Mount SOT-23-3L"
+			(at 259.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C20917"
+			(at 241.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5173a7ad-48c1-440a-ae15-891d2ef377bb")
+		)
+		(pin "2"
+			(uuid "7f58ca0b-2dc7-4e98-8a48-02c3f1e3d258")
+		)
+		(pin "3"
+			(uuid "9be1da33-2643-4f6c-8619-80d7a5b09f37")
+		)
+		(instances
+			(project ""
+				(path "/68b39743-cd9b-46b9-87c8-2ec94164be63"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -11891,6 +12241,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 233.68 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ee98a75-5b55-40f2-81bd-ee068b593ade")
+		(property "Reference" "#PWR036"
+			(at 233.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e00ad417-3d18-4063-8f40-723936cd7b4b")
+		)
+		(instances
+			(project "PDB"
+				(path "/68b39743-cd9b-46b9-87c8-2ec94164be63"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+10V")
 		(at 20.32 43.18 0)
 		(unit 1)
@@ -12347,71 +12763,6 @@
 			(project ""
 				(path "/68b39743-cd9b-46b9-87c8-2ec94164be63"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+10V")
-		(at 336.55 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9171c79a-07e5-4767-a28c-0dd6d699b9a6")
-		(property "Reference" "#PWR012"
-			(at 336.55 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "16.8V"
-			(at 336.296 60.706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 336.55 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 336.55 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 336.55 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2604ef89-b9fe-4ffe-a0b9-2007c1329806")
-		)
-		(instances
-			(project "PDB"
-				(path "/68b39743-cd9b-46b9-87c8-2ec94164be63"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -13062,6 +13413,86 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:AO3400A")
+		(at 259.08 87.63 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae8368b7-8f40-4260-8cc4-de6bd79a84ab")
+		(property "Reference" "Q3"
+			(at 259.08 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 259.08 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 246.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C20917.html"
+			(at 248.92 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 30V Surface Mount SOT-23-3L"
+			(at 259.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C20917"
+			(at 241.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb86bf1b-d683-4d25-89ae-3730b743fe20")
+		)
+		(pin "2"
+			(uuid "3080cfea-d919-4f8f-9288-d7250ab52ebd")
+		)
+		(pin "3"
+			(uuid "d07c2cc4-2951-4d53-95ac-2da77863f302")
+		)
+		(instances
+			(project "PDB"
+				(path "/68b39743-cd9b-46b9-87c8-2ec94164be63"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:CL10A225KA8NNNC (2.2uf , 0603 ,25v ,X5R)")
 		(at 351.79 73.66 90)
 		(unit 1)
@@ -13681,6 +14112,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+10V")
+		(at 220.98 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5b58041-86dc-4830-90ec-ae6c30f162bf")
+		(property "Reference" "#PWR034"
+			(at 220.98 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V_USB"
+			(at 220.726 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
+			(at 220.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c98c9d4d-24ef-411c-ac77-d4d7d38ab48c")
+		)
+		(instances
+			(project "PDB"
+				(path "/68b39743-cd9b-46b9-87c8-2ec94164be63"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:0603WAF5101T5E (5.1kohm , 0603)")
 		(at 53.34 238.76 90)
 		(unit 1)
@@ -13839,6 +14335,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 234.95 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8c6b390-6aaa-4825-8e8c-a279d96e8d67")
+		(property "Reference" "#PWR035"
+			(at 234.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78bcb955-194c-4ec6-9c3e-78428f4d91d5")
+		)
+		(instances
+			(project "PDB"
+				(path "/68b39743-cd9b-46b9-87c8-2ec94164be63"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)")
 		(at 393.7 162.56 0)
 		(unit 1)
@@ -13935,7 +14497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "16.8V"
+		(property "Value" "VOUT"
 			(at 333.756 178.816 0)
 			(effects
 				(font
@@ -14121,6 +14683,71 @@
 			(project "PDB"
 				(path "/68b39743-cd9b-46b9-87c8-2ec94164be63"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+10V")
+		(at 336.55 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce611722-a59f-4858-8c6a-394baefea5b7")
+		(property "Reference" "#PWR038"
+			(at 336.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VOUT"
+			(at 336.296 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 336.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
+			(at 336.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7530cd30-fb7d-4c70-9b9e-a765668159d6")
+		)
+		(instances
+			(project "PDB"
+				(path "/68b39743-cd9b-46b9-87c8-2ec94164be63"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -14422,6 +15049,71 @@
 			(project "PDB"
 				(path "/68b39743-cd9b-46b9-87c8-2ec94164be63"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+10V")
+		(at 222.25 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9d731c2-e74a-44c2-bc01-f9d521151faf")
+		(property "Reference" "#PWR024"
+			(at 222.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "16.8V"
+			(at 221.996 25.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
+			(at 222.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "958c45c6-f307-4d23-9cea-ca8c7dfa3769")
+		)
+		(instances
+			(project "PDB"
+				(path "/68b39743-cd9b-46b9-87c8-2ec94164be63"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -15327,6 +16019,71 @@
 			(project "PDB"
 				(path "/68b39743-cd9b-46b9-87c8-2ec94164be63"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+10V")
+		(at 293.37 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6d06b46-8e08-4264-9836-058a1c4a70e2")
+		(property "Reference" "#PWR037"
+			(at 293.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VOUT"
+			(at 293.116 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
+			(at 293.37 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3c3a6d2-7115-4157-bc90-6c83c369fe68")
+		)
+		(instances
+			(project "PDB"
+				(path "/68b39743-cd9b-46b9-87c8-2ec94164be63"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
