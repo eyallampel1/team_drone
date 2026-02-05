@@ -5562,17 +5562,6 @@
 		)
 		(uuid "4d33ec1a-1fe1-4207-8e42-b9f922edb8df")
 	)
-	(hierarchical_label "STM32F1_NRST"
-		(shape input)
-		(at 306.07 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "541086e4-6e6c-4ec4-b96e-956ec99b5f50")
-	)
 	(hierarchical_label "IO_SBUS_INPUT"
 		(shape input)
 		(at 306.07 175.26 180)

@@ -607,11 +607,11 @@
     ],
     [
       "a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40",
-      "REVISIONS"
+      "SERVO_RC"
     ],
     [
       "bc534bd1-f491-4966-ba4f-9fc6d85cb066",
-      "CAN and SPI bus"
+      "CAN and SPI"
     ],
     [
       "04e8a37e-c803-4b03-9bae-b305438bfc27",
@@ -624,6 +624,10 @@
     [
       "ee742a7d-8184-434b-840f-4020f45cd711",
       "UART and GPS"
+    ],
+    [
+      "050f1722-2ce7-4fbb-bd7f-6402b811e163",
+      "ETH"
     ]
   ],
   "text_variables": {}
