@@ -1468,6 +1468,198 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lampelKicadLIB:CC0603KRX7R9BB474 (470nF , 0603 ,50V ,X7R)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.048 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CC0603KRX7R9BB474 (470nF , 0603 ,50V ,X7R)"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:C0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/product-detail/C513577.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "470nF ±10% 50V Ceramic Capacitor X7R 0603"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C513577"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CC0603KRX7R9BB474 (470nF , 0603 ,50V ,X7R)_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.03) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CC0603KRX7R9BB474 (470nF , 0603 ,50V ,X7R)_1_1"
+				(text "X7R"
+					(at -2.286 0.762 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(color 154 28 255 1)
+						)
+					)
+				)
+				(text "±10%"
+					(at -2.286 -0.762 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(color 154 28 255 1)
+						)
+					)
+				)
+				(text "0603"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(color 154 28 255 1)
+						)
+					)
+				)
+				(text "50V"
+					(at 2.032 0.762 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+							(color 255 0 2 1)
+						)
+					)
+				)
+				(text "470nF"
+					(at 2.794 -1.016 0)
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lampelKicadLIB:CL10A225KO8NNNC (2.2uf , 0603,16v,X5R)"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3334,16 +3526,6 @@
 		)
 		(uuid "55e96a2e-35df-4f0f-912f-cc64fd01c6aa")
 	)
-	(text "0.47uF"
-		(exclude_from_sim no)
-		(at 361.95 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "903d1b2b-7789-4e6b-af6d-0cb5e50c4f5b")
-	)
 	(text "EEPROM 64Kbit\nI2C3 - 0x51"
 		(exclude_from_sim no)
 		(at 186.69 124.46 0)
@@ -3540,6 +3722,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "809ab410-346e-41db-9553-cc201b121a04")
+	)
+	(junction
+		(at 219.71 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "905810cf-20c5-4f17-9ca7-7430d4eb05a0")
 	)
 	(junction
 		(at 405.13 231.14)
@@ -3777,6 +3965,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 199.39) (xy 219.71 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027df6b6-c353-4890-9b03-7932535630c1")
+	)
+	(wire
+		(pts
 			(xy 461.01 281.94) (xy 505.46 281.94)
 		)
 		(stroke
@@ -3974,6 +4172,16 @@
 			(type default)
 		)
 		(uuid "1ed0794e-83bf-4b82-b499-06d3f6b521e1")
+	)
+	(wire
+		(pts
+			(xy 219.71 198.12) (xy 219.71 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c9df8d-31b9-4eea-b0b9-3178773c0c41")
 	)
 	(wire
 		(pts
@@ -4537,7 +4745,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 83.82) (xy 361.95 87.63)
+			(xy 361.95 83.82) (xy 361.95 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4767,6 +4975,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 95.25) (xy 361.95 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84260b77-86f3-4a8f-a42a-72a6a9ccf5ad")
+	)
+	(wire
+		(pts
 			(xy 391.16 219.71) (xy 393.7 219.71)
 		)
 		(stroke
@@ -4784,6 +5002,16 @@
 			(type default)
 		)
 		(uuid "85fbc807-5b2e-402e-b6b6-19ec14f917fa")
+	)
+	(wire
+		(pts
+			(xy 219.71 199.39) (xy 226.06 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "892af23d-ff82-4317-beca-ccfd323b70f8")
 	)
 	(wire
 		(pts
@@ -5062,7 +5290,6 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 255 0 0 1)
 		)
 		(uuid "b1666067-88f1-4c2d-a989-a457c4f68d48")
 	)
@@ -5075,6 +5302,16 @@
 			(type default)
 		)
 		(uuid "b1e073b2-0c3a-4467-88f3-d0daaa78d07f")
+	)
+	(wire
+		(pts
+			(xy 226.06 199.39) (xy 226.06 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24b1baa-7cdb-4225-aa93-9e989191ff49")
 	)
 	(wire
 		(pts
@@ -5498,16 +5735,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 227.33) (xy 219.71 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee6e0b23-3705-4348-8414-0623b5ddfc1b")
-	)
-	(wire
-		(pts
 			(xy 262.89 215.9) (xy 262.89 234.95)
 		)
 		(stroke
@@ -5575,6 +5802,16 @@
 			(type default)
 		)
 		(uuid "f51fcc23-956e-4071-92f3-46cd774b8948")
+	)
+	(wire
+		(pts
+			(xy 226.06 212.09) (xy 226.06 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8037a55-967c-4780-a429-3ec7baa13523")
 	)
 	(wire
 		(pts
@@ -6329,6 +6566,17 @@
 			(justify left)
 		)
 		(uuid "54994a03-0a4c-4a4e-989a-faa799c3ed4f")
+	)
+	(hierarchical_label "SD_CARD_DETECT"
+		(shape output)
+		(at 245.11 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57c925dc-4fef-4a3c-8c73-596cfe34153a")
 	)
 	(hierarchical_label "SPI2_DRDY2_INT2"
 		(shape output)
@@ -7575,6 +7823,85 @@
 		)
 	)
 	(symbol
+		(lib_id "lampelKicadLIB:CC0603KRX7R9BB474 (470nF , 0603 ,50V ,X7R)")
+		(at 361.95 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2df425a3-35cc-4c4a-894e-58a85a8fe19d")
+		(property "Reference" "C53"
+			(at 358.902 90.17 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CC0603KRX7R9BB474 (470nF , 0603 ,50V ,X7R)"
+			(at 367.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 369.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C513577.html"
+			(at 372.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "470nF ±10% 50V Ceramic Capacitor X7R 0603"
+			(at 377.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C513577"
+			(at 374.65 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baa35916-d84c-4ff5-944c-8dbdde75e9e2")
+		)
+		(pin "2"
+			(uuid "31d1ab5e-fb1f-4ccf-b26e-4c400a841fea")
+		)
+		(instances
+			(project ""
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/868a4ffc-d89e-48bc-9c7c-6b44894a914b"
+					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 350.52 77.47 0)
 		(mirror y)
@@ -7642,7 +7969,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 361.95 92.71 0)
+		(at 361.95 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7650,7 +7977,7 @@
 		(dnp no)
 		(uuid "2ffd249f-2f2a-491c-8567-6c77c31b486a")
 		(property "Reference" "#PWR091"
-			(at 361.95 99.06 0)
+			(at 361.95 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7659,7 +7986,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 362.204 96.774 0)
+			(at 362.204 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7667,7 +7994,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 361.95 92.71 0)
+			(at 361.95 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7676,7 +8003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 361.95 92.71 0)
+			(at 361.95 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7685,7 +8012,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 361.95 92.71 0)
+			(at 361.95 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7894,6 +8221,85 @@
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/868a4ffc-d89e-48bc-9c7c-6b44894a914b"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)")
+		(at 226.06 205.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48c36ca8-24ba-41e5-bc31-941a3a9cf39e")
+		(property "Reference" "C72"
+			(at 223.266 205.74 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)"
+			(at 231.14 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 233.68 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+			(at 236.22 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0603"
+			(at 226.06 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 238.76 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "276aeb6c-0952-4ae1-aa3c-7dcf1086bf71")
+		)
+		(pin "2"
+			(uuid "1060c3b6-ad2a-4928-8ec9-f24a66d802d5")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/868a4ffc-d89e-48bc-9c7c-6b44894a914b"
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -9212,6 +9618,69 @@
 		)
 	)
 	(symbol
+		(lib_id "SAMC21_breakout-rescue:GND")
+		(at 226.06 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8769ac42-70ec-4f0a-9574-5e92e5f76f71")
+		(property "Reference" "#PWR0463"
+			(at 226.06 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0755a069-5352-4b49-b72c-03ace1e1e68c")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/868a4ffc-d89e-48bc-9c7c-6b44894a914b"
+					(reference "#PWR0463")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:0603WAF1002T5E")
 		(at 458.47 210.82 90)
 		(unit 1)
@@ -9888,6 +10357,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 219.71 198.12 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a93c1fa4-49c3-4e70-b7c9-2c272fafb4f0")
+		(property "Reference" "#PWR0178"
+			(at 219.71 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 219.71 194.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 219.71 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b92d9f1-43cb-4b1c-ad60-abd026e49355")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/868a4ffc-d89e-48bc-9c7c-6b44894a914b"
+					(reference "#PWR0178")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lampelKicadLIB:CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)")
 		(at 435.61 293.37 90)
 		(unit 1)
@@ -10027,71 +10562,6 @@
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/868a4ffc-d89e-48bc-9c7c-6b44894a914b"
 					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 219.71 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c093b11b-395d-4b56-9bce-e9c9cb80d26a")
-		(property "Reference" "#PWR0104"
-			(at 219.71 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3"
-			(at 219.71 209.804 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 219.71 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82639272-ad9f-4a6a-b6f5-01fe8e5ccf27")
-		)
-		(instances
-			(project "FP_BOARD"
-				(path "/17737359-1a8e-4237-8899-d9604030bc1d/868a4ffc-d89e-48bc-9c7c-6b44894a914b"
-					(reference "#PWR0104")
 					(unit 1)
 				)
 			)

@@ -132,567 +132,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_Ethernet:LAN8742A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -13.97 29.21 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "LAN8742A"
-				(at 15.24 29.21 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
-				(at 1.27 -26.67 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/8742a.pdf"
-				(at 0 -39.37 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "LAN8720 Ethernet PHY with RMII interface, QFN-24"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "ETH PHY RMII"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "VQFN*1EP*4x4mm*P0.5mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LAN8742A_0_0"
-				(text "RMII"
-					(at -5.08 -3.81 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "LAN8742A_0_1"
-				(rectangle
-					(start -17.78 27.94)
-					(end 15.24 -25.4)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -17.78 -6.35) (xy -1.27 -6.35) (xy -1.27 16.51) (xy -17.78 16.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LAN8742A_1_1"
-				(pin input line
-					(at -20.32 15.24 0)
-					(length 2.54)
-					(name "TXD0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 12.7 0)
-					(length 2.54)
-					(name "TXD1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 10.16 0)
-					(length 2.54)
-					(name "TXEN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 7.62 0)
-					(length 2.54)
-					(name "RXD0/MODE0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 5.08 0)
-					(length 2.54)
-					(name "RXD1/MODE1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -20.32 2.54 0)
-					(length 2.54)
-					(name "RXER/PHYAD0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 0 0)
-					(length 2.54)
-					(name "CRS_DV/MODE2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -20.32 -2.54 0)
-					(length 2.54)
-					(name "MDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -5.08 0)
-					(length 2.54)
-					(name "MDC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -10.16 0)
-					(length 2.54)
-					(name "~{RST}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -20.32 -12.7 0)
-					(length 2.54)
-					(name "~{INT}/REFCLKO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -20.32 -17.78 0)
-					(length 2.54)
-					(name "XTAL1/CLKIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -20.32 -20.32 0)
-					(length 2.54)
-					(name "XTAL2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 30.48 270)
-					(length 2.54)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 30.48 270)
-					(length 2.54)
-					(name "VDDCR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 30.48 270)
-					(length 2.54)
-					(name "VDD1A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -27.94 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 30.48 270)
-					(length 2.54)
-					(name "VDD2A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 12.7 180)
-					(length 2.54)
-					(name "TXP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 10.16 180)
-					(length 2.54)
-					(name "TXN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 7.62 180)
-					(length 2.54)
-					(name "RXP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 5.08 180)
-					(length 2.54)
-					(name "RXN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 -2.54 180)
-					(length 2.54)
-					(name "RBIAS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 -7.62 180)
-					(length 2.54)
-					(name "LED1/REGOFF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "~{INT}/REGOFF" bidirectional line)
-					(alternate "~{PME}/REGOFF" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 17.78 -10.16 180)
-					(length 2.54)
-					(name "LED2/~{INTSEL}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "~{INT}/~{INTSEL}" output line)
-					(alternate "~{PME}/~{INTSEL}" output line)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "easyeda2kicad:0603WAF1002T5E"
 			(pin_names
 				(hide yes)
@@ -4980,7 +4419,8 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 20.32 0)
+				(at 5.842 -27.432 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4988,7 +4428,8 @@
 				)
 			)
 			(property "Value" "LAN8742AI-CZ"
-				(at 0 -20.32 0)
+				(at 11.938 -30.226 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4996,7 +4437,7 @@
 				)
 			)
 			(property "Footprint" "easyeda2kicad:QFN-24_L4.0-W4.0-P0.50-BL-EP2.6"
-				(at 0 -22.86 0)
+				(at -0.254 -48.006 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5005,7 +4446,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.lcsc.com/product-detail/C153279.html"
-				(at 0 -10.16 0)
+				(at 0.254 -56.388 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5014,7 +4455,7 @@
 				)
 			)
 			(property "Description" "1.8V~3.3V PHY Transceiver RMII QFN-24-EP(4x4) Drivers, Receivers, Transceivers RoHS"
-				(at 0 0 0)
+				(at 0 -51.562 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5023,7 +4464,7 @@
 				)
 			)
 			(property "LCSC Part" "C153279"
-				(at 0 -27.94 0)
+				(at -0.254 -43.434 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5031,21 +4472,32 @@
 					(hide yes)
 				)
 			)
+			(symbol "LAN8742AI-CZ_0_0"
+				(text "RMII"
+					(at -5.08 -3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(symbol "LAN8742AI-CZ_0_1"
 				(rectangle
-					(start -40.64 17.78)
-					(end 40.64 -17.78)
+					(start -17.78 27.94)
+					(end 15.24 -25.4)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(circle
-					(center -39.37 16.51)
-					(radius 0.38)
+				(polyline
+					(pts
+						(xy -17.78 -6.35) (xy -1.27 -6.35) (xy -1.27 16.51) (xy -17.78 16.51)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -5054,368 +4506,10 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
-					(at -43.18 15.24 0)
-					(length 2.54)
-					(name "VDD2A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -43.18 12.7 0)
-					(length 2.54)
-					(name "LED2/nINT/nPME/nINTSEL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -43.18 10.16 0)
-					(length 2.54)
-					(name "LED1/nINT/nPME/REGOFF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -43.18 7.62 0)
-					(length 2.54)
-					(name "XTAL2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -43.18 5.08 0)
-					(length 2.54)
-					(name "XTAL1/CLKIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -43.18 2.54 0)
-					(length 2.54)
-					(name "VDDCR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -43.18 0 0)
-					(length 2.54)
-					(name "RXD1/MODE1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -43.18 -2.54 0)
-					(length 2.54)
-					(name "RXD0/MODE0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -43.18 -5.08 0)
-					(length 2.54)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -43.18 -7.62 0)
-					(length 2.54)
-					(name "RXER/PHYAD0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -43.18 -10.16 0)
-					(length 2.54)
-					(name "CRS_DV/MODE2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -43.18 -12.7 0)
-					(length 2.54)
-					(name "MDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 43.18 15.24 180)
-					(length 2.54)
-					(name "EPAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 43.18 12.7 180)
-					(length 2.54)
-					(name "RBIAS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 43.18 10.16 180)
-					(length 2.54)
-					(name "RXP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 43.18 7.62 180)
-					(length 2.54)
-					(name "RXN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 43.18 5.08 180)
-					(length 2.54)
-					(name "TXP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 43.18 2.54 180)
-					(length 2.54)
-					(name "TXN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 43.18 0 180)
-					(length 2.54)
-					(name "VDD1A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 43.18 -2.54 180)
-					(length 2.54)
-					(name "TXD1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 43.18 -5.08 180)
+			)
+			(symbol "LAN8742AI-CZ_1_1"
+				(pin input line
+					(at -20.32 15.24 0)
 					(length 2.54)
 					(name "TXD0"
 						(effects
@@ -5432,8 +4526,26 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 43.18 -7.62 180)
+				(pin input line
+					(at -20.32 12.7 0)
+					(length 2.54)
+					(name "TXD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 10.16 0)
 					(length 2.54)
 					(name "TXEN"
 						(effects
@@ -5450,17 +4562,17 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 43.18 -10.16 180)
+				(pin bidirectional line
+					(at -20.32 7.62 0)
 					(length 2.54)
-					(name "nRST"
+					(name "RXD0/MODE0"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "15"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5468,17 +4580,17 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 43.18 -12.7 180)
+				(pin bidirectional line
+					(at -20.32 5.08 0)
 					(length 2.54)
-					(name "nINT/REFCLKO"
+					(name "RXD1/MODE1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5486,8 +4598,62 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 43.18 -15.24 180)
+				(pin output line
+					(at -20.32 2.54 0)
+					(length 2.54)
+					(name "RXER/PHYAD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 0 0)
+					(length 2.54)
+					(name "CRS_DV/MODE2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -2.54 0)
+					(length 2.54)
+					(name "MDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -5.08 0)
 					(length 2.54)
 					(name "MDC"
 						(effects
@@ -5503,6 +4669,298 @@
 							)
 						)
 					)
+				)
+				(pin input line
+					(at -20.32 -10.16 0)
+					(length 2.54)
+					(name "~{RST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -12.7 0)
+					(length 2.54)
+					(name "~{INT}/REFCLKO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -17.78 0)
+					(length 2.54)
+					(name "XTAL1/CLKIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -20.32 0)
+					(length 2.54)
+					(name "XTAL2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 30.48 270)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 30.48 270)
+					(length 2.54)
+					(name "VDDCR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 30.48 270)
+					(length 2.54)
+					(name "VDD1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -27.94 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 30.48 270)
+					(length 2.54)
+					(name "VDD2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 12.7 180)
+					(length 2.54)
+					(name "TXP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 10.16 180)
+					(length 2.54)
+					(name "TXN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 7.62 180)
+					(length 2.54)
+					(name "RXP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 5.08 180)
+					(length 2.54)
+					(name "RXN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -2.54 180)
+					(length 2.54)
+					(name "RBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -7.62 180)
+					(length 2.54)
+					(name "LED1/REGOFF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "~{INT}/REGOFF" bidirectional line)
+					(alternate "~{PME}/REGOFF" bidirectional line)
+				)
+				(pin bidirectional line
+					(at 17.78 -10.16 180)
+					(length 2.54)
+					(name "LED2/~{INTSEL}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "~{INT}/~{INTSEL}" output line)
+					(alternate "~{PME}/~{INTSEL}" output line)
 				)
 			)
 			(embedded_fonts no)
@@ -9955,152 +9413,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lampelKicadLIB:LAN8742AI-CZ")
-		(at 356.87 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84e3a3aa-169c-4204-ab9d-a130e786e3f4")
-		(property "Reference" "U10"
-			(at 356.87 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LAN8742AI-CZ"
-			(at 356.87 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:QFN-24_L4.0-W4.0-P0.50-BL-EP2.6"
-			(at 356.87 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C153279.html"
-			(at 356.87 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.8V~3.3V PHY Transceiver RMII QFN-24-EP(4x4) Drivers, Receivers, Transceivers RoHS"
-			(at 356.87 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C153279"
-			(at 356.87 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "17"
-			(uuid "3e8622a4-5bc6-4903-bf2a-433790d48e5d")
-		)
-		(pin "6"
-			(uuid "a0526742-8d25-46cf-975b-a9c7edaebf74")
-		)
-		(pin "3"
-			(uuid "e17f20dc-2ec4-41cb-b6e8-453fdd38c07f")
-		)
-		(pin "24"
-			(uuid "3b2b3c21-7c01-4b28-9d74-debbd1ef2889")
-		)
-		(pin "25"
-			(uuid "9e1106ad-1fc5-4889-93e3-693b58821fd9")
-		)
-		(pin "23"
-			(uuid "c882de37-a51f-43e1-8335-375fe8c1dfb8")
-		)
-		(pin "7"
-			(uuid "5d5bfabb-3ec3-47d4-82fd-c021f7148dc2")
-		)
-		(pin "1"
-			(uuid "191c3f15-046e-4d43-8809-637412603a2d")
-		)
-		(pin "9"
-			(uuid "c88a4d7a-b363-4a46-b237-66e4ff7ea90b")
-		)
-		(pin "5"
-			(uuid "4fd56b83-2dfb-4c13-babd-1c1bc7c7b451")
-		)
-		(pin "8"
-			(uuid "aed5c70a-a358-4da0-82b5-61007edcb279")
-		)
-		(pin "11"
-			(uuid "d9e0b025-9bf3-4b2b-b8a4-ed35ea472442")
-		)
-		(pin "10"
-			(uuid "13d823f1-d5cc-4696-aa0f-aa236fafda01")
-		)
-		(pin "19"
-			(uuid "a3f70b5e-b577-4241-91d4-a06c60f5bb81")
-		)
-		(pin "18"
-			(uuid "b92ae48a-7912-47a8-83d1-47233385059e")
-		)
-		(pin "21"
-			(uuid "9b6175dc-f9c1-4ae5-93b6-7651a8c84633")
-		)
-		(pin "15"
-			(uuid "bcb1c227-9353-4969-85ea-a3cac0a04abe")
-		)
-		(pin "13"
-			(uuid "b79b7738-5d15-442e-9581-2e6eb860b248")
-		)
-		(pin "4"
-			(uuid "1e2c4a3a-01a6-4d80-857a-29daa15a311a")
-		)
-		(pin "14"
-			(uuid "91a275ac-23d6-4970-8f73-0ea63d1b9f0f")
-		)
-		(pin "16"
-			(uuid "b55a21f6-aea0-4769-8fbc-6b3847ec4a4f")
-		)
-		(pin "20"
-			(uuid "faae8f4a-e005-4c2c-a181-cb58bc37ec61")
-		)
-		(pin "2"
-			(uuid "b3857145-128e-4503-a1c1-a626637e91f9")
-		)
-		(pin "12"
-			(uuid "94bffb70-1889-4098-b460-46079e00ae2c")
-		)
-		(pin "22"
-			(uuid "9750802e-9f44-4267-8bc0-96320387b9d0")
-		)
-		(instances
-			(project "FP_BOARD"
-				(path "/17737359-1a8e-4237-8899-d9604030bc1d/050f1722-2ce7-4fbb-bd7f-6402b811e163"
-					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lampelKicadLIB:CL10C120JB8NNNC ( 12pf , 0603 , 50v , C0G)")
 		(at 33.02 116.84 0)
 		(unit 1)
@@ -11139,146 +10451,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_Ethernet:LAN8742A")
-		(at 118.11 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0d0bd85-96a0-45d0-bdf3-dfe55997ef9d")
-		(property "Reference" "U8"
-			(at 120.2533 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LAN8742A"
-			(at 120.2533 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
-			(at 119.38 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/8742a.pdf"
-			(at 118.11 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "LAN8720 Ethernet PHY with RMII interface, QFN-24"
-			(at 118.11 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "17"
-			(uuid "6153ceb5-391a-4b2f-b322-23f93c737304")
-		)
-		(pin "11"
-			(uuid "bf8c9e3c-64f8-4dd8-9df7-e28eeed36123")
-		)
-		(pin "5"
-			(uuid "09b80399-506e-4fed-9f53-06347033190e")
-		)
-		(pin "9"
-			(uuid "00eeda32-bfc8-475f-970e-3684a027421b")
-		)
-		(pin "8"
-			(uuid "d39e8009-5b74-4cfa-ace5-0f54dffd9fc5")
-		)
-		(pin "6"
-			(uuid "dbc57b49-7121-4c93-af25-e3dea5cab00d")
-		)
-		(pin "23"
-			(uuid "72784c43-6b17-4145-9a46-293aa799356c")
-		)
-		(pin "13"
-			(uuid "fd9ff0bd-0ab4-4d7f-8f81-d2c8c0098d0d")
-		)
-		(pin "24"
-			(uuid "19642812-e2b0-4b95-abde-f36029d59962")
-		)
-		(pin "15"
-			(uuid "f574cf70-0358-432f-b661-e0148bff6693")
-		)
-		(pin "3"
-			(uuid "1ce417c8-2aeb-4acf-af19-a7c0ad708a31")
-		)
-		(pin "1"
-			(uuid "ef8bf36c-eecc-4c85-82ab-26fb589c7fad")
-		)
-		(pin "4"
-			(uuid "3e3cb201-5b2f-404e-8b57-42fb3bddbb0a")
-		)
-		(pin "25"
-			(uuid "8cf25b33-beb2-413e-9bfe-ad2e33f59411")
-		)
-		(pin "14"
-			(uuid "e26e1ca8-1ff1-47e8-bc27-fcac6092510c")
-		)
-		(pin "7"
-			(uuid "d9359dac-868d-4625-a0dc-f6ca76b1241f")
-		)
-		(pin "19"
-			(uuid "ab2c72c3-dd52-4e0b-9d8f-79b3467bdcce")
-		)
-		(pin "12"
-			(uuid "7ae32c37-fb93-4652-a98e-13edda4d7362")
-		)
-		(pin "22"
-			(uuid "cfb4bfa2-9742-4e7f-96cf-87c121052962")
-		)
-		(pin "10"
-			(uuid "9cc9999f-98cd-4509-a589-0abf3dc4f4c6")
-		)
-		(pin "16"
-			(uuid "1e2c844c-32e9-4710-89ce-47be34fffb04")
-		)
-		(pin "21"
-			(uuid "7484cb72-3160-468c-aa11-e2938306bb73")
-		)
-		(pin "20"
-			(uuid "72f760d0-4638-4b8c-b8a2-7b8aef17c06b")
-		)
-		(pin "18"
-			(uuid "7c04aa62-2d2e-4f37-8e24-3dcf9669fc59")
-		)
-		(pin "2"
-			(uuid "38532dfb-85fe-4928-8300-925d685821a8")
-		)
-		(instances
-			(project ""
-				(path "/17737359-1a8e-4237-8899-d9604030bc1d/050f1722-2ce7-4fbb-bd7f-6402b811e163"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 205.74 59.69 0)
 		(mirror y)
@@ -11558,6 +10730,154 @@
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/050f1722-2ce7-4fbb-bd7f-6402b811e163"
 					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:LAN8742AI-CZ")
+		(at 118.11 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6e5b44c-ba8e-49d8-b0b9-a3c42b559d3b")
+		(property "Reference" "U3"
+			(at 123.952 117.602 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LAN8742AI-CZ"
+			(at 130.048 120.396 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:QFN-24_L4.0-W4.0-P0.50-BL-EP2.6"
+			(at 117.856 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C153279.html"
+			(at 118.364 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.8V~3.3V PHY Transceiver RMII QFN-24-EP(4x4) Drivers, Receivers, Transceivers RoHS"
+			(at 118.11 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C153279"
+			(at 117.856 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "18"
+			(uuid "53745dee-1197-46f5-bf3a-827d2aff6ad2")
+		)
+		(pin "9"
+			(uuid "f3792416-1571-41b7-a3a1-f3218167f378")
+		)
+		(pin "5"
+			(uuid "fa88d395-5967-4a88-b5de-7e419e76238d")
+		)
+		(pin "25"
+			(uuid "7b95935f-7e57-4776-927a-ce0d76342933")
+		)
+		(pin "15"
+			(uuid "6c0dfa8c-19c6-4c66-9695-306f8e70052b")
+		)
+		(pin "24"
+			(uuid "863c068f-5286-4c22-aa7d-3ee1f1195bc8")
+		)
+		(pin "12"
+			(uuid "494ea88f-ae75-4559-b704-5513d105aa1d")
+		)
+		(pin "6"
+			(uuid "afcd8a4d-00d9-4a4f-b091-6277990600f0")
+		)
+		(pin "16"
+			(uuid "9a4b766d-687f-4893-96c4-6e243ddf04d0")
+		)
+		(pin "7"
+			(uuid "f7330f68-9cb0-48c7-863f-f7493e2d79dd")
+		)
+		(pin "21"
+			(uuid "e7fd1867-d9a4-4849-95fa-0bf60f34462d")
+		)
+		(pin "20"
+			(uuid "bfab064a-0ed4-460f-af63-8cb4164312e3")
+		)
+		(pin "23"
+			(uuid "3dd4984e-f2d4-4311-97ef-96dd2b502876")
+		)
+		(pin "1"
+			(uuid "6571e5a0-08ac-4fab-ba81-63c2c2e3254b")
+		)
+		(pin "4"
+			(uuid "508931e1-b563-4552-9085-4627455276b9")
+		)
+		(pin "11"
+			(uuid "2d71f0a3-879c-4561-8d68-7d171aa352da")
+		)
+		(pin "13"
+			(uuid "0144e549-1266-426e-a899-522be19923aa")
+		)
+		(pin "22"
+			(uuid "a29720b6-8668-4c54-a18a-61fe972b36f8")
+		)
+		(pin "3"
+			(uuid "8c7bc10d-6320-4962-ac3e-97af3b6b3bba")
+		)
+		(pin "2"
+			(uuid "55dca439-7d2f-477e-b648-ff5a6ab7e83e")
+		)
+		(pin "17"
+			(uuid "58cf25a1-6db0-4605-b99c-7d35244bb0d5")
+		)
+		(pin "8"
+			(uuid "95494762-7998-45c6-b0a7-ccd370fafc43")
+		)
+		(pin "10"
+			(uuid "67844164-5d9e-48d8-a630-f2d228a057ea")
+		)
+		(pin "14"
+			(uuid "9b010b5a-d8e2-4696-adf5-5b3bc2679dc1")
+		)
+		(pin "19"
+			(uuid "6c5a8ba4-b712-42ad-a5ba-c48d5100008c")
+		)
+		(instances
+			(project ""
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/050f1722-2ce7-4fbb-bd7f-6402b811e163"
+					(reference "U3")
 					(unit 1)
 				)
 			)

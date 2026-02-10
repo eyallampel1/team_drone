@@ -623,11 +623,15 @@
     ],
     [
       "ee742a7d-8184-434b-840f-4020f45cd711",
-      "UART and GPS"
+      "TELEM"
     ],
     [
       "050f1722-2ce7-4fbb-bd7f-6402b811e163",
       "ETH"
+    ],
+    [
+      "31f9a705-a1ce-4496-8891-d4c27269046d",
+      "GPS"
     ]
   ],
   "text_variables": {}

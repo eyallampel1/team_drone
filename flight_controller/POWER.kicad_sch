@@ -252,6 +252,16 @@
 		)
 		(uuid "06068187-8e31-44cf-8787-ab0e3ed1045e")
 	)
+	(text "???"
+		(exclude_from_sim no)
+		(at 157.226 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0882f805-2d7e-4b9b-aaaf-09814c9110e3")
+	)
 	(text "JST B8B-PH-SM4-TBT(LF)(SN)\nCONN 8 PIN"
 		(exclude_from_sim no)
 		(at 102.87 37.338 0)
@@ -319,6 +329,17 @@
 			(type default)
 		)
 		(uuid "32e2f55e-ad59-426f-876a-4fc6f9ec16c4")
+	)
+	(wire
+		(pts
+			(xy 123.19 123.19) (xy 158.75 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "6629fe38-4d2c-4ad2-b9b0-7efff390bc3a")
 	)
 	(wire
 		(pts
@@ -430,6 +451,16 @@
 		)
 		(uuid "f91bf1e3-6905-432b-91c3-798b7b1e6c85")
 	)
+	(label "USB_TYPE_C_SENSE"
+		(at 132.08 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f1ab67a-b095-4f30-afe1-68dc92185612")
+	)
 	(label "I2C1_SCL_INA226"
 		(at 127 83.82 0)
 		(effects
@@ -471,6 +502,17 @@
 			(justify left)
 		)
 		(uuid "a37e62d7-8167-4c4d-beb0-c5bcbac553d4")
+	)
+	(hierarchical_label "USB_TYPE_C_SENSE"
+		(shape output)
+		(at 158.75 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c265a161-29ce-4a9d-ac68-adcfdb72489f")
 	)
 	(symbol
 		(lib_id "power:GND")
