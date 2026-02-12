@@ -1933,19 +1933,19 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "SERVO\nIO"
+	(text "Use IO_CH\nas PWM\nfor Servo"
 		(exclude_from_sim no)
-		(at 418.084 222.504 0)
+		(at 419.354 223.012 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 			)
 		)
-		(uuid "1d9bcd60-321f-4723-bd6e-56bf58b1e20f")
+		(uuid "0c4d44cf-1e89-46a6-bd53-89d15fdf0bdf")
 	)
-	(text "SERVO"
+	(text "Spare FMU_CH"
 		(exclude_from_sim no)
-		(at 421.64 79.248 0)
+		(at 423.418 75.438 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1953,9 +1953,9 @@
 		)
 		(uuid "347fcb0b-6859-480a-a4fa-827136b30ad2")
 	)
-	(text "SERVO\nFMC"
+	(text "Use FMU_CH as\nPWM or DShot\nfor Motors"
 		(exclude_from_sim no)
-		(at 420.37 147.574 0)
+		(at 427.228 149.86 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1982,6 +1982,16 @@
 			)
 		)
 		(uuid "cd97bd56-14de-40c6-8544-d976a68ad9e7")
+	)
+	(text "Spare IO_CH"
+		(exclude_from_sim no)
+		(at 421.386 83.058 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "f39aeadb-2661-4637-84cf-1e0e4b4c51d2")
 	)
 	(junction
 		(at 389.89 325.12)
