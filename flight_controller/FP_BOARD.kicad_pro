@@ -393,7 +393,7 @@
     ],
     "rule_severities": {
       "bus_definition_conflict": "error",
-      "bus_entry_needed": "error",
+      "bus_entry_needed": "warning",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
       "conflicting_netclasses": "error",
@@ -406,7 +406,7 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
-      "global_label_dangling": "warning",
+      "global_label_dangling": "error",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
@@ -421,20 +421,20 @@
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
-      "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "pin_not_driven": "warning",
+      "pin_to_pin": "error",
+      "power_pin_not_driven": "warning",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "error",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
-      "wire_dangling": "error"
+      "wire_dangling": "warning"
     }
   },
   "libraries": {
@@ -474,7 +474,14 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/USB_OTG_FS_DM": [
+        "pair"
+      ],
+      "/USB_OTG_FS_DP": [
+        "pair"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -607,11 +614,11 @@
     ],
     [
       "a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40",
-      "REVISIONS"
+      "SERVO_RC"
     ],
     [
       "bc534bd1-f491-4966-ba4f-9fc6d85cb066",
-      "CAN and SPI bus"
+      "CAN and External"
     ],
     [
       "04e8a37e-c803-4b03-9bae-b305438bfc27",
@@ -623,7 +630,19 @@
     ],
     [
       "ee742a7d-8184-434b-840f-4020f45cd711",
-      "UART and GPS"
+      "TELEM"
+    ],
+    [
+      "050f1722-2ce7-4fbb-bd7f-6402b811e163",
+      "ETH"
+    ],
+    [
+      "31f9a705-a1ce-4496-8891-d4c27269046d",
+      "GPS"
+    ],
+    [
+      "9d897fa1-9f20-45cb-8d2c-42b78b3f3ef1",
+      "USB"
     ]
   ],
   "text_variables": {}

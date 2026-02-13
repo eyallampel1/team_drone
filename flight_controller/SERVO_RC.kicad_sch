@@ -1,0 +1,6619 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1d4ccfca-dd5f-41ee-9829-27104ebb2538")
+	(paper "A2")
+	(lib_symbols
+		(symbol "B3B-ZR-SM4-TF(LF)(SN)_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 8.89 4.318 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B3B-ZR-SM4-TF(LF)(SN)"
+				(at 19.304 0.762 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:CONN-SMD_B3B-ZR-SM4-TF"
+				(at -0.508 -32.004 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/product-detail/C489717.html"
+				(at -0.508 -26.924 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector Header 3 position 1.5mm Pitch 1A Surface Mount,Vertical -25℃~+85℃"
+				(at 1.016 -23.622 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C489717"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B3B-ZR-SM4-TF(LF)(SN)_1_0_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 7.62 270)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 -7.62 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "B3B-ZR-SM4-TF(LF)(SN)_1_1_1"
+				(text "Top Entry"
+					(at 7.112 -2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SAMC21_breakout-rescue:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:0603WAF1002T5E"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603WAF1002T5E"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C25804"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603WAF1002T5E_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:STM32H753IIT6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "STM32H753IIT6"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:LQFP-176_L24.0-W24.0-P0.50-BL"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/ST-Microelectronics_STMicroelectronics_STM32H753IIT6_STM32H753IIT6_C146558.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C146558"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.032 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603WAF2200T5E (220ohm  , 0603)"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "220Ω ±1% 100mW 0603 Thick Film Resistor"
+				(at -1.27 -14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C22962"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603WAF2200T5E (220ohm  , 0603)_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "0603WAF2200T5E (220ohm  , 0603)_1_1"
+				(text "0603"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "220Ω"
+					(at 0 -2.286 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lampelKicadLIB:0603WAF220JT5E (22ohm , 0603)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 2.032 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "603WAF220JT5E (22ohm , 0603)"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_22R-22R0-1_C23345.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "22Ω ±1% 100mW 0603 Thick Film Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C23345"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603WAF220JT5E (22ohm , 0603)_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "0603WAF220JT5E (22ohm , 0603)_1_1"
+				(text "0603"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "22Ω"
+					(at 0 -2.286 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lampelKicadLIB:CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 2.794 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:C0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C14663"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)_0_1"
+				(polyline
+					(pts
+						(xy -0.51 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 -2.03) (xy -0.51 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)_1_1"
+				(text "X7R"
+					(at -2.286 0.762 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(color 154 28 255 1)
+						)
+					)
+				)
+				(text "±10%"
+					(at -2.286 -0.762 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(color 154 28 255 1)
+						)
+					)
+				)
+				(text "0603"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 0.635 0.635)
+							(color 154 28 255 1)
+						)
+					)
+				)
+				(text "50v"
+					(at 2.032 0.762 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+							(color 154 28 255 1)
+						)
+					)
+				)
+				(text "100nF"
+					(at 2.794 -1.016 0)
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lampelKicadLIB:HXPZ2.54-3X4PZZ"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 16.256 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HX PZ2.54-3X4P ZZ"
+				(at 0 -18.034 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:HDR-TH_12P-P2.54-V-M-R3-C4-S2.54"
+				(at 0 -23.368 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C32713291"
+				(at 0 -25.908 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HXPZ2.54-3X4PZZ_0_1"
+				(rectangle
+					(start -7.62 15.24)
+					(end 7.62 -16.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 12.7) (xy -5.08 12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 10.16) (xy 0 10.16) (xy 0 11.43)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 7.62) (xy 3.81 7.62) (xy 3.81 11.43)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy 0 2.54) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 0) (xy 3.81 0) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy 0 -5.08) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -7.62) (xy 3.81 -7.62) (xy 3.81 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -10.16) (xy -5.08 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -12.7) (xy 0 -12.7) (xy 0 -11.43)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -15.24) (xy 3.81 -15.24) (xy 3.81 -11.43)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -6.35 13.97)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 12.7)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 5.08)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 -2.54)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 -10.16)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 12.7)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -10.16)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 12.7)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 5.08)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 -2.54)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 -10.16)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 12.7 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -12.7 0)
+					(length 2.54)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -15.24 0)
+					(length 2.54)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HXPZ2.54-3X4PZZ_1_1"
+				(text "HDR 3X4P"
+					(at 0 -20.32 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lampelKicadLIB:SN74LVC2G240DCTR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SN74LVC2G240DCTR"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SM8_L3.0-W2.8-P0.65-LS4.0-BL"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/product-detail/C2675797.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1.65V~5.5V 1 2 10uA 4.6ns@3.3V,50pF SSOP-8 Buffers, Drivers, Receivers, Transceivers RoHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2675797"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74LVC2G240DCTR_0_1"
+				(rectangle
+					(start -8.89 6.35)
+					(end 8.89 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -7.62 5.08)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 3.81 0)
+					(length 2.54)
+					(name "~{1OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 1.27 0)
+					(length 2.54)
+					(name "1A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -1.27 0)
+					(length 2.54)
+					(name "2Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 3.81 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 1.27 180)
+					(length 2.54)
+					(name "~{2OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -1.27 180)
+					(length 2.54)
+					(name "1Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 -3.81 180)
+					(length 2.54)
+					(name "2A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Use IO_CH\nas PWM\nfor Servo"
+		(exclude_from_sim no)
+		(at 419.354 223.012 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "0c4d44cf-1e89-46a6-bd53-89d15fdf0bdf")
+	)
+	(text "Spare FMU_CH"
+		(exclude_from_sim no)
+		(at 423.418 75.438 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "347fcb0b-6859-480a-a4fa-827136b30ad2")
+	)
+	(text "Use FMU_CH as\nPWM or DShot\nfor Motors"
+		(exclude_from_sim no)
+		(at 427.228 149.86 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "42f0c163-ccae-45a8-9634-47d2d6b99e9c")
+	)
+	(text "SBUS / PPM / RSSI"
+		(exclude_from_sim no)
+		(at 429.768 63.754 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "6b437817-7b5a-41f6-8032-18ec621d00c4")
+	)
+	(text "DSM"
+		(exclude_from_sim no)
+		(at 397.51 279.146 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "cd97bd56-14de-40c6-8544-d976a68ad9e7")
+	)
+	(text "Spare IO_CH"
+		(exclude_from_sim no)
+		(at 421.386 83.058 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "f39aeadb-2661-4637-84cf-1e0e4b4c51d2")
+	)
+	(junction
+		(at 389.89 325.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16d3ee51-7014-474c-8a3f-7b7e934d5f75")
+	)
+	(junction
+		(at 379.73 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "173340b5-fec3-48a6-908a-0e62c1930114")
+	)
+	(junction
+		(at 384.81 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d04b364-445c-4577-914f-8f01f87b1ce6")
+	)
+	(junction
+		(at 381 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20af575c-7367-48c0-b255-5fb771938138")
+	)
+	(junction
+		(at 381 293.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2703e477-92c2-4449-84c8-ec9e0be64c2d")
+	)
+	(junction
+		(at 387.35 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "330cdfeb-f3d2-4f80-8b67-df5bc713dc89")
+	)
+	(junction
+		(at 387.35 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36665785-39f7-44af-b614-6a66365bb0d7")
+	)
+	(junction
+		(at 375.92 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d2511df-7676-4048-8e71-0690e33f442d")
+	)
+	(junction
+		(at 384.81 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ffe2d2b-9e2a-47c2-8a30-4b8dc4232006")
+	)
+	(junction
+		(at 212.09 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44796548-ffb3-4bbf-84b6-341e95fd84bf")
+	)
+	(junction
+		(at 381 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b09dbee-3050-44ce-97bb-ede19a472ffe")
+	)
+	(junction
+		(at 382.27 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e49464f-d684-4979-8a3b-42171b850fad")
+	)
+	(junction
+		(at 278.13 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62b67dc5-f711-4fb8-9441-bd26a7a7e97c")
+	)
+	(junction
+		(at 382.27 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63212a60-8618-48f6-92a4-345fddc4f95b")
+	)
+	(junction
+		(at 379.73 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71467ad4-55cb-4876-a49e-ad57c8817d2a")
+	)
+	(junction
+		(at 381 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "800dde25-0795-402b-b013-ec82d09c80b9")
+	)
+	(junction
+		(at 241.3 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9958af53-9dbf-4ef0-98ff-ecb855ee4dca")
+	)
+	(junction
+		(at 382.27 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0e6780d-8db5-4ee3-93d8-74343435b4dc")
+	)
+	(junction
+		(at 387.35 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2360ee0-8a86-45d4-aa1b-5de34ea33685")
+	)
+	(junction
+		(at 389.89 317.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af64dcfa-61a3-4724-8e2b-491171081cc5")
+	)
+	(junction
+		(at 384.81 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdc6c580-7275-489f-955b-25e799d06cd7")
+	)
+	(junction
+		(at 278.13 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3b1e7ef-58bb-4fbc-b024-a0a0a4ff5e7f")
+	)
+	(junction
+		(at 379.73 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e33fe137-a149-42ec-8d30-0d982d3c1875")
+	)
+	(junction
+		(at 375.92 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8debe7a-798f-45a8-b31a-342f95907587")
+	)
+	(junction
+		(at 213.36 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb6d0ca2-85a0-4b81-9fde-fd156f596db3")
+	)
+	(junction
+		(at 375.92 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd008bdd-3533-44ef-a152-7c8490c06c6f")
+	)
+	(wire
+		(pts
+			(xy 355.6 142.24) (xy 388.62 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03be506e-e41a-47eb-9cc6-3bfff881c93d")
+	)
+	(wire
+		(pts
+			(xy 207.01 45.72) (xy 213.36 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e0810a-7031-4c0f-820a-9323d2dff423")
+	)
+	(wire
+		(pts
+			(xy 384.81 162.56) (xy 384.81 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b85656b-0a3f-4002-a4a5-b7e0611a8d6b")
+	)
+	(wire
+		(pts
+			(xy 213.36 62.23) (xy 215.9 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb92303-facb-4dc1-a99b-d7af6012378c")
+	)
+	(wire
+		(pts
+			(xy 278.13 59.69) (xy 391.16 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127a78d9-5360-4313-b7c8-2a0b8c3d0587")
+	)
+	(wire
+		(pts
+			(xy 384.81 139.7) (xy 384.81 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15da8b25-59a2-44c0-af87-09c7b755848c")
+	)
+	(wire
+		(pts
+			(xy 382.27 69.85) (xy 382.27 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b27417-3a13-4eea-964d-8cf40fe4f3e5")
+	)
+	(wire
+		(pts
+			(xy 374.65 314.96) (xy 392.43 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f2189c-0855-43ad-bc91-8a061c5209bc")
+	)
+	(wire
+		(pts
+			(xy 381 229.87) (xy 384.81 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ef0e12-0af8-4430-bdef-b0dea7b370ca")
+	)
+	(wire
+		(pts
+			(xy 350.52 224.79) (xy 384.81 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192c714a-2ab4-4f19-9083-251d3e475d2e")
+	)
+	(wire
+		(pts
+			(xy 350.52 232.41) (xy 384.81 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19946736-8396-46e9-9983-e46e28048e18")
+	)
+	(wire
+		(pts
+			(xy 392.43 317.5) (xy 389.89 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b4f8b04-182a-4634-ba3b-17490698d347")
+	)
+	(wire
+		(pts
+			(xy 378.46 292.1) (xy 378.46 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bb1306c-e2c5-45bb-bacf-fd6d68babbfa")
+	)
+	(wire
+		(pts
+			(xy 350.52 209.55) (xy 384.81 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc5364f-fa45-4bdb-9b00-3d9d7a72a3a5")
+	)
+	(wire
+		(pts
+			(xy 271.78 50.8) (xy 278.13 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2178dce2-6626-485c-bb27-c8ac67c6ce28")
+	)
+	(wire
+		(pts
+			(xy 257.81 83.82) (xy 278.13 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "240f671c-0b25-4c6c-9313-13ed4af6dfb2")
+	)
+	(wire
+		(pts
+			(xy 316.23 157.48) (xy 345.44 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b23e84-24d9-4147-8dee-c6f06fabf726")
+	)
+	(wire
+		(pts
+			(xy 389.89 325.12) (xy 401.32 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259da2ad-9f21-4c13-9283-6a83714ac776")
+	)
+	(wire
+		(pts
+			(xy 278.13 83.82) (xy 278.13 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a0fd90b-72c9-4e7e-bf0a-46c848022ee0")
+	)
+	(wire
+		(pts
+			(xy 311.15 209.55) (xy 340.36 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bdd6d38-5d2a-4c0a-93cf-7806a7f53ff6")
+	)
+	(wire
+		(pts
+			(xy 355.6 134.62) (xy 388.62 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c3012b8-775e-4956-abc8-1c8b71927a9d")
+	)
+	(wire
+		(pts
+			(xy 375.92 227.33) (xy 375.92 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d2bd869-8fd5-4f87-8850-12032305140b")
+	)
+	(wire
+		(pts
+			(xy 388.62 152.4) (xy 379.73 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dec2d52-169e-456e-848c-9f5e53f2ea1e")
+	)
+	(wire
+		(pts
+			(xy 358.14 74.93) (xy 391.16 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f502a4c-e48f-4074-a0d4-bed491a2c880")
+	)
+	(wire
+		(pts
+			(xy 355.6 157.48) (xy 388.62 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3090d5ea-d870-4e72-a28d-65f4ac8e52db")
+	)
+	(wire
+		(pts
+			(xy 381 237.49) (xy 381 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3218b8f7-f4c7-4137-93ce-80907f503c18")
+	)
+	(wire
+		(pts
+			(xy 384.81 154.94) (xy 388.62 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "333437c5-9204-4099-af20-a2a2150e63e8")
+	)
+	(wire
+		(pts
+			(xy 255.27 64.77) (xy 255.27 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "374b54cc-4951-4124-919a-27976a22fd4a")
+	)
+	(wire
+		(pts
+			(xy 381 237.49) (xy 384.81 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b43702d-8ea9-472e-8c0d-1c82894466a0")
+	)
+	(wire
+		(pts
+			(xy 381 222.25) (xy 381 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "417704e5-b7c4-49da-ac26-5470f9aae1b3")
+	)
+	(wire
+		(pts
+			(xy 375.92 234.95) (xy 375.92 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42072d35-f0aa-4bb4-a4cb-35a1a1086b2a")
+	)
+	(wire
+		(pts
+			(xy 242.57 50.8) (xy 261.62 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4224d9c8-72a5-4986-928c-e03290d0ced4")
+	)
+	(wire
+		(pts
+			(xy 186.69 64.77) (xy 212.09 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42fb467f-3e3e-446e-a156-9cd34c050b6d")
+	)
+	(wire
+		(pts
+			(xy 311.15 217.17) (xy 340.36 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4389f589-88d6-4434-8822-f82496e644e6")
+	)
+	(wire
+		(pts
+			(xy 382.27 48.26) (xy 382.27 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc39f76-4462-4d17-959e-db30b509e1de")
+	)
+	(wire
+		(pts
+			(xy 238.76 64.77) (xy 255.27 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ca98896-8bf6-4629-a0d3-8cccca8581d6")
+	)
+	(wire
+		(pts
+			(xy 238.76 62.23) (xy 241.3 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d126c59-a32c-4875-8e0b-be2bbb4b3c45")
+	)
+	(wire
+		(pts
+			(xy 387.35 87.63) (xy 387.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8d6bbe-104c-4fdd-93ce-e4763adf344d")
+	)
+	(wire
+		(pts
+			(xy 401.32 325.12) (xy 401.32 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51729475-9683-4e95-8892-2949549addf0")
+	)
+	(wire
+		(pts
+			(xy 271.78 59.69) (xy 278.13 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5219f1c7-147f-477e-aae2-02efe39a2cdf")
+	)
+	(wire
+		(pts
+			(xy 213.36 45.72) (xy 213.36 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "525e7922-fcfb-4681-a55b-541b12231a21")
+	)
+	(wire
+		(pts
+			(xy 238.76 67.31) (xy 261.62 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c1ca75-ed2d-4c23-96fd-c38092857ab3")
+	)
+	(wire
+		(pts
+			(xy 384.81 147.32) (xy 388.62 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "585ab51b-730a-498c-8ad1-b7c8eac42778")
+	)
+	(wire
+		(pts
+			(xy 316.23 149.86) (xy 345.44 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec95ed1-a515-4ecc-b643-d837ffa20ae3")
+	)
+	(wire
+		(pts
+			(xy 391.16 64.77) (xy 387.35 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608dfc75-d7e7-4aca-8942-beeecd17526d")
+	)
+	(wire
+		(pts
+			(xy 381 222.25) (xy 384.81 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63db9ba8-c535-4467-9cb2-03a4fba75d66")
+	)
+	(wire
+		(pts
+			(xy 382.27 69.85) (xy 391.16 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63e255e5-ca3b-4b02-b732-256dc3fc0d28")
+	)
+	(wire
+		(pts
+			(xy 241.3 69.85) (xy 241.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d2ee74-31a2-437f-8efb-f7f2759c37f4")
+	)
+	(wire
+		(pts
+			(xy 384.81 147.32) (xy 384.81 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d68f36-3224-4808-81fa-45ea451f3c33")
+	)
+	(wire
+		(pts
+			(xy 186.69 67.31) (xy 215.9 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d8ea0a-e97c-4638-9198-e485fd96f5d3")
+	)
+	(wire
+		(pts
+			(xy 384.81 212.09) (xy 375.92 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69770ea3-65a6-41b1-8c82-b71be02539f4")
+	)
+	(wire
+		(pts
+			(xy 311.15 232.41) (xy 340.36 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c8a3b8a-b291-4f79-8d70-17c2cff7e667")
+	)
+	(wire
+		(pts
+			(xy 212.09 85.09) (xy 212.09 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d82fe61-7226-40e8-8530-533b2a75e800")
+	)
+	(wire
+		(pts
+			(xy 207.01 46.99) (xy 207.01 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f51874e-b913-4ba0-8f21-0b7b273b9131")
+	)
+	(wire
+		(pts
+			(xy 382.27 85.09) (xy 382.27 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740636f5-43c6-4b0f-b8bb-942d6bc7d363")
+	)
+	(wire
+		(pts
+			(xy 375.92 198.12) (xy 375.92 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "751b110d-91fe-4bcb-8f88-9fd14a4219ed")
+	)
+	(wire
+		(pts
+			(xy 381 214.63) (xy 381 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7683a1c8-f08f-4611-b3a6-3631329d11b0")
+	)
+	(wire
+		(pts
+			(xy 384.81 234.95) (xy 375.92 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79091c28-d1c6-46bf-a0d3-ad3fcc3401a9")
+	)
+	(wire
+		(pts
+			(xy 318.77 74.93) (xy 347.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4d5b3a-db30-4cb3-bce0-95cf0c2f53bf")
+	)
+	(wire
+		(pts
+			(xy 316.23 142.24) (xy 345.44 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db53b57-2178-4725-973f-79c233a71d08")
+	)
+	(wire
+		(pts
+			(xy 271.78 67.31) (xy 278.13 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80027712-e899-4499-9435-6da836006dd3")
+	)
+	(wire
+		(pts
+			(xy 389.89 306.07) (xy 389.89 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82975e5a-0e50-48c6-b79b-dff3fff7480f")
+	)
+	(wire
+		(pts
+			(xy 387.35 64.77) (xy 387.35 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84292200-05b3-4a9a-83f3-ecb3bcdfe44e")
+	)
+	(wire
+		(pts
+			(xy 386.08 293.37) (xy 381 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86dd05b6-a894-46e7-aadb-32a5cb8816a7")
+	)
+	(wire
+		(pts
+			(xy 392.43 312.42) (xy 386.08 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874a4b2e-b73d-4cf1-813c-ef24aa3a5536")
+	)
+	(wire
+		(pts
+			(xy 401.32 306.07) (xy 401.32 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "884be80a-1852-4f47-b52d-cce7daa4e4d6")
+	)
+	(wire
+		(pts
+			(xy 212.09 64.77) (xy 212.09 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8905b360-da61-499b-b27a-e8f8f795c697")
+	)
+	(wire
+		(pts
+			(xy 387.35 80.01) (xy 391.16 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8977adae-88e6-4c1f-96d1-edeb173e7804")
+	)
+	(wire
+		(pts
+			(xy 389.89 317.5) (xy 389.89 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8afffd48-35d0-426e-b60b-4877400c5384")
+	)
+	(wire
+		(pts
+			(xy 213.36 44.45) (xy 213.36 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb98f22-d54a-4761-a587-93fdbf3a470b")
+	)
+	(wire
+		(pts
+			(xy 388.62 137.16) (xy 379.73 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d6758d2-3525-4f6f-9a8f-7fc481a91626")
+	)
+	(wire
+		(pts
+			(xy 311.15 224.79) (xy 340.36 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ebd10ea-48b0-4cf8-b353-5e8ed1eba7d2")
+	)
+	(wire
+		(pts
+			(xy 375.92 219.71) (xy 375.92 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f1ec388-87cb-4cd3-b85c-19b3519dad4c")
+	)
+	(wire
+		(pts
+			(xy 381 293.37) (xy 381 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920cab34-5fb0-4a41-a1c7-d20549301427")
+	)
+	(wire
+		(pts
+			(xy 278.13 67.31) (xy 391.16 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9481b306-b733-4772-bd36-14db00c5bbfc")
+	)
+	(wire
+		(pts
+			(xy 388.62 139.7) (xy 384.81 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a77d2cc-52d2-40ca-98fb-62eed4ec3571")
+	)
+	(wire
+		(pts
+			(xy 364.49 314.96) (xy 344.17 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c42fb21-87d8-43f5-8e8e-9f07f4df33e8")
+	)
+	(wire
+		(pts
+			(xy 391.16 85.09) (xy 382.27 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cbeed75-6708-4f38-93a2-2ac1fb9582e6")
+	)
+	(wire
+		(pts
+			(xy 384.81 227.33) (xy 375.92 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1253f86-cec2-4da1-8c3f-335c818bacbe")
+	)
+	(wire
+		(pts
+			(xy 358.14 82.55) (xy 391.16 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1381dfa-4d24-4782-bfa2-3e8edcf3e34f")
+	)
+	(wire
+		(pts
+			(xy 381 307.34) (xy 381 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e288e5-fdef-41fc-8f13-a572eaf47f7c")
+	)
+	(wire
+		(pts
+			(xy 387.35 87.63) (xy 391.16 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5329018-1b15-489e-a50f-c480f18c4e30")
+	)
+	(wire
+		(pts
+			(xy 186.69 69.85) (xy 215.9 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ea7b9a-e517-481e-8a19-5ef55c4d57fa")
+	)
+	(wire
+		(pts
+			(xy 350.52 217.17) (xy 384.81 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a73a38c4-c46a-47b6-be83-ebcbf1ad0437")
+	)
+	(wire
+		(pts
+			(xy 379.73 123.19) (xy 379.73 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae32839e-627d-45e9-9e61-d7ccec17dfae")
+	)
+	(wire
+		(pts
+			(xy 318.77 82.55) (xy 347.98 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b02e73a8-d277-478e-954b-3ec45649115b")
+	)
+	(wire
+		(pts
+			(xy 278.13 50.8) (xy 278.13 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30d60f3-2b1e-45fb-b005-c74a3348f663")
+	)
+	(wire
+		(pts
+			(xy 391.16 77.47) (xy 382.27 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40c0644-e6d6-455c-8a93-628806a2ec58")
+	)
+	(wire
+		(pts
+			(xy 384.81 214.63) (xy 381 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ddc248-3768-4ad6-a4ac-b6d34937cae7")
+	)
+	(wire
+		(pts
+			(xy 207.01 57.15) (xy 207.01 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa3624e-b8d6-4c9e-9a99-89ca407cb0d9")
+	)
+	(wire
+		(pts
+			(xy 382.27 62.23) (xy 391.16 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea1af22-a831-4199-8abb-d88bcd13907e")
+	)
+	(wire
+		(pts
+			(xy 388.62 144.78) (xy 379.73 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef20cf1-0518-4371-abd9-8d0298cc8f92")
+	)
+	(wire
+		(pts
+			(xy 278.13 67.31) (xy 278.13 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4290204-4546-43e0-b030-086f00250b14")
+	)
+	(wire
+		(pts
+			(xy 379.73 160.02) (xy 379.73 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5294a52-355a-435a-8cef-0ab74b90f091")
+	)
+	(wire
+		(pts
+			(xy 238.76 69.85) (xy 241.3 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca67ca4d-8aba-4d1b-aa11-69a187f2b8ee")
+	)
+	(wire
+		(pts
+			(xy 386.08 293.37) (xy 386.08 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb280631-3783-4d8e-999b-b35723e0dae7")
+	)
+	(wire
+		(pts
+			(xy 212.09 64.77) (xy 215.9 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca389e9-9393-4b18-8b5d-5e887c9b457b")
+	)
+	(wire
+		(pts
+			(xy 241.3 62.23) (xy 241.3 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd64476e-c129-4a24-808f-10a1406e908b")
+	)
+	(wire
+		(pts
+			(xy 387.35 72.39) (xy 387.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb21eec-d435-4c39-8cc0-29ed714496aa")
+	)
+	(wire
+		(pts
+			(xy 388.62 160.02) (xy 379.73 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce343e74-eea5-4040-a073-ae0b0016eeea")
+	)
+	(wire
+		(pts
+			(xy 379.73 144.78) (xy 379.73 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef368cf-1bca-41b7-9827-2246689f9aed")
+	)
+	(wire
+		(pts
+			(xy 355.6 149.86) (xy 388.62 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50adc22-201a-4d58-bcd2-7d4d55b1dedc")
+	)
+	(wire
+		(pts
+			(xy 389.89 325.12) (xy 389.89 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53f41cc-6017-48c0-8548-adfc9da5e8cb")
+	)
+	(wire
+		(pts
+			(xy 384.81 154.94) (xy 384.81 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9eee683-7c1b-4b59-97cb-512678256d37")
+	)
+	(wire
+		(pts
+			(xy 391.16 72.39) (xy 387.35 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db354151-d579-47ba-a106-2bade70c6a49")
+	)
+	(wire
+		(pts
+			(xy 378.46 293.37) (xy 381 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df95bdb0-9272-48f5-b0f3-056949009a40")
+	)
+	(wire
+		(pts
+			(xy 401.32 306.07) (xy 389.89 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1dd341d-54ad-4279-bbf4-22b4334caf45")
+	)
+	(wire
+		(pts
+			(xy 384.81 162.56) (xy 388.62 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e25cae22-7df0-43be-93d7-ad7206cd381f")
+	)
+	(wire
+		(pts
+			(xy 316.23 134.62) (xy 345.44 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8349b97-11cc-450b-9c31-d44cc19d15b7")
+	)
+	(wire
+		(pts
+			(xy 381 229.87) (xy 381 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8e4db35-5120-4ed1-8b36-6beee054ac99")
+	)
+	(wire
+		(pts
+			(xy 382.27 62.23) (xy 382.27 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab2f18b-0132-4ce7-9c4a-26dca88e852f")
+	)
+	(wire
+		(pts
+			(xy 384.81 219.71) (xy 375.92 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eea871a8-b862-43fc-a6f9-56ffe44ac07d")
+	)
+	(wire
+		(pts
+			(xy 255.27 59.69) (xy 261.62 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d1ebd2-e808-41a0-89cc-38a3bc771f78")
+	)
+	(wire
+		(pts
+			(xy 387.35 80.01) (xy 387.35 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3156ccc-7ad4-406f-9796-d9f051d38d5d")
+	)
+	(wire
+		(pts
+			(xy 379.73 152.4) (xy 379.73 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b700f6-62d6-4b6e-a70a-8c99e236dc7e")
+	)
+	(label "IO_CH3"
+		(at 334.01 217.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "267398e7-1188-4529-84dc-db71cad721b1")
+	)
+	(label "FMU_CH4"
+		(at 339.09 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4127a489-455d-4052-aa6f-3f037be42a31")
+	)
+	(label "IO_PPM_INPUT"
+		(at 246.38 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44ef7436-3722-4e19-9fce-42d7c9634326")
+	)
+	(label "IO_SBUS_OUTPUT"
+		(at 205.74 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "502d76a2-e021-4f60-8431-078f06ed4bd0")
+	)
+	(label "IO_CH4_CONN"
+		(at 368.3 209.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62425082-2d92-4a0c-a349-5c33a0ab5331")
+	)
+	(label "IO_CH2_CONN"
+		(at 368.3 224.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "64505d7a-6cf3-41af-b377-2b56ae3cef99")
+	)
+	(label "IO_CH1"
+		(at 334.01 232.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ad26fa3-ea82-48b9-b202-ead515d06b8a")
+	)
+	(label "FMU_CH1_CONN"
+		(at 373.38 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "71f160c3-4ea3-4708-9594-dd873623e76a")
+	)
+	(label "IO_RSSI_IN"
+		(at 262.89 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "720ed9f7-99a2-4ba9-8c28-935523a03d60")
+	)
+	(label "FMU_CH3"
+		(at 339.09 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7246c59a-d38c-47aa-81f1-48e6d31f0975")
+	)
+	(label "IO_CH5"
+		(at 341.63 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "79e214d4-160c-4c59-b28b-d6be0f4579a0")
+	)
+	(label "IO_CH3_CONN"
+		(at 368.3 217.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "891f7117-35ad-4f86-8fd5-a05c5fa9339b")
+	)
+	(label "IO_SBUS_INPUT"
+		(at 204.47 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "96d543cd-a886-4f7c-9f32-e6fb9a27a2b1")
+	)
+	(label "FMU_CH1"
+		(at 339.09 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99e7f39a-fb07-4ac6-9978-64787338c8aa")
+	)
+	(label "SBUS_PPM_IN"
+		(at 361.95 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f76ebc4-1722-4362-b1af-04d443bf960e")
+	)
+	(label "FMU_CH6_CONN"
+		(at 375.92 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a8bd10ec-4b85-4e7a-9b01-51cb2ce0e4d9")
+	)
+	(label "IO_CH2"
+		(at 334.01 224.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af02474b-0055-4965-a712-78d43ff72b73")
+	)
+	(label "IO_CH5_CONN"
+		(at 375.92 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba4e70ec-7e1f-4a3b-b20f-ea2e2b850524")
+	)
+	(label "SBUS_OUT_RSSI_IN"
+		(at 365.76 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc0b8e16-adeb-46b2-ac41-6d76b2051104")
+	)
+	(label "FMU_CH3_CONN"
+		(at 373.38 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c02d2777-a5a5-4d46-bbfa-ef4a55ef1fbe")
+	)
+	(label "FMU_CH2_CONN"
+		(at 373.38 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c08888d9-e3f7-4483-95fc-2ba90c79c414")
+	)
+	(label "FMU_CH6"
+		(at 341.63 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb54b1f2-11a5-44a5-817b-b261e6ef7325")
+	)
+	(label "FMU_CH2"
+		(at 339.09 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e108a2d4-1d6b-46ae-8ab9-a03a126f3d37")
+	)
+	(label "FMU_CH4_CONN"
+		(at 373.38 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eeacad1f-df0f-43b6-969c-11c61ff13906")
+	)
+	(label "IO_CH1_CONN"
+		(at 368.3 232.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0f8114c-a981-497e-a34e-11894da023cb")
+	)
+	(label "NSBUS_OUT_EN"
+		(at 189.23 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f58b7e38-40d5-4b20-b72a-caf58e147847")
+	)
+	(label "IO_CH4"
+		(at 334.01 209.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fac96d6d-7519-480d-962c-1c7129fa23cf")
+	)
+	(hierarchical_label "FMU_CH6"
+		(shape input)
+		(at 318.77 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14a83979-f7ae-4bde-b4eb-669488bd9dde")
+	)
+	(hierarchical_label "IO_CH4"
+		(shape input)
+		(at 311.15 209.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f6fda8e-31b7-4105-ba3b-2354c698cfa9")
+	)
+	(hierarchical_label "FMU_CH2"
+		(shape input)
+		(at 316.23 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2345c26d-abb7-4c12-9a5c-2dae8f937390")
+	)
+	(hierarchical_label "IO_CH5"
+		(shape input)
+		(at 318.77 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3302f99e-31c1-439c-9be8-1d68a6cefd9e")
+	)
+	(hierarchical_label "NSBUS_OUT_EN"
+		(shape input)
+		(at 186.69 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35cafca3-0070-4157-b571-5b55aeed47e9")
+	)
+	(hierarchical_label "IO_RSSI_IN"
+		(shape output)
+		(at 257.81 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c009be5-25bf-4a94-89a0-ffa320c8b467")
+	)
+	(hierarchical_label "IO_CH3"
+		(shape input)
+		(at 311.15 217.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ccb506d-e415-4ce6-b490-fa3c4e1e5496")
+	)
+	(hierarchical_label "FMU_CH1"
+		(shape input)
+		(at 316.23 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "47fffe6f-ce75-4dae-b495-00c198a9d6bc")
+	)
+	(hierarchical_label "IO_CH2"
+		(shape input)
+		(at 311.15 224.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9071c5fb-8e14-4a2d-933a-df2180d468d2")
+	)
+	(hierarchical_label "FMU_CH4"
+		(shape input)
+		(at 316.23 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "964ebc77-fde8-4da9-bab4-504a796a6d9b")
+	)
+	(hierarchical_label "IO_CH1"
+		(shape input)
+		(at 311.15 232.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a14c0220-9444-4cd7-847f-b506992d24bd")
+	)
+	(hierarchical_label "IO_SBUS_OUTPUT"
+		(shape input)
+		(at 186.69 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a24a0935-3279-4c90-a8ed-0c51e75b2fd3")
+	)
+	(hierarchical_label "IO_PPM_INPUT"
+		(shape output)
+		(at 242.57 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4cd57d7-45e6-4214-a21a-70a8f10df5d9")
+	)
+	(hierarchical_label "FMU_CH3"
+		(shape input)
+		(at 316.23 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f77a5555-a97f-4670-99f1-abd167c3177e")
+	)
+	(hierarchical_label "IO_USART1_RX_DSM"
+		(shape output)
+		(at 344.17 314.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f85f7bda-692b-4eaf-a7ed-51a542fb9c4e")
+	)
+	(hierarchical_label "IO_SBUS_INPUT"
+		(shape output)
+		(at 186.69 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9845cf5-d7de-4d3c-8855-6510a137387d")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 389.89 327.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "062de9ac-7082-40e4-b9cf-238e516e04aa")
+		(property "Reference" "#PWR0146"
+			(at 389.89 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 389.89 331.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 389.89 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 389.89 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 389.89 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ac9bb8a-eac5-486e-9ef6-8051ce205545")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 378.46 292.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0adf619f-0ebf-4e0b-a1e3-cf09b5d7b18a")
+		(property "Reference" "#PWR0145"
+			(at 378.46 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 378.46 288.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 378.46 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f02ac9f-bbbf-45fd-84e1-dfad5461ebe5")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
+		(at 345.44 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b7c8731-c341-4db4-9f6c-62b02aa1d215")
+		(property "Reference" "R32"
+			(at 345.44 222.758 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603WAF2200T5E (220ohm  , 0603)"
+			(at 345.44 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 345.44 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
+			(at 345.44 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 344.17 239.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
+			(at 345.44 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "809ce809-500d-44db-b549-3873c97e011e")
+		)
+		(pin "2"
+			(uuid "b659b1f6-cb10-4dd9-9f25-9eb019a8d783")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
+		(at 353.06 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d80d9e1-1e96-41d4-b58d-5f1b3327b67e")
+		(property "Reference" "R74"
+			(at 353.06 80.518 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603WAF2200T5E (220ohm  , 0603)"
+			(at 353.06 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 353.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
+			(at 353.06 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 351.79 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
+			(at 353.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "557c430e-ccf1-4f89-b955-2a18a542538c")
+		)
+		(pin "2"
+			(uuid "36513543-456c-4b08-8809-69c9cf9bd5fb")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
+		(at 350.52 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f68a65e-75d2-47ec-905c-7717ac39138d")
+		(property "Reference" "R22"
+			(at 350.52 132.588 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603WAF2200T5E (220ohm  , 0603)"
+			(at 350.52 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 350.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
+			(at 350.52 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 349.25 149.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
+			(at 350.52 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bee2cb20-8bf3-4a37-bf11-45be5b97c595")
+		)
+		(pin "2"
+			(uuid "3b66eaa6-9689-42c2-972d-e1987b124cef")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 384.81 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12677d23-d5e3-4353-a73f-04383a94d5fb")
+		(property "Reference" "#PWR0125"
+			(at 384.81 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 384.81 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 384.81 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 384.81 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 384.81 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc03e009-166b-4288-8fc4-e041fbcf3579")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
+		(at 353.06 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "133c733c-3f4c-4f89-b45d-9698d2306b2d")
+		(property "Reference" "R72"
+			(at 353.06 72.898 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603WAF2200T5E (220ohm  , 0603)"
+			(at 353.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 353.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
+			(at 353.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 351.79 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
+			(at 353.06 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b83a16a-13af-4e76-8019-70e659afeded")
+		)
+		(pin "2"
+			(uuid "ccad05b3-0f6a-43bb-9ad1-afa62a8eda87")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
+		(at 350.52 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d731e51-2323-4737-8c4f-747f1f8a1e16")
+		(property "Reference" "R25"
+			(at 350.52 155.448 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603WAF2200T5E (220ohm  , 0603)"
+			(at 350.52 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 350.52 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
+			(at 350.52 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 349.25 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
+			(at 350.52 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d6f3a89-2365-488a-8225-a09a6584beb0")
+		)
+		(pin "2"
+			(uuid "d2e015ee-698a-4c8c-8bc6-d3568003c82b")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
+		(at 345.44 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ed24a8a-8160-45ad-b3e5-a655978d86d5")
+		(property "Reference" "R30"
+			(at 345.44 207.518 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603WAF2200T5E (220ohm  , 0603)"
+			(at 345.44 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 345.44 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
+			(at 345.44 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 344.17 224.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
+			(at 345.44 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2acbfce-44ae-4dc4-8f05-2ae7cb5b42be")
+		)
+		(pin "2"
+			(uuid "d4cc64ad-b6d2-41c4-9efb-7b332ee1b5f8")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:HXPZ2.54-3X4PZZ")
+		(at 398.78 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "308abdfa-262c-4040-963e-128d78ade17a")
+		(property "Reference" "J4"
+			(at 398.78 131.064 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HX PZ2.54-3X4P ZZ"
+			(at 398.78 165.354 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:HDR-TH_12P-P2.54-V-M-R3-C4-S2.54"
+			(at 398.78 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 398.78 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C32713291"
+			(at 398.78 173.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "670e30a4-3522-4056-b838-9a097c34af55")
+		)
+		(pin "1"
+			(uuid "e9db5acf-9059-4ec5-95f3-c213b9157b73")
+		)
+		(pin "2"
+			(uuid "fec23134-e8a8-4a49-8093-5fbdefc963d5")
+		)
+		(pin "10"
+			(uuid "91d52118-85ef-4f84-bbb8-283870177559")
+		)
+		(pin "9"
+			(uuid "5531a3d5-5b21-40e2-82d6-404e761cef79")
+		)
+		(pin "11"
+			(uuid "719dc14b-27b2-480a-acc6-7a8b052cad3f")
+		)
+		(pin "8"
+			(uuid "138f19ed-aff4-4bb5-b0ce-0e8a18bb66b0")
+		)
+		(pin "6"
+			(uuid "bcabf580-842b-4c29-8b2a-751f40a6d1d3")
+		)
+		(pin "3"
+			(uuid "792a247a-ecfa-43e7-9268-ee817948c6c8")
+		)
+		(pin "4"
+			(uuid "7573aadb-5b71-41d9-99d2-9fd645c17056")
+		)
+		(pin "5"
+			(uuid "be616db7-0e78-4b02-84fa-f90c46e19a0e")
+		)
+		(pin "12"
+			(uuid "1ee36c5a-b5e1-4925-8dd6-0b9fb608adea")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 387.35 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b9aa53e-127f-4bc2-b916-be20a1fb9735")
+		(property "Reference" "#PWR0148"
+			(at 387.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 387.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 387.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 387.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 387.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc6bbc4c-34ce-4346-ba36-dacbeb4151b1")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
+		(at 350.52 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50909e65-804f-4166-92e5-830ad1a92c06")
+		(property "Reference" "R24"
+			(at 350.52 147.828 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603WAF2200T5E (220ohm  , 0603)"
+			(at 350.52 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 350.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
+			(at 350.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 349.25 164.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
+			(at 350.52 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0792c4f6-98f4-4c73-810d-7da960d3c92f")
+		)
+		(pin "2"
+			(uuid "d0b5bc43-bc68-4014-9ed5-4f0d73e6b7af")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
+		(at 266.7 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50ff6732-8d03-4b20-a474-9a3481f4c7fe")
+		(property "Reference" "R79"
+			(at 266.7 65.278 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603WAF2200T5E (220ohm  , 0603)"
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 266.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
+			(at 266.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 265.43 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
+			(at 266.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7d539c9-7768-4995-969d-0b459947650d")
+		)
+		(pin "2"
+			(uuid "fe532437-d765-42e0-9823-74581c6c3b64")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
+		(at 350.52 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "567c8473-d5e7-4a77-9a8f-6f3ad9f148c8")
+		(property "Reference" "R23"
+			(at 350.52 140.208 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603WAF2200T5E (220ohm  , 0603)"
+			(at 350.52 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 350.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
+			(at 350.52 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 349.25 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
+			(at 350.52 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4748ba36-1fef-4c96-b7d8-78fd25f55d28")
+		)
+		(pin "2"
+			(uuid "f4b239c4-7473-4f33-8c63-89f2ba81b5f1")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 379.73 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57ce230d-03f5-446e-8c1a-e905a1183a87")
+		(property "Reference" "#PWR087"
+			(at 379.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 379.73 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 379.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 379.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 379.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc18c25e-1c2f-4300-ad70-ff1bf59845a1")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
+		(at 266.7 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d6cb16f-60a1-4f1e-88dd-4fb847195557")
+		(property "Reference" "R84"
+			(at 266.7 57.658 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603WAF2200T5E (220ohm  , 0603)"
+			(at 266.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 266.7 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
+			(at 266.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 265.43 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "146fb38e-ad0d-455a-b1ea-321266bd4915")
+		)
+		(pin "2"
+			(uuid "8ca921fe-bb21-4aa2-97e7-e886c0c88ede")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "R84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 382.27 48.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fcb056a-a1ff-40eb-a49e-3a8d4299f8d9")
+		(property "Reference" "#PWR0147"
+			(at 382.27 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 382.27 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 382.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 382.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d29ad1e2-1c3f-46e1-aa2d-9e0a95b2a20d")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "#PWR0147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 375.92 198.12 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ed5aa3d-1236-440e-82b5-42064c1669ee")
+		(property "Reference" "#PWR0135"
+			(at 375.92 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 375.92 194.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 375.92 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 375.92 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "521c0b2a-2867-455c-a8e1-f6f41e4d031d")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)")
+		(at 381 299.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "719d1603-d94a-463e-b231-e4d5cb14aafb")
+		(property "Reference" "C68"
+			(at 378.206 299.72 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)"
+			(at 386.08 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 388.62 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+			(at 391.16 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0603"
+			(at 381 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 393.7 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80066230-1156-4181-9a5b-4c4220855217")
+		)
+		(pin "2"
+			(uuid "98588db4-ca2b-403a-8514-d4a959c4d18f")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SAMC21_breakout-rescue:GND")
+		(at 381 307.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "734ad69f-06b7-4373-a5c3-3bf082b73b62")
+		(property "Reference" "#PWR0461"
+			(at 381 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 381 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 381 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bef48a9-7535-4837-8664-b59bc264de60")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "#PWR0461")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)")
+		(at 207.01 52.07 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bbd0c30-4557-4d5e-9793-1fa10af46be5")
+		(property "Reference" "C57"
+			(at 209.804 52.07 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)"
+			(at 201.93 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 199.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
+			(at 196.85 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF ±10% 50V Ceramic Capacitor X7R 0603"
+			(at 207.01 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 194.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a5d9402-9391-4ed2-875a-0bd240b9103e")
+		)
+		(pin "2"
+			(uuid "a3c85949-6367-4b69-8f81-a28279968346")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:HXPZ2.54-3X4PZZ")
+		(at 401.32 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7be0ec57-c9ae-4e6b-9e5a-a01dd22c4a9f")
+		(property "Reference" "J13"
+			(at 401.32 56.134 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HX PZ2.54-3X4P ZZ"
+			(at 401.32 90.424 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:HDR-TH_12P-P2.54-V-M-R3-C4-S2.54"
+			(at 401.32 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 401.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 401.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C32713291"
+			(at 401.32 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "89f30b99-ebbb-4596-8814-ee4940eeffab")
+		)
+		(pin "1"
+			(uuid "25dc6c80-d0a1-4e31-ba1a-caf8e65a8dcb")
+		)
+		(pin "2"
+			(uuid "e061acf3-234f-4ef4-9bf7-63317ee478be")
+		)
+		(pin "10"
+			(uuid "71377e50-4593-4982-b562-4234000b6328")
+		)
+		(pin "9"
+			(uuid "06cf9e73-b1e6-42f1-9dbb-08ca3992a12f")
+		)
+		(pin "11"
+			(uuid "1c8db4ca-7ba6-47c2-92df-ff20179bc3ed")
+		)
+		(pin "8"
+			(uuid "3815ba45-5d85-4736-b11f-6c6a31cc0113")
+		)
+		(pin "6"
+			(uuid "debac398-10c5-4993-9de1-917fc61bd12f")
+		)
+		(pin "3"
+			(uuid "7ea515c1-5027-45d9-a057-abeadf966104")
+		)
+		(pin "4"
+			(uuid "485eb4a1-099f-4301-aa69-2da92fc32bb6")
+		)
+		(pin "5"
+			(uuid "f898d056-3b1f-4502-90c6-094f3edb7963")
+		)
+		(pin "12"
+			(uuid "50549109-d223-4538-bbde-aad1c7729f43")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 381 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86eb63b7-7d74-4211-ac3f-c81228c26d03")
+		(property "Reference" "#PWR0127"
+			(at 381 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 381 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 381 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63b28006-d24e-4527-af26-9ae1b3f92b5f")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
+		(at 345.44 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89a65264-8ae9-4bc7-aa98-7f051f5ae977")
+		(property "Reference" "R31"
+			(at 345.44 215.138 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603WAF2200T5E (220ohm  , 0603)"
+			(at 345.44 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 345.44 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
+			(at 345.44 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 344.17 231.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
+			(at 345.44 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8e16c03-b867-42ec-9902-23e3a80fea4a")
+		)
+		(pin "2"
+			(uuid "6fda1022-e491-466d-a9d6-032a4fb2c7ee")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b28415e-c0d2-4fa5-ba72-e80d5b90f5fc")
+		(property "Reference" "#PWR0150"
+			(at 241.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b40e0536-4d54-4c7f-861c-a1498662fcda")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:0603WAF1002T5E")
+		(at 278.13 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a72758dd-1542-4725-bb06-fa39be1e16fe")
+		(property "Reference" "R83"
+			(at 279.146 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0603WAF1002T5E"
+			(at 280.67 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 285.75 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
+			(at 288.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k"
+			(at 281.178 77.216 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25804"
+			(at 290.83 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" "0603"
+			(at 278.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2b6c6b3c-0f80-453a-8172-92e6ac825e86")
+		)
+		(pin "1"
+			(uuid "44d5df2f-ebc7-4602-9ff6-2aea7ad1248c")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
+		(at 266.7 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7af61e0-ee1d-4831-ab79-961508d21322")
+		(property "Reference" "R85"
+			(at 266.7 48.768 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603WAF2200T5E (220ohm  , 0603)"
+			(at 266.7 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 266.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
+			(at 266.7 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 265.43 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
+			(at 266.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c47282a5-6a37-48a9-912a-dcdab9cb3d23")
+		)
+		(pin "2"
+			(uuid "fcd8e000-2be0-4712-a5cf-ed238ef99029")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "R85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "B3B-ZR-SM4-TF(LF)(SN)_1")
+		(lib_id "lampelKicadLIB:B3B-ZR-SM4-TF(LF)(SN)")
+		(at 397.51 314.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b578d88b-a568-4adc-9ea6-91b95dbcb768")
+		(property "Reference" "J14"
+			(at 406.4 310.642 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B3B-ZR-SM4-TF(LF)(SN)"
+			(at 416.814 314.198 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CONN-SMD_B3B-ZR-SM4-TF"
+			(at 397.002 346.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C489717.html"
+			(at 397.002 341.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header 3 position 1.5mm Pitch 1A Surface Mount,Vertical -25℃~+85℃"
+			(at 398.526 338.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C489717"
+			(at 397.51 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "7ddfa848-ed71-4660-bdc1-ebe0458ef9d2")
+		)
+		(pin "3"
+			(uuid "1c3656a7-3bd8-4f56-bcb5-b7acf303fac7")
+		)
+		(pin "4"
+			(uuid "1f1644c7-9a1c-4a99-a217-c4a571945703")
+		)
+		(pin "1"
+			(uuid "95c90909-37b9-4137-ab6b-d4336acf6793")
+		)
+		(pin "2"
+			(uuid "7663456f-66d7-45af-8dc7-3b4e8b37dd3d")
+		)
+		(instances
+			(project ""
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:STM32H753IIT6")
+		(at 321.31 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baff5b20-0c9c-4d83-8883-21009e94741f")
+		(property "Reference" "U11"
+			(at 322.58 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "STM32H753IIT6"
+			(at 322.58 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LQFP-176_L24.0-W24.0-P0.50-BL"
+			(at 321.31 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/ST-Microelectronics_STMicroelectronics_STM32H753IIT6_STM32H753IIT6_C146558.html"
+			(at 321.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 321.31 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C146558"
+			(at 321.31 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c30f7d77-33ba-48eb-9ca2-0546083d57c0")
+		(property "Reference" "#PWR021"
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea965d2c-4981-4988-b974-acba34aca682")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:HXPZ2.54-3X4PZZ")
+		(at 394.97 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5b73324-c233-456b-b8ba-7f3f25dcdba6")
+		(property "Reference" "J10"
+			(at 394.97 205.994 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HX PZ2.54-3X4P ZZ"
+			(at 394.97 240.284 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:HDR-TH_12P-P2.54-V-M-R3-C4-S2.54"
+			(at 394.97 245.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 394.97 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 394.97 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C32713291"
+			(at 394.97 248.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "6040c064-2118-4a45-9f0a-3d0e5646b950")
+		)
+		(pin "1"
+			(uuid "78dac6cb-5b4f-4f4d-9095-3e1ac792d2cb")
+		)
+		(pin "2"
+			(uuid "22de19d7-9c21-416b-b5a7-125ec9fc6c68")
+		)
+		(pin "10"
+			(uuid "b1390d48-3a4d-4503-8277-03496eb42908")
+		)
+		(pin "9"
+			(uuid "4b37436e-1d05-4b2b-bbe7-19549a530147")
+		)
+		(pin "11"
+			(uuid "11344317-0662-4154-a89f-4de74613cfff")
+		)
+		(pin "8"
+			(uuid "88021ddc-9166-48ef-85fc-95131562171b")
+		)
+		(pin "6"
+			(uuid "fe216f55-6ac5-4233-ae73-ddaa5a5cdac0")
+		)
+		(pin "3"
+			(uuid "ad037cdd-3524-40d8-8e55-5e4f51456954")
+		)
+		(pin "4"
+			(uuid "7dd72cf8-97ba-4c78-a8e6-dcd64464f0ad")
+		)
+		(pin "5"
+			(uuid "b03166e7-eb85-4933-8b85-f8c1fabac6b9")
+		)
+		(pin "12"
+			(uuid "53d934fd-f5f3-43c6-aa57-95395e3d142f")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:0603WAF1002T5E")
+		(at 212.09 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c856b69c-92d4-4d47-b266-30c582121189")
+		(property "Reference" "R80"
+			(at 213.106 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0603WAF1002T5E"
+			(at 214.63 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 219.71 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
+			(at 222.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10k"
+			(at 215.138 81.026 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25804"
+			(at 224.79 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" "0603"
+			(at 212.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8e9f4025-02b0-4878-9d98-f618fea4de57")
+		)
+		(pin "1"
+			(uuid "35968ec3-44ac-445b-9451-bff071494ee7")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 213.36 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0a255da-e193-4753-a959-1420b4cca9a4")
+		(property "Reference" "#PWR020"
+			(at 213.36 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 213.36 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 213.36 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8b18fe5-60d0-42a5-a779-5301e00d780e")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.01 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8923cbf-7ce9-4960-b1f4-42c0d30603fd")
+		(property "Reference" "#PWR0149"
+			(at 207.01 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.01 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5eb47a79-4763-490f-b31d-d4ca3f59b9e7")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:0603WAF220JT5E (22ohm , 0603)")
+		(at 369.57 314.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da6a1699-9c54-4896-9904-37913685ff69")
+		(property "Reference" "R78"
+			(at 369.57 312.928 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "603WAF220JT5E (22ohm , 0603)"
+			(at 369.57 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 369.57 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_22R-22R0-1_C23345.html"
+			(at 369.57 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 369.57 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23345"
+			(at 369.57 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20f68dd2-06da-47aa-b476-a81206eef97b")
+		)
+		(pin "2"
+			(uuid "ae9b1ff2-672b-40e6-a6ee-41e7a20d1ddd")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:SN74LVC2G240DCTR")
+		(at 227.33 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e62781eb-07da-400a-ae97-be488a192e96")
+		(property "Reference" "U7"
+			(at 227.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC2G240DCTR"
+			(at 227.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SM8_L3.0-W2.8-P0.65-LS4.0-BL"
+			(at 227.33 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2675797.html"
+			(at 227.33 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.65V~5.5V 1 2 10uA 4.6ns@3.3V,50pF SSOP-8 Buffers, Drivers, Receivers, Transceivers RoHS"
+			(at 227.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2675797"
+			(at 227.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "4773510f-98ee-45ca-94af-65de098c333b")
+		)
+		(pin "4"
+			(uuid "d9db7c4c-46ed-48ec-ae3a-ca1965cfc544")
+		)
+		(pin "1"
+			(uuid "b160fd5c-fe4f-48bd-aaed-c5871909e5fa")
+		)
+		(pin "6"
+			(uuid "d990e60e-9482-4cad-8783-d7fad07b0db4")
+		)
+		(pin "3"
+			(uuid "a7ee9b0a-1b43-4982-8052-1e5c7c31791a")
+		)
+		(pin "2"
+			(uuid "c382f52a-2c3d-485c-ad06-414e82ef1169")
+		)
+		(pin "8"
+			(uuid "331131e7-ff8e-4a5b-94da-ae518124a6fc")
+		)
+		(pin "7"
+			(uuid "23dff5c5-b86a-4899-8191-6273793e5d91")
+		)
+		(instances
+			(project ""
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lampelKicadLIB:0603WAF2200T5E (220ohm  , 0603)")
+		(at 345.44 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e692f973-3fb2-4c37-8e78-88c069a949c0")
+		(property "Reference" "R33"
+			(at 345.44 230.378 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603WAF2200T5E (220ohm  , 0603)"
+			(at 345.44 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 345.44 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C22962.html"
+			(at 345.44 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "220Ω ±1% 100mW 0603 Thick Film Resistor"
+			(at 344.17 247.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22962"
+			(at 345.44 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92aff28a-aaf1-439b-baed-a74ae0a61c47")
+		)
+		(pin "2"
+			(uuid "71914234-0be9-4f44-9cd6-e0e157b23356")
+		)
+		(instances
+			(project "FP_BOARD"
+				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
