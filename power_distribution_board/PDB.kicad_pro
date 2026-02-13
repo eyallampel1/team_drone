@@ -277,7 +277,14 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/5V_USB": [
+        "power"
+      ],
+      "5V_USB": [
+        "power"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
