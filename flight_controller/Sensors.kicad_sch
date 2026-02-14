@@ -11078,7 +11078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec8656e4-d068-471e-a413-4ccf824e7a6a")
-		(property "Reference" "R56"
+		(property "Reference" "U56"
 			(at 408.94 50.8 0)
 			(effects
 				(font
@@ -11208,7 +11208,7 @@
 		(instances
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/868a4ffc-d89e-48bc-9c7c-6b44894a914b"
-					(reference "R56")
+					(reference "U56")
 					(unit 1)
 				)
 			)
