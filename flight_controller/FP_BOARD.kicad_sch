@@ -2490,7 +2490,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3961b8b8-a091-4d42-8a4e-e42c369b2d27")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR03"
 			(at 372.11 374.65 0)
 			(effects
 				(font
@@ -2540,7 +2540,7 @@
 		(instances
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d"
-					(reference "#PWR0124")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2555,7 +2555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3dbe9747-1895-40b7-9e80-463a1f6593a1")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR01"
 			(at 325.12 374.65 0)
 			(effects
 				(font
@@ -2605,7 +2605,7 @@
 		(instances
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d"
-					(reference "#PWR080")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2620,7 +2620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49baa063-7c4d-425b-806b-28c9828bc936")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR04"
 			(at 396.24 374.65 0)
 			(effects
 				(font
@@ -2670,7 +2670,7 @@
 		(instances
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d"
-					(reference "#PWR0126")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2752,7 +2752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "884605e7-1f38-44a3-85de-872ac54aa338")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR02"
 			(at 347.98 374.65 0)
 			(effects
 				(font
@@ -2802,7 +2802,7 @@
 		(instances
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d"
-					(reference "#PWR081")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
