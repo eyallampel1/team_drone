@@ -12356,7 +12356,7 @@
 		)
 		(uuid "b5efa4ec-eacf-4c55-a0a3-04248cdfb71b")
 	)
-	(label "USB_OTG_FS_DP"
+	(label "USB_OTG_FS_D+"
 		(at 488.95 143.51 0)
 		(effects
 			(font
@@ -12566,7 +12566,7 @@
 		)
 		(uuid "d3aa250f-15ed-4cc1-89df-7d4fc5bc9839")
 	)
-	(label "USB_OTG_FS_DM"
+	(label "USB_OTG_FS_D-"
 		(at 488.95 146.05 0)
 		(effects
 			(font
@@ -13276,7 +13276,7 @@
 		)
 		(uuid "5a7e8f4e-0e67-4402-9f53-9950cf6fafb5")
 	)
-	(hierarchical_label "USB_OTG_FS_DM"
+	(hierarchical_label "USB_OTG_FS_D-"
 		(shape bidirectional)
 		(at 511.81 146.05 0)
 		(effects
@@ -13826,7 +13826,7 @@
 		)
 		(uuid "f55019ed-773a-4317-890e-9426d732a9e3")
 	)
-	(hierarchical_label "USB_OTG_FS_DP"
+	(hierarchical_label "USB_OTG_FS_D+"
 		(shape bidirectional)
 		(at 511.81 143.51 0)
 		(effects
