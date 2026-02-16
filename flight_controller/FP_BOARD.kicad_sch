@@ -286,7 +286,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 62.23) (xy 254 62.23)
+			(xy 209.55 64.77) (xy 254 64.77)
 		)
 		(stroke
 			(width 0)
@@ -816,7 +816,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 64.77) (xy 254 64.77)
+			(xy 209.55 67.31) (xy 254 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1246,16 +1246,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 68.58) (xy 254 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e58d1d7e-e742-40cc-92c0-946e4aa54318")
-	)
-	(wire
-		(pts
 			(xy 330.2 81.28) (xy 431.8 81.28)
 		)
 		(stroke
@@ -1645,7 +1635,7 @@
 		(uuid "3a813f9f-e62e-4b97-8748-b4a8dde2fd64")
 	)
 	(label "I2C4_SCL"
-		(at 234.95 62.23 180)
+		(at 234.95 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2014,16 +2004,6 @@
 		)
 		(uuid "8fa13603-e843-47d0-839b-14874747723a")
 	)
-	(label "PWR_GPIO1"
-		(at 226.06 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8fb60cf2-a224-4d66-a146-a10b797c48f4")
-	)
 	(label "SD_CARD_DETECT"
 		(at 224.79 163.83 0)
 		(effects
@@ -2095,7 +2075,7 @@
 		(uuid "9e8f0d58-4968-483a-9bed-26d004fbc3a3")
 	)
 	(label "I2C4_SDA"
-		(at 234.95 64.77 180)
+		(at 234.95 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2943,8 +2923,8 @@
 		)
 	)
 	(sheet
-		(at 152.4 58.42)
-		(size 57.15 13.335)
+		(at 152.4 60.452)
+		(size 57.15 11.303)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2959,7 +2939,7 @@
 		)
 		(uuid "04e8a37e-c803-4b03-9bae-b305438bfc27")
 		(property "Sheetname" "POWER"
-			(at 152.4 57.7084 0)
+			(at 152.4 59.7404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,7 +2957,7 @@
 			)
 		)
 		(pin "I2C4_SCL_INA226" input
-			(at 209.55 62.23 0)
+			(at 209.55 64.77 0)
 			(uuid "a20ff89e-4856-462f-ba1a-a63ead92a659")
 			(effects
 				(font
@@ -2987,18 +2967,8 @@
 			)
 		)
 		(pin "I2C4_SDA_INA226" bidirectional
-			(at 209.55 64.77 0)
+			(at 209.55 67.31 0)
 			(uuid "813dda0e-4487-4e57-a558-e1a78f58b2b7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PWR_GPIO1" output
-			(at 209.55 68.58 0)
-			(uuid "14862ca5-78ed-41bf-aad6-17939e840fd1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +3941,7 @@
 			)
 		)
 		(pin "I2C4_SCL" output
-			(at 254 62.23 180)
+			(at 254 64.77 180)
 			(uuid "9d46353b-fed7-43be-905a-7bdba9d6c776")
 			(effects
 				(font
@@ -3981,7 +3951,7 @@
 			)
 		)
 		(pin "I2C4_SDA" bidirectional
-			(at 254 64.77 180)
+			(at 254 67.31 180)
 			(uuid "f21da31d-e8ea-43be-928d-5fc6bf7870f3")
 			(effects
 				(font
@@ -4000,16 +3970,6 @@
 				(justify left)
 			)
 		)
-		(pin "PWR_GPIO1" input
-			(at 254 68.58 180)
-			(uuid "dd58f150-0b2c-417c-b597-83f6455105d0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "USB_OTG_FS_VBUS" input
 			(at 254 87.63 180)
 			(uuid "8cc2c2a8-1389-4c39-9fab-4237ff3fe9d8")
@@ -4020,9 +3980,9 @@
 				(justify left)
 			)
 		)
-		(pin "USB_OTG_FS_DM" bidirectional
-			(at 254 85.09 180)
-			(uuid "d0498d80-7343-4435-9776-7eafe0eb2d0b")
+		(pin "USB_OTG_FS_D+" bidirectional
+			(at 254 82.55 180)
+			(uuid "55c75c5f-0154-413c-994c-fe911dac5c5c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4030,9 +3990,9 @@
 				(justify left)
 			)
 		)
-		(pin "USB_OTG_FS_DP" bidirectional
-			(at 254 82.55 180)
-			(uuid "bf2270e0-961a-4e48-86f3-f41fe9aedd97")
+		(pin "USB_OTG_FS_D-" bidirectional
+			(at 254 85.09 180)
+			(uuid "5174dfae-2e91-4953-9151-7c3de0ac5a3b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,313 +4214,313 @@
 			)
 		)
 		(pin "I2C2_SCL" input
-			(at 152.4 142.24 180)
+			(at 209.55 142.24 0)
 			(uuid "898e5f9c-8a0f-4fd8-b5f9-3cc5babf7ba8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "I2C2_SDA" bidirectional
-			(at 152.4 144.78 180)
+			(at 209.55 144.78 0)
 			(uuid "b291905c-b95c-4a80-abb3-4a995da2133b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SDMMC2_CLK" input
-			(at 152.4 148.59 180)
+			(at 209.55 148.59 0)
 			(uuid "eb00a257-6eeb-4065-9969-bf943ee41e90")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SDMMC2_CMD" input
-			(at 152.4 151.13 180)
+			(at 209.55 151.13 0)
 			(uuid "04650bce-7612-4c50-a61f-540541341998")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SDMMC2_D0" bidirectional
-			(at 152.4 153.67 180)
+			(at 209.55 153.67 0)
 			(uuid "a1649635-b3e8-4c23-b922-0a6aa99c2891")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SDMMC2_D1" bidirectional
-			(at 152.4 156.21 180)
+			(at 209.55 156.21 0)
 			(uuid "888008d3-d408-4e27-88b5-bc979daf4fc5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SDMMC2_D2" bidirectional
-			(at 152.4 158.75 180)
+			(at 209.55 158.75 0)
 			(uuid "9480154f-94a1-41a8-8ead-2aed9a41ada5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SDMMC2_D3" bidirectional
-			(at 152.4 161.29 180)
+			(at 209.55 161.29 0)
 			(uuid "03d2632a-5e3c-4082-be65-3823cffe69f3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SPI1_DRDY1" output
-			(at 152.4 113.03 180)
+			(at 209.55 113.03 0)
 			(uuid "794e19aa-b10a-4e23-8f3e-df0a3e4123d5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SPI1_MISO" output
-			(at 152.4 105.41 180)
+			(at 209.55 105.41 0)
 			(uuid "d2fd83a9-fa87-4d09-b47b-e4d06b86f2e1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SPI1_MOSI" input
-			(at 152.4 107.95 180)
+			(at 209.55 107.95 0)
 			(uuid "9a4c121b-498e-43a8-b427-82c79ba68710")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SPI1_nCS1" input
-			(at 152.4 110.49 180)
+			(at 209.55 110.49 0)
 			(uuid "593ca2e2-bf75-4853-97d7-89dc6824471b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SPI1_SCK" input
-			(at 152.4 102.87 180)
+			(at 209.55 102.87 0)
 			(uuid "0c40f782-6e93-4091-8155-1ded0a5e0185")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SPI2_DRDY2_INT2" output
-			(at 152.4 127 180)
+			(at 209.55 127 0)
 			(uuid "13a9244e-0885-45cd-9161-33f5940bde74")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SPI2_MISO" output
-			(at 152.4 119.38 180)
+			(at 209.55 119.38 0)
 			(uuid "828178e6-622d-42c9-b901-d176d314b442")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SPI2_MOSI" input
-			(at 152.4 121.92 180)
+			(at 209.55 121.92 0)
 			(uuid "ffebe604-9951-48c1-afeb-7340f05a14a8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SPI2_nCS1" input
-			(at 152.4 124.46 180)
+			(at 209.55 124.46 0)
 			(uuid "fb82bdd8-a40e-46b6-b8b8-fecccd438c80")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SPI2_SCK" input
-			(at 152.4 116.84 180)
+			(at 209.55 116.84 0)
 			(uuid "275fc979-f852-431f-8491-c65940d5f6cd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SPI5_MISO" output
-			(at 152.4 133.35 180)
+			(at 209.55 133.35 0)
 			(uuid "26fd975f-d782-4b61-bf12-365f70ecb0d4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SPI5_MOSI" input
-			(at 152.4 135.89 180)
+			(at 209.55 135.89 0)
 			(uuid "4291b9bc-9da5-4beb-8a26-b0d7e30f876a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SPI5_nCS1" input
-			(at 152.4 138.43 180)
+			(at 209.55 138.43 0)
 			(uuid "5eb8bf77-3f13-4cc7-9e60-d44cb29a5491")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SPI5_SCK" input
-			(at 152.4 130.81 180)
+			(at 209.55 130.81 0)
 			(uuid "b61a87a2-8f7c-48d1-aa3d-444ac3004b16")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "I2C3_SCL_EEPROM" input
-			(at 152.4 167.64 180)
+			(at 209.55 167.64 0)
 			(uuid "84de8e2f-e5ac-40e3-9222-4388489516d9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "I2C3_SDA_EEPROM" bidirectional
-			(at 152.4 170.18 180)
+			(at 209.55 170.18 0)
 			(uuid "cdc11acc-39ea-4e86-9ee5-20a666cc5295")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "QUADSPI_BK1_IO0" bidirectional
-			(at 152.4 176.53 180)
+			(at 209.55 176.53 0)
 			(uuid "96079459-d32a-4c99-9703-be6ca88d0c7a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "QUADSPI_BK1_IO1" bidirectional
-			(at 152.4 179.07 180)
+			(at 209.55 179.07 0)
 			(uuid "cd265fb9-2080-4ae9-a011-3efe66a1a594")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "QUADSPI_BK1_IO2" bidirectional
-			(at 152.4 181.61 180)
+			(at 209.55 181.61 0)
 			(uuid "ea8cfca1-7c98-47c3-b8bc-22a908393e95")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "QUADSPI_BK1_IO3" bidirectional
-			(at 152.4 184.15 180)
+			(at 209.55 184.15 0)
 			(uuid "f968d010-ffd8-4bbd-b25d-d1336f3d2480")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "QUADSPI_BK1_NCS" output
-			(at 152.4 186.69 180)
+			(at 209.55 186.69 0)
 			(uuid "9d58fe92-6c11-4c83-9eff-57e536a1d7f4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "QUADSPI_CLK" input
-			(at 152.4 173.99 180)
+			(at 209.55 173.99 0)
 			(uuid "ea04e061-3e53-4f09-b415-53260ef696fa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "SD_CARD_DETECT" output
-			(at 152.4 163.83 180)
+			(at 209.55 163.83 0)
 			(uuid "234b6e55-fde1-4d10-b863-7e0440d47692")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances

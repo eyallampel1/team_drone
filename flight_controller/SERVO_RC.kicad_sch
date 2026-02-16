@@ -4367,7 +4367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "308abdfa-262c-4040-963e-128d78ade17a")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 398.78 131.064 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4460,7 +4460,7 @@
 		(instances
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5276,7 +5276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7be0ec57-c9ae-4e6b-9e5a-a01dd22c4a9f")
-		(property "Reference" "J4"
+		(property "Reference" "J6"
 			(at 401.32 56.134 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5369,7 +5369,7 @@
 		(instances
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5760,7 +5760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b578d88b-a568-4adc-9ea6-91b95dbcb768")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 406.4 310.642 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5832,7 +5832,7 @@
 		(instances
 			(project ""
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5913,7 +5913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5b73324-c233-456b-b8ba-7f3f25dcdba6")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 394.97 205.994 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6006,7 +6006,7 @@
 		(instances
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6319,7 +6319,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e62781eb-07da-400a-ae97-be488a192e96")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 227.33 54.61 0)
 			(effects
 				(font
@@ -6398,7 +6398,7 @@
 		(instances
 			(project ""
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/a3423b8d-b0bd-4c78-958f-6f0b6cb1ee40"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 			)
