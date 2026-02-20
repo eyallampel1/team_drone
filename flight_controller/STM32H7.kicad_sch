@@ -7151,6 +7151,10 @@
 		(uuid "5aa2a35f-28ec-43ed-a6ed-e37740cff61a")
 	)
 	(no_connect
+		(at 511.81 186.69)
+		(uuid "6196c23f-bbcc-4b4e-a40d-e635565c0f90")
+	)
+	(no_connect
 		(at 290.83 151.13)
 		(uuid "6394c3c2-4c42-4fa9-b415-c95552ff2003")
 	)
@@ -8203,16 +8207,6 @@
 	)
 	(wire
 		(pts
-			(xy 486.41 186.69) (xy 511.81 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ac27e45-692e-4868-9026-7c1523822e4f")
-	)
-	(wire
-		(pts
 			(xy 486.41 229.87) (xy 511.81 229.87)
 		)
 		(stroke
@@ -8863,6 +8857,16 @@
 			(type default)
 		)
 		(uuid "66deec0e-69cc-4cae-a5c0-570337c74eb6")
+	)
+	(wire
+		(pts
+			(xy 486.41 186.69) (xy 511.81 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6811c881-5e38-466e-b0ba-e3dc8fad1aff")
 	)
 	(wire
 		(pts
@@ -11406,7 +11410,7 @@
 		)
 		(uuid "16323ee2-126e-4881-94da-4a98e3c99683")
 	)
-	(label "PWR_GPIO1"
+	(label "nPOWER_IN_B"
 		(at 488.95 186.69 0)
 		(effects
 			(font
@@ -13771,17 +13775,6 @@
 		)
 		(uuid "e30eb7b4-3483-448b-9e74-d0af4fbf2d25")
 	)
-	(hierarchical_label "PWR_GPIO1"
-		(shape input)
-		(at 511.81 186.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ede61b4e-c71e-441b-a1b8-775d763e62b7")
-	)
 	(hierarchical_label "FMU_CH1"
 		(shape output)
 		(at 511.81 123.19 0)
@@ -15967,7 +15960,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36cf18f2-b05f-4527-b179-24e4b6e9b817")
-		(property "Reference" "U1"
+		(property "Reference" "J22"
 			(at 288.29 337.82 0)
 			(effects
 				(font
@@ -16064,7 +16057,7 @@
 		(instances
 			(project "FP_BOARD"
 				(path "/17737359-1a8e-4237-8899-d9604030bc1d/21c4e215-368e-4a6b-9b68-3566112ef4e7"
-					(reference "U1")
+					(reference "J22")
 					(unit 1)
 				)
 			)
