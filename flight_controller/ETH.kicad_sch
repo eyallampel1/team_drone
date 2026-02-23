@@ -7068,7 +7068,7 @@
 		)
 		(uuid "16058159-2195-4f5e-8b12-2314debb2442")
 	)
-	(label "ETH_TXN"
+	(label "ETH_TX_N"
 		(at 198.12 80.01 0)
 		(effects
 			(font
@@ -7098,7 +7098,7 @@
 		)
 		(uuid "41f7f919-31bd-4b02-b52e-dff5b4727e09")
 	)
-	(label "ETH_RXN"
+	(label "ETH_RX_N"
 		(at 139.7 85.09 0)
 		(effects
 			(font
@@ -7118,7 +7118,7 @@
 		)
 		(uuid "54dbab84-93fb-4ffe-8cfc-9dbdfa2e3a5e")
 	)
-	(label "ETH_TXP"
+	(label "ETH_TX_P"
 		(at 139.7 77.47 0)
 		(effects
 			(font
@@ -7138,7 +7138,7 @@
 		)
 		(uuid "6b996eb8-ee8e-480b-a846-db5c49a8bac9")
 	)
-	(label "ETH_RXP"
+	(label "ETH_RX_P"
 		(at 198.12 74.93 0)
 		(effects
 			(font
@@ -7158,7 +7158,7 @@
 		)
 		(uuid "8746669f-ea97-4932-81bd-1521f417d132")
 	)
-	(label "ETH_RXP"
+	(label "ETH_RX_P"
 		(at 139.7 82.55 0)
 		(effects
 			(font
@@ -7168,7 +7168,7 @@
 		)
 		(uuid "8b86b957-b03f-4599-92ee-6b9355ad3104")
 	)
-	(label "ETH_TXP"
+	(label "ETH_TX_P"
 		(at 198.12 85.09 0)
 		(effects
 			(font
@@ -7178,7 +7178,7 @@
 		)
 		(uuid "918e700f-6eaf-4f9b-9d47-a76cc1c7d396")
 	)
-	(label "ETH_RXN"
+	(label "ETH_RX_N"
 		(at 198.12 69.85 0)
 		(effects
 			(font
@@ -7198,7 +7198,7 @@
 		)
 		(uuid "a003a134-fb87-4ad3-bb5e-b83d35670b1e")
 	)
-	(label "ETH_TXN"
+	(label "ETH_TX_N"
 		(at 139.7 80.01 0)
 		(effects
 			(font

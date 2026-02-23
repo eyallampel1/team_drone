@@ -1,0 +1,17 @@
+(version 1)
+
+# 100 ohm differential pair on L1 (top signal)
+(rule "ETH100 diffpair on L1"
+    (layer "L1_TOP_SIGNAL_LOCAL_POWER")
+    (condition "A.NetClass == 'ETH'")
+    (constraint track_width (min 4.99mil) (opt 4.99mil) (max 4.99mil))
+    (constraint diff_pair_gap (min 8.5mil) (opt 8.5mil) (max 8.5mil))
+)
+
+# 100 ohm differential pair on L3 (inner signal)
+(rule "ETH100 diffpair on L3"
+    (layer "L3_SIGNAL_LOCAL_POWER")
+    (condition "A.NetClass == 'ETH'")
+    (constraint track_width (min 4.53mil) (opt 4.53mil) (max 4.53mil))
+    (constraint diff_pair_gap (min 8.5mil) (opt 8.5mil) (max 8.5mil))
+)
