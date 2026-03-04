@@ -7322,16 +7322,16 @@
 	)
 	(symbol
 		(lib_id "lampelKicadLIB:CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)")
-		(at 441.96 95.25 90)
+		(at 441.96 95.25 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0af87cbd-6917-4c34-a769-8b0d71734321")
 		(property "Reference" "C59"
-			(at 439.166 95.25 0)
+			(at 444.754 95.25 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7340,7 +7340,7 @@
 			)
 		)
 		(property "Value" "CC0603KRX7R9BB104 (100nf , 0603 ,50v ,X7R)"
-			(at 447.04 95.25 0)
+			(at 436.88 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7349,7 +7349,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0603"
-			(at 449.58 95.25 0)
+			(at 434.34 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7358,7 +7358,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C14663.html"
-			(at 452.12 95.25 0)
+			(at 431.8 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7376,7 +7376,7 @@
 			)
 		)
 		(property "LCSC Part" "C14663"
-			(at 454.66 95.25 0)
+			(at 429.26 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
