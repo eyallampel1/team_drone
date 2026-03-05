@@ -730,7 +730,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "../../FP_BOARD.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
