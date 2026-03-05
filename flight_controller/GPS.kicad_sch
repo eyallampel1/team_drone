@@ -6118,7 +6118,6 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "ae994ba5-60a8-4af7-8290-f94d1979aa61")
 		(property "Reference" "R93"
 			(at 96.52 182.118 0)
